@@ -1,0 +1,4 @@
+Periodo,ClaveEntidad,ClaveFormulario,NumeroSecuencia,folio,FechaReclamacion,FechaSuceso,account_number,Producto,Canal,Motivo,Importe Reclamado,Estado,Resolucion,Fecha Resolucion,Causa Resolucion,Importe Abonado,Fecha Abono,Importe Recuperado,Quebranto,Origen
+Julio,128,2701,1,000000908,20150701,20150630,00000505439,1006,ATM no entrega efectivo,51,1300,402,501,20150810,651,1300,20150810,0,1300,701
+Julio,128,2701,2,000000909,20150702,20150630,00000631717,1006,ATM no entrega efectivo,51,2150,402,501,20150810,651,2150,20150810,0,2150,701
+Julio,128,2701,8,000000915,20150706,20150703,00000594903,1006,ATM no entrega efectivo,51,1000,402,501,20150813,651,1000,20150813,0,1000,701

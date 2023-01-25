@@ -1,0 +1,1 @@
+{html_options name=value id=value options=$option->getOptions() selected=$option->getValue()}

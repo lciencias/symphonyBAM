@@ -1,0 +1,156 @@
+<?php
+/**
+ * PCS Mexico
+ *
+ * Symphony Help Desk
+ *
+ * @copyright Copyright (c) PCS Mexico (http://pcsmexico.com)
+ * @author    guadalupe, chente, $LastChangedBy$
+ * @version   2
+ */
+
+namespace Application\Model\Bean;
+
+/**
+ *
+ * Company
+ *
+ * @category Application\Model\Bean
+ * @author guadalupe, chente
+ */
+class Company extends AbstractBean{
+
+    /**
+     * TABLENAME
+     */
+    const TABLENAME = 'pcs_symphony_companies';
+
+    /**
+     * Constants Fields
+     */
+    const ID_COMPANY = 'id_company';
+    const NAME = 'name';
+    const STATUS = 'status';
+
+    /**
+     * @var int
+     */
+    private $idCompany;
+
+
+    /**
+     * @var string
+     */
+    private $name;
+
+
+    /**
+     * @var int
+     */
+    private $status;
+
+
+    /**
+     *
+     * @return int
+     */
+    public function getIndex(){
+        return $this->getIdCompany();
+    }
+
+
+    /**
+     * @return int
+     */
+    public function getIdCompany(){
+        return $this->idCompany;
+    }
+
+    /**
+     * @param int $idCompany
+     * @return Company
+     */
+    public function setIdCompany($idCompany){
+        $this->idCompany = $idCompany;
+        return $this;
+    }
+
+
+    /**
+     * @return string
+     */
+    public function getName(){
+        return $this->name;
+    }
+
+    /**
+     * @param string $name
+     * @return Company
+     */
+    public function setName($name){
+        $this->name = $name;
+        return $this;
+    }
+
+
+    /**
+     * @return int
+     */
+    public function getStatus(){
+        return $this->status;
+    }
+
+    /**
+     * @param int $status
+     * @return Company
+     */
+    public function setStatus($status){
+        $this->status = $status;
+        return $this;
+    }
+
+
+    /**
+     * Convert to array
+     * @return array
+     */
+    public function toArray()
+    {
+        $array = array(
+            'id_company' => $this->getIdCompany(),
+            'name' => $this->getName(),
+            'status' => $this->getStatus(),
+        );
+        return $array;
+    }
+
+    /**
+     * @return string
+     */
+    public function getStatusName(){
+        return array_search($this->getStatus(), self::$Status);
+    }
+
+    /**
+     * @staticvar array
+     */
+    public static $Status = array(
+        'Active' => 1,
+        'Inactive' => 2,
+    );
+
+    /**
+     * @return boolean
+     */
+    public function isActive(){
+        return $this->getStatus() == self::$Status['Active'];
+    }
+
+    /**
+     * @return boolean
+     */
+    public function isInactive(){
+        return $this->getStatus() == self::$Status['Inactive'];
+    }
+
+}

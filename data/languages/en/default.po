@@ -1,0 +1,2053 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Lips Promotions\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-14 12:21-0600\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ezequiel <eegonzalez@pcsmexico.com>\n"
+"Language-Team: Pcs Mexico <vmendoza@pcsmexico.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: gettext.c:1
+msgid "La ruta que está especificando no existe"
+msgstr "La ruta que está especificando no existe"
+
+#: gettext.c:2 gettext.c:41 gettext.c:70 gettext.c:147 gettext.c:184
+#: gettext.c:224 gettext.c:241 gettext.c:278 gettext.c:314
+msgid "Save"
+msgstr "Save"
+
+#: gettext.c:3 gettext.c:42 gettext.c:71 gettext.c:185 gettext.c:225
+#: gettext.c:242 gettext.c:271 gettext.c:279 gettext.c:315
+msgid "Cancel"
+msgstr "Cancel"
+
+#: gettext.c:4 gettext.c:8 gettext.c:17 gettext.c:22 gettext.c:43 gettext.c:50
+#: gettext.c:72 gettext.c:77 gettext.c:97 gettext.c:102 gettext.c:109
+#: gettext.c:113 gettext.c:170 gettext.c:179 gettext.c:186 gettext.c:191
+#: gettext.c:203 gettext.c:217 gettext.c:243 gettext.c:248 gettext.c:261
+#: gettext.c:287 gettext.c:292 gettext.c:307 gettext.c:316 gettext.c:321
+#: gettext.c:339 gettext.c:344 gettext.c:356 gettext.c:361 gettext.c:378
+msgid "Name"
+msgstr "Name"
+
+#: gettext.c:5 gettext.c:10 gettext.c:18 gettext.c:23 gettext.c:46 gettext.c:56
+#: gettext.c:73 gettext.c:78 gettext.c:98 gettext.c:103 gettext.c:110
+#: gettext.c:118 gettext.c:127 gettext.c:145 gettext.c:166 gettext.c:172
+#: gettext.c:187 gettext.c:192 gettext.c:199 gettext.c:205 gettext.c:212
+#: gettext.c:218 gettext.c:244 gettext.c:249 gettext.c:257 gettext.c:264
+#: gettext.c:288 gettext.c:293 gettext.c:317 gettext.c:322 gettext.c:340
+#: gettext.c:345 gettext.c:357 gettext.c:363 gettext.c:375 gettext.c:383
+msgid "Status"
+msgstr "Status"
+
+#: gettext.c:6
+msgid "Template Emails"
+msgstr "Template Emails"
+
+#: gettext.c:7 gettext.c:20 gettext.c:48 gettext.c:75 gettext.c:100
+#: gettext.c:112 gettext.c:168 gettext.c:189 gettext.c:201 gettext.c:214
+#: gettext.c:228 gettext.c:246 gettext.c:259 gettext.c:290 gettext.c:319
+#: gettext.c:329 gettext.c:342 gettext.c:359 gettext.c:377
+msgid "New"
+msgstr "New"
+
+#: gettext.c:9 gettext.c:229
+msgid "Id"
+msgstr "Id"
+
+#: gettext.c:11
+msgid "Destination Mail Account"
+msgstr "Destination Mail Account"
+
+#: gettext.c:12 gettext.c:24 gettext.c:57 gettext.c:79 gettext.c:104
+#: gettext.c:119 gettext.c:146 gettext.c:173 gettext.c:193 gettext.c:206
+#: gettext.c:219 gettext.c:235 gettext.c:250 gettext.c:265 gettext.c:276
+#: gettext.c:294 gettext.c:310 gettext.c:323 gettext.c:332 gettext.c:346
+#: gettext.c:364 gettext.c:372 gettext.c:384
+msgid "Actions"
+msgstr "Actions"
+
+#: gettext.c:13 gettext.c:25 gettext.c:60 gettext.c:80 gettext.c:105
+#: gettext.c:120 gettext.c:158 gettext.c:174 gettext.c:194 gettext.c:207
+#: gettext.c:220 gettext.c:251 gettext.c:266 gettext.c:295 gettext.c:324
+#: gettext.c:347 gettext.c:365 gettext.c:385 gettext.c:403
+msgid "Tracking"
+msgstr "Tracking"
+
+#: gettext.c:14 gettext.c:26 gettext.c:31 gettext.c:61 gettext.c:81
+#: gettext.c:106 gettext.c:121 gettext.c:159 gettext.c:175 gettext.c:195
+#: gettext.c:208 gettext.c:221 gettext.c:252 gettext.c:267 gettext.c:282
+#: gettext.c:296 gettext.c:325 gettext.c:348 gettext.c:366 gettext.c:370
+#: gettext.c:376 gettext.c:379 gettext.c:386 gettext.c:404
+msgid "User"
+msgstr "User"
+
+#: gettext.c:15 gettext.c:27 gettext.c:62 gettext.c:82 gettext.c:107
+#: gettext.c:122 gettext.c:160 gettext.c:176 gettext.c:196 gettext.c:209
+#: gettext.c:222 gettext.c:253 gettext.c:268 gettext.c:297 gettext.c:326
+#: gettext.c:349 gettext.c:367 gettext.c:387 gettext.c:405
+msgid "Event Type"
+msgstr "Event Type"
+
+#: gettext.c:16 gettext.c:28 gettext.c:63 gettext.c:83 gettext.c:108
+#: gettext.c:123 gettext.c:161 gettext.c:177 gettext.c:197 gettext.c:210
+#: gettext.c:223 gettext.c:254 gettext.c:269 gettext.c:275 gettext.c:298
+#: gettext.c:327 gettext.c:330 gettext.c:350 gettext.c:368 gettext.c:388
+#: gettext.c:406
+msgid "Date"
+msgstr "Date"
+
+#: gettext.c:19 gettext.c:129 gettext.c:143
+msgid "Impact"
+msgstr "Impact"
+
+#: gettext.c:21 gettext.c:30 gettext.c:49 gettext.c:76 gettext.c:101
+#: gettext.c:136 gettext.c:169 gettext.c:190 gettext.c:202 gettext.c:215
+#: gettext.c:247 gettext.c:260 gettext.c:273 gettext.c:291 gettext.c:320
+#: gettext.c:343 gettext.c:360
+msgid "#"
+msgstr "#"
+
+#: gettext.c:29
+msgid "Activities"
+msgstr "Activities"
+
+#: gettext.c:32
+msgid "Start Date"
+msgstr "Start Date"
+
+#: gettext.c:33
+msgid "End Date"
+msgstr "End Date"
+
+#: gettext.c:34 gettext.c:116
+msgid "Duration"
+msgstr "Duration"
+
+#: gettext.c:35 gettext.c:117
+msgid "Note"
+msgstr "Note"
+
+#: gettext.c:36 gettext.c:38 gettext.c:64 gettext.c:67
+msgid "Add"
+msgstr "Add"
+
+#: gettext.c:37 gettext.c:39 gettext.c:40 gettext.c:65 gettext.c:66
+#: gettext.c:68 gettext.c:69 gettext.c:238 gettext.c:333
+msgid "Delete"
+msgstr "Delete"
+
+#: gettext.c:44 gettext.c:51 gettext.c:131 gettext.c:138 gettext.c:165
+#: gettext.c:171 gettext.c:211 gettext.c:216 gettext.c:226 gettext.c:230
+#: gettext.c:355 gettext.c:362 gettext.c:401
+msgid "Company"
+msgstr "Company"
+
+#: gettext.c:45 gettext.c:53 gettext.c:213
+msgid "Area"
+msgstr "Area"
+
+#: gettext.c:47 gettext.c:125 gettext.c:137
+msgid "Employee"
+msgstr "Employee/Customer"
+
+#: gettext.c:52 gettext.c:358
+msgid "Location"
+msgstr "Location"
+
+#: gettext.c:54 gettext.c:167
+msgid "Position"
+msgstr "Position"
+
+#: gettext.c:55
+msgid "Vip"
+msgstr "Vip"
+
+#: gettext.c:58 gettext.c:299 gettext.c:301
+msgid "Yes"
+msgstr "Yes"
+
+#: gettext.c:59 gettext.c:93 gettext.c:300 gettext.c:302
+msgid "No"
+msgstr "No"
+
+#: gettext.c:74 gettext.c:128 gettext.c:142
+msgid "Priority"
+msgstr "Priority"
+
+#: gettext.c:84
+msgid "Error"
+msgstr "Error"
+
+#: gettext.c:85
+msgid "Welcome"
+msgstr "Welcome"
+
+#: gettext.c:86
+msgid "logout"
+msgstr "logout"
+
+#: gettext.c:87
+msgid "Datos Personales"
+msgstr "Datos Personales"
+
+#: gettext.c:88
+msgid "Nombre de Usuario"
+msgstr "Nombre de Usuario"
+
+#: gettext.c:89
+msgid "Nombre Completo"
+msgstr "Nombre Completo"
+
+#: gettext.c:90
+msgid "Último Inicio de Sesión"
+msgstr "Último Inicio de Sesión"
+
+#: gettext.c:91
+msgid "Iniciada desde"
+msgstr "Iniciada desde"
+
+#: gettext.c:92
+msgid "Confirmar"
+msgstr "Confirmar"
+
+#: gettext.c:94
+msgid "Si"
+msgstr "Si"
+
+#: gettext.c:95
+msgid "Mensaje"
+msgstr "Mensaje"
+
+#: gettext.c:96
+msgid "Ok"
+msgstr "Ok"
+
+#: gettext.c:99
+msgid "Companies"
+msgstr "Companies"
+
+#: gettext.c:111
+msgid "Service Levels"
+msgstr "Service Levels"
+
+#: gettext.c:114
+msgid "Response Time"
+msgstr "Response Time"
+
+#: gettext.c:115
+msgid "Resolution Time"
+msgstr "Resolution Time"
+
+#: gettext.c:124
+msgid "Resolve"
+msgstr "Resolve"
+
+#: gettext.c:126 gettext.c:198 gettext.c:204 gettext.c:240
+msgid "Type"
+msgstr "Type"
+
+#: gettext.c:130 gettext.c:141 gettext.c:318
+msgid "Channel"
+msgstr "Channel"
+
+#: gettext.c:132 gettext.c:139
+msgid "Category"
+msgstr "Category"
+
+#: gettext.c:133 gettext.c:144
+msgid "Registered by"
+msgstr "Registered by"
+
+#: gettext.c:134
+msgid "Assigned to"
+msgstr "Assigned to"
+
+#: gettext.c:135
+msgid "Tickets"
+msgstr "Tickets"
+
+#: gettext.c:140
+msgid "Ticket Type"
+msgstr "Ticket Type"
+
+#: gettext.c:148
+msgid "Back"
+msgstr "Back"
+
+#: gettext.c:149
+msgid "Cancel Ticker"
+msgstr "Cancel Ticker"
+
+#: gettext.c:150
+msgid "This ticket will be canceled. Are you sure?"
+msgstr "This ticket will be canceled. Are you sure?"
+
+#: gettext.c:151
+msgid "Cancel Ticket"
+msgstr "Cancel Ticket"
+
+#: gettext.c:152
+msgid "Working"
+msgstr "Working"
+
+#: gettext.c:153
+msgid "Mark as Read"
+msgstr "Mark as Read"
+
+#: gettext.c:154
+msgid "Reopen"
+msgstr "Reopen"
+
+#: gettext.c:155
+msgid "Close Ticket"
+msgstr "Close Ticket"
+
+#: gettext.c:156
+msgid "Resume"
+msgstr "Resume"
+
+#: gettext.c:157
+msgid "Pause"
+msgstr "Pause"
+
+#: gettext.c:162
+msgid "Register Date"
+msgstr "Register Date"
+
+#: gettext.c:163
+msgid "Assigned User"
+msgstr "Assigned User"
+
+#: gettext.c:164 gettext.c:407 gettext.c:408 gettext.c:410 gettext.c:412
+#: gettext.c:420 gettext.c:421 gettext.c:422 gettext.c:423
+msgid "All"
+msgstr "All"
+
+#: gettext.c:178 gettext.c:188 gettext.c:256 gettext.c:263
+msgid "Schedule"
+msgstr "Schedule"
+
+#: gettext.c:180
+msgid "Start Time"
+msgstr "Start Time"
+
+#: gettext.c:181
+msgid "Lunch Start Time"
+msgstr "Lunch Start Time"
+
+#: gettext.c:182
+msgid "Lunch End Time"
+msgstr "Lunch End Time"
+
+#: gettext.c:183
+msgid "End Time"
+msgstr "End Time"
+
+#: gettext.c:200
+msgid "Resolution"
+msgstr "Resolution"
+
+#: gettext.c:227
+msgid "Customize"
+msgstr "Customize"
+
+#: gettext.c:231
+msgid "Logo"
+msgstr "Logo"
+
+#: gettext.c:232
+msgid "BackgroundColor"
+msgstr "BackgroundColor"
+
+#: gettext.c:233
+msgid "ForwardColor"
+msgstr "ForwardColor"
+
+#: gettext.c:234
+msgid "FontSize"
+msgstr "FontSize"
+
+#: gettext.c:236 gettext.c:237 gettext.c:303 gettext.c:304 gettext.c:305
+msgid "Add."
+msgstr "Add."
+
+#: gettext.c:239
+msgid "Percentage"
+msgstr "Percentage"
+
+#: gettext.c:245
+msgid "Escalations"
+msgstr "Escalations"
+
+#: gettext.c:255 gettext.c:262
+msgid "Responsible"
+msgstr "Responsible"
+
+#: gettext.c:258 gettext.c:381
+msgid "Group"
+msgstr "Group"
+
+#: gettext.c:270
+msgid "Upload"
+msgstr "Upload"
+
+#: gettext.c:272
+msgid "Attachments"
+msgstr "Attachments"
+
+#: gettext.c:274
+msgid "File"
+msgstr "File"
+
+#: gettext.c:277
+msgid "Download"
+msgstr "Download"
+
+#: gettext.c:280 gettext.c:281 gettext.c:417 gettext.c:419
+msgid "Login"
+msgstr "Login"
+
+#: gettext.c:283
+msgid "Password"
+msgstr "Password"
+
+#: gettext.c:284
+msgid "Facultades de Usuarios"
+msgstr "Facultades de Usuarios"
+
+#: gettext.c:285
+msgid "Facultades de Usuario por Grupo de Usuario"
+msgstr "Facultades de Usuario por Grupo de Usuario"
+
+#: gettext.c:286
+msgid "Acción/Grupo de Usuario"
+msgstr "Acción/Grupo de Usuario"
+
+#: gettext.c:289
+msgid "Ticket Types"
+msgstr "Ticket Types"
+
+#: gettext.c:306
+msgid "Parameters"
+msgstr "Parameters"
+
+#: gettext.c:308 gettext.c:312 gettext.c:424
+msgid "Description"
+msgstr "Description"
+
+#: gettext.c:309 gettext.c:313
+msgid "Value"
+msgstr "Value"
+
+#: gettext.c:311
+msgid "Option"
+msgstr "Option"
+
+#: gettext.c:328
+msgid "Holiday Calendar"
+msgstr "Holiday Calendar"
+
+#: gettext.c:331
+msgid "Holiday"
+msgstr "Holiday"
+
+#: gettext.c:334
+msgid "Menú de Usuario"
+msgstr "Menú de Usuario"
+
+#: gettext.c:335
+msgid "Acciones Disponibles"
+msgstr "Acciones Disponibles"
+
+#: gettext.c:336
+msgid "Agregar un Item"
+msgstr "Agregar un Item"
+
+#: gettext.c:337 gettext.c:354 gettext.c:391
+msgid "Nombre"
+msgstr "Nombre"
+
+#: gettext.c:338
+msgid "Resultado de Menú"
+msgstr "Resultado de Menú"
+
+#: gettext.c:341
+msgid "Access Role"
+msgstr "Access Role"
+
+#: gettext.c:351
+msgid "Editar Grupo de Usuario"
+msgstr "Editar Grupo de Usuario"
+
+#: gettext.c:352 gettext.c:399
+msgid "Guardar"
+msgstr "Guardar"
+
+#: gettext.c:353
+msgid "Regresar"
+msgstr "Regresar"
+
+#: gettext.c:369
+msgid "Sessions"
+msgstr "Sessions"
+
+#: gettext.c:371
+msgid "Last Request"
+msgstr "Last Request"
+
+#: gettext.c:373
+msgid "Accessrole"
+msgstr "Accessrole"
+
+#: gettext.c:374
+msgid "Username"
+msgstr "Username"
+
+#: gettext.c:380
+msgid "Rol"
+msgstr "Rol"
+
+#: gettext.c:382
+msgid "Last accessed"
+msgstr "Last accessed"
+
+#: gettext.c:389
+msgid "Guardar nuevo usuario"
+msgstr "Guardar nuevo usuario"
+
+#: gettext.c:390
+msgid "Usuario"
+msgstr "Usuario"
+
+#: gettext.c:392
+msgid "Apellido Paterno"
+msgstr "Apellido Paterno"
+
+#: gettext.c:393
+msgid "Apellido Materno"
+msgstr "Apellido Materno"
+
+#: gettext.c:394
+msgid "Contraseña"
+msgstr "Contraseña"
+
+#: gettext.c:395
+msgid "Confirmar Contraseña"
+msgstr "Confirmar Contraseña"
+
+#: gettext.c:396
+msgid "Grupo"
+msgstr "Grupo"
+
+#: gettext.c:397
+msgid "Estado civil"
+msgstr "Estado civil"
+
+#: gettext.c:398
+msgid "Restablecer"
+msgstr "Restablecer"
+
+#: gettext.c:400
+msgid "Cancelar"
+msgstr "Cancelar"
+
+#: gettext.c:402
+msgid "New Category"
+msgstr "New Category"
+
+#: gettext.c:409
+msgid "Configuración de Facultades"
+msgstr "Configuración de Facultades"
+
+#: gettext.c:411
+msgid "The user not exists"
+msgstr "The user not exists"
+
+#: gettext.c:413
+msgid "The Assignment not exists"
+msgstr "The Assignment not exists"
+
+#: gettext.c:414
+msgid "The User not exists"
+msgstr "The User not exists"
+
+#: gettext.c:415
+msgid "This field is required."
+msgstr "This field is required."
+
+#: gettext.c:416
+msgid "Select"
+msgstr "Select"
+
+#: gettext.c:418
+msgid "You must specify user and password"
+msgstr "You must specify user and password"
+
+#: gettext.c:425
+msgid "Commissions"
+msgstr "Commissions"
+
+#: gettext.c:426
+msgid "Requirements"
+msgstr "Requirements"
+
+#: gettext.c:427
+msgid "Id Bam"
+msgstr "Id Bam"
+
+#: gettext.c:428
+msgid "Product"
+msgstr "Product"
+
+#~ msgid "Hello"
+#~ msgstr "Hello"
+
+#~ msgid "Photos"
+#~ msgstr "Photos"
+
+#~ msgid "Successfully removed the Company"
+#~ msgstr "Successfully removed the Client"
+
+#~ msgid "Edit Company"
+#~ msgstr "Edit Client"
+
+#~ msgid "Not exist the company"
+#~ msgstr "Not exist the Client"
+
+#~ msgid "Has been activated the Company "
+#~ msgstr "Has been activated the Client"
+
+#~ msgid "Successfully created the Company"
+#~ msgstr "Successfully created the Client"
+
+#~ msgid "Successfully modified the Company"
+#~ msgstr "Successfully modified the Client"
+
+#~ msgid "The file has been processed"
+#~ msgstr "The file has been processed"
+
+#~ msgid "New Model"
+#~ msgstr "New Model"
+
+#~ msgid "Not exist the model"
+#~ msgstr "Not exist the model"
+
+#~ msgid "Edit Model"
+#~ msgstr "Edit Model"
+
+#~ msgid "Successfully created the Model "
+#~ msgstr "Successfully created the Model "
+
+#~ msgid "Successfully modified the Model"
+#~ msgstr "Successfully modified the Model"
+
+#~ msgid "Access Denied"
+#~ msgstr "Access Denied"
+
+#~ msgid "ok"
+#~ msgstr "ok"
+
+#~ msgid "Save new User ( errors)"
+#~ msgstr "Save new User ( errors)"
+
+#~ msgid "Edit User"
+#~ msgstr "Edit User"
+
+#~ msgid "Edit User ( errors )"
+#~ msgstr "Edit User ( errors )"
+
+#~ msgid "It has successfully changed the password"
+#~ msgstr "It has successfully changed the password"
+
+#~ msgid "New Campaign"
+#~ msgstr "New Campaign"
+
+#~ msgid "Not exist the campaign"
+#~ msgstr "Not exist the campaign"
+
+#~ msgid "The campaign has been activated "
+#~ msgstr "The campaign has been activated "
+
+#~ msgid "Successfully created the Campaign "
+#~ msgstr "Successfully created the Campaign "
+
+#~ msgid "Successfully updated the Campaign"
+#~ msgstr "Successfully updated the Campaign"
+
+#~ msgid "New Contact"
+#~ msgstr "New Contact"
+
+#~ msgid "Not exist the contact"
+#~ msgstr "Not exist the contact"
+
+#~ msgid "Successfully created the Contact "
+#~ msgstr "Successfully created the Contact "
+
+#~ msgid "Successfully modified the Contact"
+#~ msgstr "Successfully modified the Contact"
+
+#~ msgid "The question not exist"
+#~ msgstr "The question not exist"
+
+#~ msgid "New Question"
+#~ msgstr "New Question"
+
+#~ msgid "Successfully updated the Question"
+#~ msgstr "Successfully updated the Question"
+
+#~ msgid "The poll not exists"
+#~ msgstr "The recap not exists"
+
+#~ msgid "The campaign not exist"
+#~ msgstr "The campaign not exist"
+
+#~ msgid "Must have at least one question of type \"Grade of Model\". "
+#~ msgstr "Must have at least one question of type \"Grade of Model\". "
+
+#~ msgid "Must have at least one question of type \"Grade of Event\". "
+#~ msgstr "Must have at least one question of type \"Grade of Event\". "
+
+#~ msgid "The poll not exist"
+#~ msgstr "The recap not exist"
+
+#~ msgid "The question was added to the poll"
+#~ msgstr "The question was added to the recap"
+
+#~ msgid "The text is empty"
+#~ msgstr "The text is empty"
+
+#~ msgid "The text was added to the poll"
+#~ msgstr "The text was added to the recap"
+
+#~ msgid "The element was removed to the poll"
+#~ msgstr "The element was removed to the recap"
+
+#~ msgid "The element not exist"
+#~ msgstr "The element not exist"
+
+#~ msgid "The relation Poll-Campaign match"
+#~ msgstr "The relation Recap-Campaign match"
+
+#~ msgid "The Uniform has been activated"
+#~ msgstr "The Uniform has been activated"
+
+#~ msgid "Username/password empty!"
+#~ msgstr "Username/password empty!"
+
+#~ msgid "Iniciar Sesión"
+#~ msgstr "Iniciar Sesión"
+
+#~ msgid "New Event"
+#~ msgstr "New Promotion"
+
+#~ msgid "Not exist the event"
+#~ msgstr "Not exist the promotion"
+
+#~ msgid "The event has been activated "
+#~ msgstr "The promotion has been activated "
+
+#~ msgid "Successfully created the Event "
+#~ msgstr "Successfully created the promotion"
+
+#~ msgid "Successfully modified the Event"
+#~ msgstr "Successfully modified the promotion "
+
+#~ msgid "Training"
+#~ msgstr "Training"
+
+#~ msgid "Successfully added the Event Training"
+#~ msgstr "Successfully added the Training"
+
+#~ msgid "The event not exist"
+#~ msgstr "The promotion not exist"
+
+#~ msgid "Invitation"
+#~ msgstr "Invitation"
+
+#~ msgid "The Event not exist"
+#~ msgstr "The promotion not exist"
+
+#~ msgid "No selected the models"
+#~ msgstr "No selected the models"
+
+#~ msgid "Sending Mails..."
+#~ msgstr "Sending Mails..."
+
+#~ msgid "the event not exist"
+#~ msgstr "the promotion not exist"
+
+#~ msgid "Has already registered in this event"
+#~ msgstr "Has already registered in this promotion"
+
+#~ msgid "Successfuly registered in this event"
+#~ msgstr "Successfuly registered in this promotion"
+
+#~ msgid "Wages have not been defined"
+#~ msgstr "Wages have not been defined"
+
+#~ msgid "Assign Models"
+#~ msgstr "Assign Models"
+
+#~ msgid "Empty selection"
+#~ msgstr "Empty selection"
+
+#~ msgid "The models has been assigned to the event"
+#~ msgstr "The models has been assigned to the promotion"
+
+#~ msgid "Directly assign an event"
+#~ msgstr "Directly assign a promotion"
+
+#~ msgid "The Wage not exist"
+#~ msgstr "The Wage not exist"
+
+#~ msgid "The model not exist"
+#~ msgstr "The model not exist"
+
+#~ msgid "The model has been assigned to the event"
+#~ msgstr "The model has been assigned to the promotion"
+
+#~ msgid "The models has been removed from the event"
+#~ msgstr "The models has been removed from the promotion"
+
+#~ msgid "The employee not exists"
+#~ msgstr "The employee not exists"
+
+#~ msgid "Answers'), $this->i18n->_('Times"
+#~ msgstr "Answers'), $this->i18n->_('Times"
+
+#~ msgid "Averages"
+#~ msgstr "Averages"
+
+#~ msgid "Calendar View"
+#~ msgstr "Calendar View"
+
+#~ msgid "System Options"
+#~ msgstr "System Options"
+
+#~ msgid "The matrix not exist"
+#~ msgstr "The matrix not exist"
+
+#~ msgid "New Matrix"
+#~ msgstr "New Matrix"
+
+#~ msgid "Successfully updated the Matrix"
+#~ msgstr "Successfully updated the Matrix"
+
+#~ msgid "the Uniform Collection not exist"
+#~ msgstr "the Uniform Collection not exist"
+
+#~ msgid "Not exist the uniform"
+#~ msgstr "Not exist the uniform"
+
+#~ msgid "Successfully created the Uniform "
+#~ msgstr "Successfully created the Uniform "
+
+#~ msgid "Successfully updated the Uniform"
+#~ msgstr "Successfully updated the Uniform"
+
+#~ msgid "Loan Uniform"
+#~ msgstr "Loan Uniform"
+
+#~ msgid "The uniform not exist"
+#~ msgstr "The uniform not exist"
+
+#~ msgid "Successfuly loaned the uniform"
+#~ msgstr "Successfuly loaned the uniform"
+
+#~ msgid "The uniform"
+#~ msgstr "The uniform"
+
+#~ msgid "Return an Uniform"
+#~ msgstr "Return an Uniform"
+
+#~ msgid "Successfuly return the uniform"
+#~ msgstr "Successfuly return the uniform"
+
+#~ msgid "History Log"
+#~ msgstr "History Log"
+
+#~ msgid "Stores List"
+#~ msgstr "Accounts List"
+
+#~ msgid "Not exist the store"
+#~ msgstr "Not exist the account"
+
+#~ msgid "Edit Store"
+#~ msgstr "Edit Account"
+
+#~ msgid "Successfully updated the Store"
+#~ msgstr "Successfully updated the account"
+
+#~ msgid "Campaign Report"
+#~ msgstr "Campaign Report"
+
+#~ msgid "the poll not  exist"
+#~ msgstr "the recap not  exist"
+
+#~ msgid " New Employee "
+#~ msgstr " New Employee "
+
+#~ msgid "Not exist the employee"
+#~ msgstr "Not exist the employee"
+
+#~ msgid "Successfully created the Employee "
+#~ msgstr "Successfully created the Employee "
+
+#~ msgid "Successfully modified the Employee"
+#~ msgstr "Successfully modified the Employee"
+
+#~ msgid "The Employee not exists"
+#~ msgstr "The employee not exists"
+
+#, fuzzy
+#~ msgid "The file is successfully uploaded"
+#~ msgstr "The attachment is successfully uploaded"
+
+#, fuzzy
+#~ msgid "The file is successfully removed"
+#~ msgstr "The attachment is successfully removed"
+
+#~ msgid "# of Events"
+#~ msgstr "# of Events"
+
+#~ msgid "Avg Model Score"
+#~ msgstr "phonenumber_contact_payment"
+
+#~ msgid "# of Campaigns"
+#~ msgstr "# of Campaigns"
+
+#~ msgid "# of Models"
+#~ msgstr "# of Models"
+
+#~ msgid "# of Accounts"
+#~ msgstr "# of Accounts"
+
+#~ msgid "# Avg Event Score"
+#~ msgstr "Avg Event Score"
+
+#~ msgid "Registration"
+#~ msgstr "Registration"
+
+#~ msgid "Successfully Model Registration "
+#~ msgstr "Successfully Model Registration "
+
+#~ msgid "Model Report"
+#~ msgstr "Model Report"
+
+#~ msgid "the model not exist"
+#~ msgstr "the model not exist"
+
+#~ msgid "the logbook not exists"
+#~ msgstr "The recap not  exists"
+
+#~ msgid "Successfully created the Logbook "
+#~ msgstr "Successfully created the Logbook "
+
+#~ msgid "The attachment is successfully uploaded"
+#~ msgstr "The attachment is successfully uploaded"
+
+#~ msgid "The attachment is successfully removed"
+#~ msgstr "The attachment is successfully removed"
+
+#~ msgid "Groups List"
+#~ msgstr "Groups List"
+
+#~ msgid "Removed the group"
+#~ msgstr "Removed the group"
+
+#~ msgid "Edit Group"
+#~ msgstr "Edit Group"
+
+#~ msgid "Modified the group"
+#~ msgstr "Modified the group"
+
+#~ msgid "New Giveaway"
+#~ msgstr "New Item of Inventory"
+
+#~ msgid "Not exist the giveaway"
+#~ msgstr "Not exist the item of inventory"
+
+#~ msgid "The giveaway has been activated "
+#~ msgstr "The item has been activated "
+
+#~ msgid "Successfully created the Giveaway "
+#~ msgstr "Successfully created the item "
+
+#~ msgid "Successfully updated the Giveaway"
+#~ msgstr "Successfully updated the item"
+
+#~ msgid "Poll"
+#~ msgstr "Recap"
+
+#~ msgid "Name:"
+#~ msgstr "Name:"
+
+#~ msgid "Element"
+#~ msgstr "Element"
+
+#~ msgid "Export To Excel"
+#~ msgstr "Export To Excel"
+
+#~ msgid "Preview"
+#~ msgstr "Preview"
+
+#~ msgid "Want to edit or clone the question"
+#~ msgstr "Want to edit or clone the question"
+
+#~ msgid "The cloning means that a question is created and replaced in the recap."
+#~ msgstr "The cloning means that a question is created and replaced in the recap."
+
+#~ msgid "What do you want to do?"
+#~ msgstr "What do you want to do?"
+
+#~ msgid "Polls List"
+#~ msgstr "Recaps List"
+
+#~ msgid "Campaign"
+#~ msgstr "Campaign"
+
+#~ msgid "Measures"
+#~ msgstr "Measures"
+
+#~ msgid "What date are you available to start promotional activities? "
+#~ msgstr "What date are you available to start promotional activities? "
+
+#~ msgid "Emergency Contact"
+#~ msgstr "Emergency Contact"
+
+#~ msgid "Phone number"
+#~ msgstr "Phone number"
+
+#~ msgid "Desired Position: "
+#~ msgstr "Desired Position: "
+
+#~ msgid "Have you worked for other promotional companies? If so please list here:"
+#~ msgstr "Have you worked for other promotional companies? If so please list here:"
+
+#~ msgid "Scars/Blemishes/Tatoos or any other identifying marks:"
+#~ msgstr "Scars/Blemishes/Tatoos or any other identifying marks:"
+
+#~ msgid "How far will you travel in one way in order to work:"
+#~ msgstr "How far will you travel in one way in order to work:"
+
+#~ msgid "Have you worked for the Beverage Industry?"
+#~ msgstr "Have you worked for the Beverage Industry?"
+
+#~ msgid "Are you TIPs Certified?"
+#~ msgstr "Are you TIPs Certified?"
+
+#~ msgid "Are you eligible to work? "
+#~ msgstr "Are you eligible to work? "
+
+#~ msgid " Are you a U.S. Citizen"
+#~ msgstr " Are you a U.S. Citizen"
+
+#~ msgid "Are you 18yrs old or older?"
+#~ msgstr "Are you 18yrs old or older?"
+
+#~ msgid "Permanent Resident"
+#~ msgstr "Permanent Resident"
+
+#~ msgid "Do you have Transportation? "
+#~ msgstr "Do you have Transportation? "
+
+#~ msgid "Photography"
+#~ msgstr "Photography"
+
+#~ msgid "Languages"
+#~ msgstr "Languages"
+
+#~ msgid "Days/Hours Availables"
+#~ msgstr "Days/Hours Availables"
+
+#~ msgid "From"
+#~ msgstr "From"
+
+#~ msgid "To"
+#~ msgstr "To"
+
+#~ msgid "Demography"
+#~ msgstr "Ethnicity"
+
+#~ msgid "Facebook/Myspace ID"
+#~ msgstr "Facebook/Myspace ID"
+
+#~ msgid "Weight"
+#~ msgstr "Weight"
+
+#~ msgid "Height"
+#~ msgstr "Height"
+
+#~ msgid "Eye color"
+#~ msgstr "Eye color"
+
+#~ msgid "Hair color"
+#~ msgstr "Hair color"
+
+#~ msgid "Dress size"
+#~ msgstr "Dress size"
+
+#~ msgid "Shoe size"
+#~ msgstr "Shoe size"
+
+#~ msgid "Sexual Preference"
+#~ msgstr "Sexual Preference"
+
+#~ msgid "Phone Number"
+#~ msgstr "Phone Number"
+
+#~ msgid "Middle Name"
+#~ msgstr "Middle Name"
+
+#~ msgid "D.O.B."
+#~ msgstr "D.O.B."
+
+#~ msgid "SSN"
+#~ msgstr "SSN"
+
+#~ msgid "Genre"
+#~ msgstr "Genre"
+
+#~ msgid "Marital Status"
+#~ msgstr "Marital Status"
+
+#~ msgid "Nationality"
+#~ msgstr "Nationality"
+
+#~ msgid "Address 1"
+#~ msgstr "Address 1"
+
+#~ msgid "Address 2"
+#~ msgstr "Address 2"
+
+#~ msgid "City"
+#~ msgstr "City"
+
+#~ msgid "State"
+#~ msgstr "State"
+
+#~ msgid "Country"
+#~ msgstr "Country"
+
+#~ msgid "Zip code"
+#~ msgstr "Zip code"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Edit Matrix"
+#~ msgstr "Edit Matrix"
+
+#~ msgid "Label X"
+#~ msgstr "Label X"
+
+#~ msgid "Label Y"
+#~ msgstr "Label Y"
+
+#~ msgid "Preffix"
+#~ msgstr "Preffix"
+
+#~ msgid "Suffix"
+#~ msgstr "Suffix"
+
+#~ msgid "Headers in X"
+#~ msgstr "Headers in X"
+
+#~ msgid "Headers in Y"
+#~ msgstr "Headers in Y"
+
+#~ msgid "Internal Type"
+#~ msgstr "Internal Type"
+
+#~ msgid "Visible to the Client"
+#~ msgstr "Visible to the Client"
+
+#~ msgid "Options"
+#~ msgstr "Options"
+
+#~ msgid "The cloning means that a question is created and replaced in the recap"
+#~ msgstr "The cloning means that a question is created and replaced in the recap"
+
+#~ msgid "Matrices List"
+#~ msgstr "Matrices List"
+
+#~ msgid "LIPS Promotions"
+#~ msgstr "LIPS Promotions"
+
+#~ msgid "Edit"
+#~ msgstr "Edit"
+
+#~ msgid "Business Name"
+#~ msgstr "Business Name"
+
+#~ msgid "EIN"
+#~ msgstr "EIN"
+
+#~ msgid "Payment Agent"
+#~ msgstr "Payment Agent"
+
+#~ msgid "Phone Number of the Payment agent"
+#~ msgstr "Phone Number of the Payment agent"
+
+#~ msgid "Web Site"
+#~ msgstr "Web Site"
+
+#~ msgid "Mailing Address"
+#~ msgstr "Mailing Address"
+
+#~ msgid "Billing Address"
+#~ msgstr "Billing Address"
+
+#~ msgid "Same as Above( Click Here)"
+#~ msgstr "Same as Above( Click Here)"
+
+#~ msgid "Import Stores"
+#~ msgstr "Import Stores"
+
+#~ msgid "Import Models"
+#~ msgstr "Import Models"
+
+#~ msgid "Loan"
+#~ msgstr "Loan"
+
+#~ msgid "Model"
+#~ msgstr "Model"
+
+#~ msgid "Starting Date"
+#~ msgstr "Starting Date"
+
+#~ msgid "Ending Date"
+#~ msgstr "Ending Date"
+
+#~ msgid "Return"
+#~ msgstr "Return"
+
+#~ msgid "Sizes Availables"
+#~ msgstr "Sizes Availables"
+
+#~ msgid "Uniform"
+#~ msgstr "Uniform"
+
+#~ msgid "List"
+#~ msgstr "List"
+
+#~ msgid "Acción"
+#~ msgstr "Acción"
+
+#~ msgid "name"
+#~ msgstr "name"
+
+#~ msgid "Language"
+#~ msgstr "Language"
+
+#~ msgid "Languages List"
+#~ msgstr "Languages List"
+
+#~ msgid "Store"
+#~ msgstr "Account"
+
+#~ msgid "Store Name"
+#~ msgstr "Account Name"
+
+#~ msgid "Contact Name"
+#~ msgstr "Contact Name"
+
+#~ msgid "Address"
+#~ msgstr "Address"
+
+#~ msgid "color"
+#~ msgstr "color"
+
+#~ msgid "description"
+#~ msgstr "description"
+
+#~ msgid "Uniform Collections"
+#~ msgstr "Uniform Collections"
+
+#~ msgid "Uniform Collections List"
+#~ msgstr "Uniform Collections List"
+
+#~ msgid "Color"
+#~ msgstr "Color"
+
+#~ msgid "Hourly Wage"
+#~ msgstr "Hourly Wage"
+
+#~ msgid "Wage"
+#~ msgstr "Wage"
+
+#~ msgid "Wages List"
+#~ msgstr "Wages List"
+
+#~ msgid "Dashboard"
+#~ msgstr "Dashboard"
+
+#~ msgid "You password has expired, Please enter a new one"
+#~ msgstr "You password has expired, Please enter a new one"
+
+#~ msgid "User Information"
+#~ msgstr "User Information"
+
+#~ msgid "Username:"
+#~ msgstr "Username:"
+
+#~ msgid "Last login:"
+#~ msgstr "Last login:"
+
+#~ msgid "Last login IP:"
+#~ msgstr "Last login IP:"
+
+#~ msgid "Change Password"
+#~ msgstr "Change Password"
+
+#~ msgid "Repeat Password"
+#~ msgstr "Repeat Password"
+
+#~ msgid "Upload Files"
+#~ msgstr "Upload Files"
+
+#~ msgid "Click Here"
+#~ msgstr "Click Here"
+
+#~ msgid "Brand Spend"
+#~ msgstr "Brand Spend"
+
+#~ msgid "Brand Sampled"
+#~ msgstr "Brand Sampled"
+
+#~ msgid "Comments"
+#~ msgstr "Comments"
+
+#~ msgid "Samples"
+#~ msgstr "Samples"
+
+#~ msgid "Budget"
+#~ msgstr "Budget"
+
+#~ msgid "Number of models"
+#~ msgstr "Number of models"
+
+#~ msgid "details"
+#~ msgstr "details"
+
+#~ msgid "Product Name"
+#~ msgstr "Product Name"
+
+#~ msgid "Region"
+#~ msgstr "Region"
+
+#~ msgid "Day"
+#~ msgstr "Day"
+
+#~ msgid "Models Required"
+#~ msgstr "Models Required"
+
+#~ msgid "Rating"
+#~ msgstr "Rating"
+
+#~ msgid "Models"
+#~ msgstr "Models"
+
+#~ msgid "Shadowing"
+#~ msgstr "Shadowing"
+
+#~ msgid "No models assigned to the event"
+#~ msgstr "No models assigned to the promotion"
+
+#~ msgid "Account"
+#~ msgstr "Account"
+
+#~ msgid "Zip Code"
+#~ msgstr "Zip Code"
+
+#~ msgid "Campaign Contact"
+#~ msgstr "Campaign Contact"
+
+#~ msgid "Store Contact"
+#~ msgstr "Account Contact"
+
+#~ msgid "Place"
+#~ msgstr "Place"
+
+#~ msgid "Equipment"
+#~ msgstr "Equipment"
+
+#~ msgid "Filter"
+#~ msgstr "Filter"
+
+#~ msgid "Search"
+#~ msgstr "Search"
+
+#~ msgid "Advanced"
+#~ msgstr "Advanced"
+
+#~ msgid "Select the models"
+#~ msgstr "Select the models"
+
+#~ msgid "Signup Date"
+#~ msgstr "Signup Date"
+
+#~ msgid "No Results"
+#~ msgstr "No Results"
+
+#~ msgid "Edit Email"
+#~ msgstr "Edit Email"
+
+#~ msgid "Subject"
+#~ msgstr "Subject"
+
+#~ msgid "Message"
+#~ msgstr "Message"
+
+#~ msgid "Models assigned to the event"
+#~ msgstr "Models assigned to the promotion"
+
+#~ msgid "Team Leader"
+#~ msgstr "Team Leader"
+
+#~ msgid "Event Training"
+#~ msgstr "Training"
+
+#~ msgid "In Store"
+#~ msgstr "In Store"
+
+#~ msgid "Send Email"
+#~ msgstr "Send Email"
+
+#~ msgid "Confirmation"
+#~ msgstr "Confirmation"
+
+#~ msgid "Is confirmed by the Contact?"
+#~ msgstr "Is confirmed by the Contact?"
+
+#~ msgid "Medium of the confirmation"
+#~ msgstr "Medium of the confirmation"
+
+#~ msgid "Is confirmed by the Store Owner?"
+#~ msgstr "Is confirmed by the Account Contact?"
+
+#~ msgid "Courtesy"
+#~ msgstr "Courtesy"
+
+#~ msgid "Contacted"
+#~ msgstr "Contacted"
+
+#~ msgid "Satisfied"
+#~ msgstr "Satisfied"
+
+#~ msgid "Events List"
+#~ msgstr "Promotions List"
+
+#~ msgid "Number of the models"
+#~ msgstr "Number of the models"
+
+#~ msgid "Files"
+#~ msgstr "Files"
+
+#~ msgid "0 files uploaded!"
+#~ msgstr "0 files uploaded!"
+
+#~ msgid "Job Title"
+#~ msgstr "Job Title"
+
+#~ msgid "Employee Number"
+#~ msgstr "Employee Number"
+
+#~ msgid "Supervisor"
+#~ msgstr "Supervisor"
+
+#~ msgid "Personal Information"
+#~ msgstr "Personal Information"
+
+#~ msgid "Mobile"
+#~ msgstr "Mobile"
+
+#~ msgid "Employees List"
+#~ msgstr "Employees List"
+
+#~ msgid "Model Files"
+#~ msgstr "Model Files"
+
+#~ msgid "Employee Files"
+#~ msgstr "Employee Files"
+
+#~ msgid "Outcome Giveaway"
+#~ msgstr "Outcome"
+
+#~ msgid "Apply"
+#~ msgstr "Apply"
+
+#~ msgid "Giveaway"
+#~ msgstr "Inventory"
+
+#~ msgid "Current Stock"
+#~ msgstr "Current Stock"
+
+#~ msgid "Decrement Stock"
+#~ msgstr "Decrement Stock"
+
+#~ msgid "Stock"
+#~ msgstr "Stock"
+
+#~ msgid "Minimum Stock"
+#~ msgstr "Minimum Stock"
+
+#~ msgid "Income Giveaway"
+#~ msgstr "Income"
+
+#~ msgid "Increment Stock"
+#~ msgstr "Increment Stock"
+
+#~ msgid "Giveaways List"
+#~ msgstr "Items List"
+
+#~ msgid "Minimun Stock"
+#~ msgstr "Minimun Stock"
+
+#~ msgid " The Recap sheet has been authorized by "
+#~ msgstr " The Recap sheet has been authorized by "
+
+#~ msgid "View Recap"
+#~ msgstr "View Recap"
+
+#~ msgid "There is a new model that was recorded "
+#~ msgstr "There is a new model that was recorded "
+
+#~ msgid "D.O.B"
+#~ msgstr "D.O.B"
+
+#~ msgid "Pending Applications List"
+#~ msgstr "Pending Applications List"
+
+#~ msgid "We inform you that your attendance at the event "
+#~ msgstr "We inform you that your attendance at the promotion "
+
+#~ msgid " has been canceled"
+#~ msgstr " has been canceled"
+
+#~ msgid "Dear "
+#~ msgstr "Dear "
+
+#~ msgid "Thank you for signing up with us. Your new account has been setup and you can now login to our system using the details below."
+#~ msgstr "Thank you for signing up with us. Your new account has been setup and you can now login to our system using the details below."
+
+#~ msgid "Username: "
+#~ msgstr "Username: "
+
+#~ msgid "To login, Click Here"
+#~ msgstr "To login, Click Here"
+
+#~ msgid "Hi "
+#~ msgstr "Hi "
+
+#~ msgid "Here are the details for the event "
+#~ msgstr "Here are the details for the promotion"
+
+#~ msgid "Event Details"
+#~ msgstr "Promotion Details"
+
+#~ msgid "the model "
+#~ msgstr "the model "
+
+#~ msgid " has completed the recap for the promotion "
+#~ msgstr " has completed the recap for the promotion "
+
+#~ msgid " The stock has reached the minimum for the giveaway "
+#~ msgstr " The stock has reached the minimum for the item "
+
+#~ msgid "View Giveaways"
+#~ msgstr "View Items"
+
+#~ msgid "Hi"
+#~ msgstr "Hi"
+
+#~ msgid "Assigned to the Event "
+#~ msgstr "Assigned to the promotion "
+
+#~ msgid "New user group"
+#~ msgstr "New user group"
+
+#~ msgid "Same as the Company Address"
+#~ msgstr "Same as the Client Address"
+
+#~ msgid "Contact"
+#~ msgstr "Contact"
+
+#~ msgid "Contacts List"
+#~ msgstr "Contacts List"
+
+#~ msgid "Sign out"
+#~ msgstr "Sign out"
+
+#~ msgid "Total:"
+#~ msgstr "Total:"
+
+#~ msgid "Basic"
+#~ msgstr "Basic"
+
+#~ msgid "Events"
+#~ msgstr "Promotions"
+
+#~ msgid "Name of the Events"
+#~ msgstr "Name of the promotions"
+
+#~ msgid "Model Information"
+#~ msgstr "Model Information"
+
+#~ msgid "Phone number ( Home )"
+#~ msgstr "Phone number ( Home )"
+
+#~ msgid "Phone number ( Mobile )"
+#~ msgstr "Phone number ( Mobile )"
+
+#~ msgid "Models List"
+#~ msgstr "Models List"
+
+#~ msgid "No pending applications"
+#~ msgstr "No pending applications"
+
+#~ msgid "Eye Color"
+#~ msgstr "Eye Color"
+
+#~ msgid "Export All"
+#~ msgstr "Export All"
+
+#~ msgid "Status Summary"
+#~ msgstr "Status Summary"
+
+#~ msgid "Campaign Summary"
+#~ msgstr "Campaign Summary"
+
+#~ msgid "Brand Summary"
+#~ msgstr "Brand Summary"
+
+#~ msgid "Pending"
+#~ msgstr "Pending"
+
+#~ msgid "Confirmed"
+#~ msgstr "Confirmed"
+
+#~ msgid "Completed"
+#~ msgstr "Completed"
+
+#~ msgid "Recapped"
+#~ msgstr "Recapped"
+
+#~ msgid "Closed"
+#~ msgstr "Closed"
+
+#~ msgid "Events in "
+#~ msgstr "Promotions in "
+
+#~ msgid "Month"
+#~ msgstr "Month"
+
+#~ msgid "Year"
+#~ msgstr "Year"
+
+#~ msgid "First Name"
+#~ msgstr "First Name"
+
+#~ msgid "Confirm Password"
+#~ msgstr "Confirm Password"
+
+#~ msgid "Clear"
+#~ msgstr "Clear"
+
+#~ msgid "Users List"
+#~ msgstr "Users List"
+
+#~ msgid "Add to Bin"
+#~ msgstr "Add to Bin"
+
+#~ msgid "View Event"
+#~ msgstr "View Event"
+
+#~ msgid "Photo Bin"
+#~ msgstr "Photo Bin"
+
+#~ msgid "Your Photo Bin is Empty"
+#~ msgstr "Your Photo Bin is Empty"
+
+#~ msgid "Drag and drop the photo"
+#~ msgstr "Drag and drop the photo"
+
+#~ msgid "Click to Download"
+#~ msgstr "Click to Download"
+
+#~ msgid "View"
+#~ msgstr "View"
+
+#~ msgid "Questions List"
+#~ msgstr "Questions List"
+
+#~ msgid "Avg."
+#~ msgstr "Avg."
+
+#~ msgid "Total."
+#~ msgstr "Total."
+
+#~ msgid "Count."
+#~ msgstr "Count."
+
+#~ msgid "Recap Report"
+#~ msgstr "Recap Report"
+
+#~ msgid "Generate"
+#~ msgstr "Generate"
+
+#~ msgid "Total"
+#~ msgstr "Total"
+
+#~ msgid "Format"
+#~ msgstr "Format"
+
+#~ msgid "Html"
+#~ msgstr "Html"
+
+#~ msgid "Excel"
+#~ msgstr "Excel"
+
+#~ msgid "Elements"
+#~ msgstr "Elements"
+
+#~ msgid "MS. Chart Types"
+#~ msgstr "MS. Chart Types"
+
+#~ msgid "Wages"
+#~ msgstr "Wages"
+
+#~ msgid "Amount"
+#~ msgstr "Amount"
+
+#~ msgid "Ratings"
+#~ msgstr "Ratings"
+
+#~ msgid "No promotions"
+#~ msgstr "No promotions"
+
+#~ msgid "Uniforms"
+#~ msgstr "Uniforms"
+
+#~ msgid "Log Type"
+#~ msgstr "Log Type"
+
+#~ msgid "No logs"
+#~ msgstr "No logs"
+
+#~ msgid "Import Events"
+#~ msgstr "Import Promotions"
+
+#~ msgid "Download Template"
+#~ msgstr "Download Template"
+
+#~ msgid "Target Market"
+#~ msgstr "Target Market"
+
+#~ msgid "Number of events"
+#~ msgstr "Number of promotions"
+
+#~ msgid "$"
+#~ msgstr "$"
+
+#~ msgid "Mail Invitation Template"
+#~ msgstr "Mail Invitation Template"
+
+#~ msgid "Campaigns List"
+#~ msgstr "Campaigns List"
+
+#~ msgid "Date Start"
+#~ msgstr "Date Start"
+
+#~ msgid "Date End"
+#~ msgstr "Date End"
+
+#~ msgid "Demographics List"
+#~ msgstr "Ethnicities List"
+
+#~ msgid "Recap Sheet"
+#~ msgstr "Recap Sheet"
+
+#~ msgid "Answer"
+#~ msgstr "Answer"
+
+#~ msgid "Authorized by the Team Leader"
+#~ msgstr "Authorized by the Team Leader"
+
+#~ msgid "Authorize"
+#~ msgstr "Authorize"
+
+#~ msgid "Authorized by the Coordinator"
+#~ msgstr "Authorized by the Coordinator"
+
+#~ msgid "Authorized by the Manager"
+#~ msgstr "Authorized by the Manager"
+
+#~ msgid "Photos Uploaded"
+#~ msgstr "Photos Uploaded"
+
+#~ msgid "Scanned Image"
+#~ msgstr "Scanned Image"
+
+#~ msgid "No Recap Sheet Completed"
+#~ msgstr "No Recap Sheet Completed"
+
+#~ msgid "Upload Attachments"
+#~ msgstr "Upload Attachments"
+
+#~ msgid "Attachments Recap Sheet"
+#~ msgstr "Attachments Recap Sheet"
+
+#~ msgid "0 attachments uploaded!"
+#~ msgstr "0 attachments uploaded!"
+
+#~ msgid "Invitation to promote the event "
+#~ msgstr "Invitation to promote the promotion "
+
+#~ msgid "Assigned to the event "
+#~ msgstr "Assigned to the promotion"
+
+#~ msgid "Cancelation for the event "
+#~ msgstr "Cancelation for the promotion "
+
+#~ msgid "Recap sheet Completed by the model "
+#~ msgstr "Recap sheet Completed by the model "
+
+#~ msgid "The Recap sheet has been authorized "
+#~ msgstr "The Recap sheet has been authorized "
+
+#~ msgid "New application registration"
+#~ msgstr "New application registration"
+
+#~ msgid "The stock has reached the minimum"
+#~ msgstr "The stock has reached the minimum"
+
+#~ msgid "The uniform is invalid"
+#~ msgstr "The uniform is invalid"
+
+#~ msgid "January"
+#~ msgstr "January"
+
+#~ msgid "February"
+#~ msgstr "February"
+
+#~ msgid "March"
+#~ msgstr "March"
+
+#~ msgid "April"
+#~ msgstr "April"
+
+#~ msgid "May"
+#~ msgstr "May"
+
+#~ msgid "June"
+#~ msgstr "June"
+
+#~ msgid "July"
+#~ msgstr "July"
+
+#~ msgid "August"
+#~ msgstr "August"
+
+#~ msgid "September"
+#~ msgstr "September"
+
+#~ msgid "October"
+#~ msgstr "October"
+
+#~ msgid "November"
+#~ msgstr "November"
+
+#~ msgid "December"
+#~ msgstr "December"
+
+#~ msgid "M"
+#~ msgstr "M"
+
+#~ msgid "T"
+#~ msgstr "T"
+
+#~ msgid "W"
+#~ msgstr "W"
+
+#~ msgid "TH"
+#~ msgstr "TH"
+
+#~ msgid "F"
+#~ msgstr "F"
+
+#~ msgid "SA"
+#~ msgstr "SA"
+
+#~ msgid "Yes') : $label = $this->i18n->_('No"
+#~ msgstr "Yes') : $label = $this->i18n->_('No"
+
+#~ msgid "Count"
+#~ msgstr "Count"
+
+#~ msgid "Y/N"
+#~ msgstr "Y/N"
+
+#, fuzzy
+#~ msgid "Yes') : $this->i18n->_('No"
+#~ msgstr "Yes') : $label = $this->i18n->_('No"
+
+#~ msgid "Ethnicity"
+#~ msgstr "Ethnicity"
+
+#~ msgid "Facebook/Myspace"
+#~ msgstr "Facebook/Myspace"
+
+#~ msgid "Phone Number Home"
+#~ msgstr "Phone Number Home"
+
+#~ msgid "Phone Number Mobile"
+#~ msgstr "Phone Number Mobile"
+
+#~ msgid "Emergency Phone number"
+#~ msgstr "Emergency Phone number"
+
+#~ msgid "Scars/Blemishes/Tatoos"
+#~ msgstr "Scars/Blemishes/Tatoos"
+
+#~ msgid "U.S. Citizen"
+#~ msgstr "U.S. Citizen"
+
+#~ msgid "Eligible to work"
+#~ msgstr "Eligible to work"
+
+#~ msgid "18yrs old or older"
+#~ msgstr "18yrs old or older"
+
+#~ msgid "TIPs Certified"
+#~ msgstr "TIPs Certified"
+
+#~ msgid "Have Transportation"
+#~ msgstr "Have Transportation"
+
+#, fuzzy
+#~ msgid "contact_payment"
+#~ msgstr "Contact Name"
+
+#~ msgid "Agregar nuevo elemento."
+#~ msgstr "Agregar nuevo elemento."
+
+#~ msgid "Image"
+#~ msgstr "Image"
+
+#~ msgid "Copy from Mailing Address"
+#~ msgstr "Copy from Mailing Address"
+
+#~ msgid "Which company you work for:"
+#~ msgstr "Which company you work for:"
+
+#~ msgid "Position Applied For"
+#~ msgstr "Position Applied For"
+
+#~ msgid "Title"
+#~ msgstr "Title"
+
+#~ msgid "Chief"
+#~ msgstr "Chief"
+
+#~ msgid "Extras"
+#~ msgstr "Extras"
+
+#~ msgid "Extra"
+#~ msgstr "Extra"
+
+#~ msgid "Dress Size"
+#~ msgstr "Dress Size"
+
+#~ msgid "Shoes Size"
+#~ msgstr "Shoes Size"
+
+#~ msgid "Raiting"
+#~ msgstr "Raiting"
+
+#~ msgid "Comfirm Password"
+#~ msgstr "Comfirm Password"
+
+#~ msgid "Invitation to the Event "
+#~ msgstr "Invitation to the promotion "
+
+#~ msgid "id_fiscal_entity"
+#~ msgstr "id_fiscal_entity"
+
+#~ msgid "id_address"
+#~ msgstr "id_address"
+
+#~ msgid "id_phone_number"
+#~ msgstr "id_phone_number"
+
+#~ msgid "rfc"
+#~ msgstr "rfc"
+
+#~ msgid "is_moral"
+#~ msgstr "is_moral"
+
+#~ msgid "date_created"
+#~ msgstr "date_created"
+
+#~ msgid "Number"
+#~ msgstr "Number"
+
+#~ msgid "Street"
+#~ msgstr "Street"
+
+#~ msgid "District"
+#~ msgstr "District"
+
+#~ msgid "No se puede guardar el usuario, "
+#~ msgstr "No se puede guardar el usuario, "
+
+#~ msgid "No se puede actualizar el usuario, "
+#~ msgstr "No se puede actualizar el usuario, "
+
+#~ msgid "Invitation to promote the event ') : $this->i18n->_('Assigned to the event "
+#~ msgstr "Invitation to promote the event ') : $this->i18n->_('Assigned to the event "
+
+#~ msgid "Opción del Sistema"
+#~ msgstr "Opción del Sistema"
+
+#~ msgid "Second Name"
+#~ msgstr "Second Name"
+
+#~ msgid "Birthdate"
+#~ msgstr "Birthdate"
+
+#~ msgid "Opción"
+#~ msgstr "Opción"
+
+#~ msgid "Phonenumber"
+#~ msgstr "Phonenumber"
+
+#~ msgid "Password repeat"
+#~ msgstr "Password repeat"
+
+#~ msgid "Guardar nuevo Grupo de Usuario"
+#~ msgstr "Guardar nuevo Grupo de Usuario"
+
+#~ msgid "Lista de Grupos de Usuario"
+#~ msgstr "Lista de Grupos de Usuario"
+
+#~ msgid "Bienvenido"
+#~ msgstr "Bienvenido"
+
+#~ msgid "Cerrar Sesión"
+#~ msgstr "Cerrar Sesión"
+
+#~ msgid "Listado de Usuarios"
+#~ msgstr "Listado de Usuarios"
+
+#~ msgid "Lista de Usuarios"
+#~ msgstr "Lista de Usuarios"

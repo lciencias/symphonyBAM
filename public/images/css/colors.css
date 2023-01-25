@@ -1,0 +1,127 @@
+html,body {
+    background-color: #FAFAFA;
+}
+
+.container > .content {
+    background-color: #fff;
+}
+
+.page-header {
+    background-color: #f5f5f5;    
+}
+    
+    
+form.validate .error{
+    border-color: #EE5F5B;
+    color: #B94A48;
+}
+
+div #loginFormContainer{
+    background-color: #F9F9F9;
+    border: 2px solid #BABABA;
+}
+
+.treeview a.selected {
+    background-color: #eee;
+}
+
+.treeview .hover { color: red; cursor: pointer; }
+
+input[type="text"].error{
+    border-color: #EE5F5B;
+}
+
+div.time-picker li.selected {
+    background: #0063CE;
+    color: #fff;
+}
+
+div.time-picker {
+     background: #fff;
+    border: 1px solid #aaa;
+}
+
+#top_banner{    
+    background-color: #f5fdf5;
+}
+
+#dtopbar{
+    background-color: #3A3A3A;
+    color: #FFF;
+    opacity:0.85;
+    filter: alpha(opacity=85);
+}
+
+#mega-menu-1 li a {
+    color: #fff;
+}
+
+#mega-menu-1 li .sub {
+    background: #181818;
+}
+
+#mega-menu-1 li .sub a {
+    background: none; 
+    color: #111; 
+}
+
+#mega-menu-1 li .sub li.mega-hdr a.mega-hdr-a {
+    color: #fff;
+}
+
+#mega-menu-1 li .sub-container.non-mega li a:hover {
+    color: #a32403; 
+}
+
+#mega-menu-1 .sub li.mega-hdr li a:hover {
+    color: #a32403; 
+}
+
+table.zebra-striped thead th{
+    background-color: #152D5E;
+    color: #FFF;
+}
+
+.zebra-striped tbody tr:nth-child(2n+1) td, .zebra-striped tbody tr:nth-child(2n+1) th {
+    background-color: #E9E9E9;
+}
+
+table.zebra-striped tr:hover td{
+    background-color: #516793;
+    color: #FFF;
+}
+
+.actions {
+    background: none repeat scroll 0 0 #EAEAEA;
+}
+
+.btn.primary{
+    background-color: #152D5E;
+    background-image: none;
+    color: #FFF;
+}
+
+.ui-tabs .ui-tabs-nav li a{
+    color: #152D5E !important;
+}
+
+.ui-tabs .ui-tabs-nav li a:hover{
+    background-color: #e6e8ec !important;
+}
+
+.ui-tabs ul li.ui-state-default{
+    border: 1px solid #F0F0F0 !important;
+}
+
+.ui-tabs ul li.ui-state-active{
+    border: none !important;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-state-active a{
+    background-color: #e6e8ec !important;
+}
+
+pre:hover
+{
+    color: black !important;
+}

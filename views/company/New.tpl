@@ -1,0 +1,1 @@
+<div id="styledForm"><br /><h3>{$i18n->_('Company')}</h3>{$form}</div>

@@ -1,0 +1,125 @@
+
+
+.container > footer p {
+    text-align: center; /* center align it with the container */
+}
+
+/* The white background content wrapper */
+.container > .content {
+    padding: 20px;
+    margin: 0 -20px;
+    /* negative indent the amount of the padding to maintain the grid system */
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+}
+
+/* Page header tweaks */
+.page-header {
+    padding: 20px 20px 10px;
+    margin: -20px -20px 20px;
+}
+
+.center, .center  * {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    
+}
+.center h3, .center h2, .center h1, .center {text-align: center !important; }
+
+
+.btn{
+    padding: 3px 14px 4px;
+}
+
+.styledForm, #styledForm{
+    width: 720px;
+    margin-left: 100px;
+}
+
+.styledForm .clearfix div, #styledForm .clearfix div{
+    width: 140px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 25px;
+}
+
+.FormEmail{
+    width: 220px;
+    margin-left: 100px;
+}
+
+.FormEmail .clearfix div{
+    width: 140px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 25px;
+}
+
+.container{
+    min-width: 940px;
+    width: 85%;
+}
+
+div #loginFormContainer{
+    width: 380px;
+    border-radius: 25px;
+    padding: 25px;
+    margin: 5px;
+}
+
+#dtopbar{
+    height: 26px;
+}
+
+#top_banner{
+    background-image: url(../images/template/top_banner.png);
+    background-repeat: repeat-x;
+    height: 110px;
+    min-width: 600px;
+}
+
+.slider_hour, .slider_minute{
+    width: 220px !important;	
+}
+
+
+.tdcenter{text-align:center;}
+.tdright{text-align:right;}
+.tdleft{text-align:left;}
+.tdjustify{text-align:justify;}
+.cuadro{border:2px solid #000; background-color:#ffffff;"}
+.cuadroc{width:16px;heigth:16px;border:2px solid #000; background-color:#ffffff;"}
+.sinBorder{border:0px;}
+
+#encabezado{
+	width:40%;
+	height:35px;
+	font-size:14px;
+	background-color:#ff0000;
+	color:#ffffff;
+	padding-top: 10px;
+	padding-left:10px;
+}
+
+.correcto{
+	background-color:#BB3835;
+	color : #fff;
+}
+
+.incorrecto{
+	background-color:#769535;
+	color : #fff;
+}
+.default{
+	background-color:#5E5E5E;
+}
+.errorValidacion{
+	background-color:#fff;
+	color : #769535;
+	font-size:24px;
+	text-align: center;	
+}

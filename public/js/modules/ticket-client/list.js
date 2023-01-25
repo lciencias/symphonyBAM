@@ -1,0 +1,1 @@
+$.validator.classRuleSettings.folio = { Folio : true };

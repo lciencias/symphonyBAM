@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+    
+    <imports>
+        <import resource="CatalogServices.xml"/>
+    </imports>
+    
+    <parameters>
+        <parameter key="webconfig.file">data/webconfig.xml</parameter>
+    </parameters>
+    
+    <services>
+    
+        <service id="mailer" class="Application\Notification\Mailer">
+            <argument type="service" id="webconfig" />
+        </service>
+        <service id="cron_notification" class="Application\Notification\CronNotification">
+             <call method="setMailer"><argument type="service" id="mailer" /></call>
+             <call method="setServiceLevelService"><argument type="service" id="ServiceLevelService" /></call> 
+             <call method="setMasterTranslator"><argument type="service" id="master_translator" /></call>
+        </service>
+       
+        <service id="manager_acl" class="Application\Security\ManagerAcl">
+            <argument type="service" id="AccessRoleCatalog" />
+        </service>
+        
+        <service id="security_inspector" class="Application\Security\SecurityInspector">
+            <argument type="service" id="SecurityControllerCatalog" />
+            <argument type="service" id="SecurityActionCatalog" />
+            <argument type="service" id="AccessRoleCatalog" />
+        </service>
+        
+        <service id="autentication" class="Application\Security\Authentication">
+            <argument type="service" id="UserLogCatalog" />
+            <argument type="service" id="SessionCatalog" />
+            <argument type="service" id="UserCatalog" />
+        </service>
+        
+        <service id="menu" class="Application\Menu\Menu">
+            <call method="setI18n"><argument type="service" id="i18n" /></call>
+        </service>
+        <service id="zend_smarty" class="Application\Smarty\ZendSmarty">
+            <argument type="service" id="webconfig" />
+        </service>
+
+        <service id="event_dispatcher" class="Symfony\Component\EventDispatcher\EventDispatcher"></service>
+        <service id="webconfig" class="Zend_Config_Xml">
+            <argument>%webconfig.file%</argument>
+            <argument>project</argument>
+        </service>
+        
+        <service id="i18n" class="Application\I18n\CustomTranslate">
+            <argument>gettext</argument>
+            <argument>data/languages/en/default.mo</argument>
+            <argument>en</argument>
+            <call method="setUserSession"><argument type="service" id="user_session" /></call>
+            <call method="setMasterTranslator"><argument type="service" id="master_translator" /></call>
+        </service>
+        
+        <service id="master_translator" class="Application\I18n\MasterTranslator"></service>
+        
+        <service id="user_session" class="Application\Security\UserSession">
+            <argument type="service" id="webconfig" />
+        </service>
+        
+        <service id="dbao" class="Application\Database\DBAOFromConfig">
+            <argument type="service" id="webconfig" />
+        </service>
+        
+        <service id="TicketAutomata" class="Application\Automata\TicketAutomata">
+            <argument type="service" id="StateCatalog" />
+            <argument type="service" id="ConditionCatalog" />
+            <argument type="service" id="MachineCatalog" />
+            <argument type="service" id="ElementCatalog" />
+        </service>
+        
+        <service id="OptionService" class="Application\Service\OptionService">
+            <call method="setEventDispatcher"><argument type="service" id="event_dispatcher" /></call>
+            <call method="setOptionCatalog"><argument type="service" id="OptionCatalog" /></call>
+            <call method="setI18n"><argument type="service" id="i18n" /></call>
+        </service>
+        
+        <service id="TicketService" class="Application\Service\TicketService">
+            <call method="setEventDispatcher"><argument type="service" id="event_dispatcher" /></call>
+            <call method="setEmailCatalog"><argument type="service" id="EmailCatalog" /></call>
+            <call method="setFileCatalog"><argument type="service" id="FileCatalog" /></call>
+            <call method="setTicketCatalog"><argument type="service" id="TicketCatalog" /></call>
+            <call method="setTicketClientCatalog"><argument type="service" id="TicketClientCatalog"/></call>
+            <call method="setTicketLogCatalog"><argument type="service" id="TicketLogCatalog" /></call>
+            <call method="setTicketAutomata"><argument type="service" id="TicketAutomata" /></call>
+            <call method="setAssignmentCatalog"><argument type="service" id="AssignmentCatalog" /></call>
+            <call method="setAttachmentCatalog"><argument type="service" id="AttachmentCatalog" /></call>
+            <call method="setTransactionsPartialitiesCatalog"><argument type="service" id="TransactionsPartialitiesCatalog" /></call>
+            <call method="setTicketsClientsTransactionsCatalog"><argument type="service" id="TicketsClientsTransactionsCatalog" /></call>
+        </service>
+
+        <service id="ServiceLevelService" class="Application\Service\ServiceLevelService">
+            <call method="setEventDispatcher"><argument type="service" id="event_dispatcher" /></call>
+        </service>
+        
+        <service id="cron_escalation" class="Application\Notification\CronEscalation">
+            <call method="setEventDispatcher"><argument type="service" id="event_dispatcher" /></call>
+            <call method="setServiceLevelService"><argument type="service" id="ServiceLevelService" /></call>
+        </service>
+        <service id="cron_products" class="Application\Notification\CronProducts">
+            <argument type="service" id="webconfig" />            
+        </service>
+        <service id="cron_branches" class="Application\Notification\CronBranches">
+            <argument type="service" id="webconfig" />            
+        </service>
+        <service id="cron_tickets" class="Application\Notification\CronTickets">
+            <argument type="service" id="webconfig" />            
+        </service>
+    </services>
+</container>

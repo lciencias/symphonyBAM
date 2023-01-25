@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="urn:server" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Body>
+		<ns1:get_data_acctdd>
+		<cliente xsi:type="xsd:string">1234</cliente>
+		<userws xsi:type="xsd:string">ws_CAC</userws>
+		<passws xsi:type="xsd:string">w$.caC_o43-4cC355*syS73M</passws>
+		</ns1:get_data_acctdd>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

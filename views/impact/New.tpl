@@ -1,0 +1,1 @@
+<div id="styledForm"><br /><h3>{$i18n->_('Impact')}</h3>{$form}</div>

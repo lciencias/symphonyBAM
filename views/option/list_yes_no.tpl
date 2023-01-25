@@ -1,0 +1,1 @@
+{if $option->getValue()} {$i18n->_('Yes')} {else} {$i18n->_('No')} {/if}

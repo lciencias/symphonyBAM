@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        
+        <service id="ConditionCatalog" class="Application\Model\Catalog\ConditionCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="StateCatalog" class="Application\Model\Catalog\StateCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="ElementCatalog" class="Application\Model\Catalog\ElementCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="MachineCatalog" class="Application\Model\Catalog\MachineCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="StateTypeCatalog" class="Application\Model\Catalog\StateTypeCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="AccessRoleLogCatalog" class="Application\Model\Catalog\AccessRoleLogCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="AccessRoleCatalog" class="Application\Model\Catalog\AccessRoleCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="AddressCatalog" class="Application\Model\Catalog\AddressCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="CalendarCatalog" class="Application\Model\Catalog\CalendarCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="CustomizeCatalog" class="Application\Model\Catalog\CustomizeCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="EmailCatalog" class="Application\Model\Catalog\EmailCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="MenuItemCatalog" class="Application\Model\Catalog\MenuItemCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="MexicoZipCodeCatalog" class="Application\Model\Catalog\MexicoZipCodeCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="OptionCatalog" class="Application\Model\Catalog\OptionCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="PersonCatalog" class="Application\Model\Catalog\PersonCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="PhoneNumberCatalog" class="Application\Model\Catalog\PhoneNumberCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="SecurityActionCatalog" class="Application\Model\Catalog\SecurityActionCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="SecurityControllerCatalog" class="Application\Model\Catalog\SecurityControllerCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="UserLogCatalog" class="Application\Model\Catalog\UserLogCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="UserCatalog" class="Application\Model\Catalog\UserCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="ActivityCatalog" class="Application\Model\Catalog\ActivityCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="AreaLogCatalog" class="Application\Model\Catalog\AreaLogCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="AreaCatalog" class="Application\Model\Catalog\AreaCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="AssignmentCatalog" class="Application\Model\Catalog\AssignmentCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="CategoryCatalog" class="Application\Model\Catalog\CategoryCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="CategoryLogCatalog" class="Application\Model\Catalog\CategoryLogCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="ChannelCatalog" class="Application\Model\Catalog\ChannelCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="ChannelLogCatalog" class="Application\Model\Catalog\ChannelLogCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="CompanyCatalog" class="Application\Model\Catalog\CompanyCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="CompanyLogCatalog" class="Application\Model\Catalog\CompanyLogCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="EmployeeLogCatalog" class="Application\Model\Catalog\EmployeeLogCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="EmployeeCatalog" class="Application\Model\Catalog\EmployeeCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="EscalationDetailCatalog" class="Application\Model\Catalog\EscalationDetailCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="EscalationLogCatalog" class="Application\Model\Catalog\EscalationLogCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="EscalationCatalog" class="Application\Model\Catalog\EscalationCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="GroupLogCatalog" class="Application\Model\Catalog\GroupLogCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="GroupCatalog" class="Application\Model\Catalog\GroupCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="ImpactLogCatalog" class="Application\Model\Catalog\ImpactLogCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="ImpactCatalog" class="Application\Model\Catalog\ImpactCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="LocationLogCatalog" class="Application\Model\Catalog\LocationLogCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="LocationCatalog" class="Application\Model\Catalog\LocationCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="NotificationCatalog" class="Application\Model\Catalog\NotificationCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="PositionLogCatalog" class="Application\Model\Catalog\PositionLogCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="PositionCatalog" class="Application\Model\Catalog\PositionCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="PriorityCatalog" class="Application\Model\Catalog\PriorityCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="PriorityLogCatalog" class="Application\Model\Catalog\PriorityLogCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="ResolutionLogCatalog" class="Application\Model\Catalog\ResolutionLogCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="ResolutionCatalog" class="Application\Model\Catalog\ResolutionCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="ServiceLevelLogCatalog" class="Application\Model\Catalog\ServiceLevelLogCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="ServiceLevelCatalog" class="Application\Model\Catalog\ServiceLevelCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="SessionCatalog" class="Application\Model\Catalog\SessionCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="TemplateEmailLogCatalog" class="Application\Model\Catalog\TemplateEmailLogCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="TemplateEmailCatalog" class="Application\Model\Catalog\TemplateEmailCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="TicketLogCatalog" class="Application\Model\Catalog\TicketLogCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="TicketTypeLogCatalog" class="Application\Model\Catalog\TicketTypeLogCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="TicketTypeCatalog" class="Application\Model\Catalog\TicketTypeCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="TicketCatalog" class="Application\Model\Catalog\TicketCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="WorkdayCatalog" class="Application\Model\Catalog\WorkdayCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="WorkweekLogCatalog" class="Application\Model\Catalog\WorkweekLogCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="WorkweekCatalog" class="Application\Model\Catalog\WorkweekCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="FileCatalog" class="Application\Model\Catalog\FileCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="FileTmpCatalog" class="Application\Model\Catalog\FileTmpCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="AttachmentCatalog" class="Application\Model\Catalog\AttachmentCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="TranslateCatalog" class="Application\Model\Catalog\TranslateCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="TicketClientCatalog" class="Application\Model\Catalog\TicketClientCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="BaseTicketCatalog" class="Application\Model\Catalog\BaseTicketCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="BranchCatalog" class="Application\Model\Catalog\BranchCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+		<service id="BranchLogCatalog" class="Application\Model\Catalog\BranchLogCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="RequiredDocumentCatalog" class="Application\Model\Catalog\RequiredDocumentCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="RequiredFieldCatalog" class="Application\Model\Catalog\RequiredFieldCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+		<service id="RequiredDocumentLogCatalog" class="Application\Model\Catalog\RequiredDocumentLogCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="RequiredFieldLogCatalog" class="Application\Model\Catalog\RequiredFieldLogCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+		 <service id="ClientCategoryCatalog" class="Application\Model\Catalog\ClientCategoryCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="ClientCategoryLogCatalog" class="Application\Model\Catalog\ClientCategoryLogCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="DocumentCatalog" class="Application\Model\Catalog\DocumentCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="DocumentLogCatalog" class="Application\Model\Catalog\DocumentLogCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="FieldCatalog" class="Application\Model\Catalog\FieldCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="FieldLogCatalog" class="Application\Model\Catalog\FieldLogCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="ClientCategoryResolutionCatalog" class="Application\Model\Catalog\ClientCategoryResolutionCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="ClientResolutionCatalog" class="Application\Model\Catalog\ClientResolutionCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="ClientResolutionLogCatalog" class="Application\Model\Catalog\ClientResolutionLogCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="TicketClientDocumentCatalog" class="Application\Model\Catalog\TicketClientDocumentCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="TicketClientFieldCatalog" class="Application\Model\Catalog\TicketClientFieldCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+		 <service id="CountryStateCatalog" class="Application\Model\Catalog\CountryStateCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="ReasonsCatalog" class="Application\Model\Catalog\ReasonsCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="ProductsCatalog" class="Application\Model\Catalog\ProductsCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>        
+        <service id="TicketsClientsTransactionsCatalog" class="Application\Model\Catalog\TicketsClientsTransactionsCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="TicketsClientsReopenCatalog" class="Application\Model\Catalog\TicketsClientsReopenCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+ 		<service id="TransactionsPartialitiesCatalog" class="Application\Model\Catalog\TransactionsPartialitiesCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>        
+        <service id="CommentsCatalog" class="Application\Model\Catalog\CommentsCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="ControversyChargebacksCatalog" class="Application\Model\Catalog\ControversyChargebacksCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="ControversyReasonsCatalog" class="Application\Model\Catalog\ControversyReasonsCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="ControversyIssuesCatalog" class="Application\Model\Catalog\ControversyIssuesCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="UserGroupCatalog" class="Application\Model\Catalog\UserGroupCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        <service id="ClientCategoriesProductsCatalog" class="Application\Model\Catalog\ClientCategoriesProductsCatalog">
+            <call method="setDBAO"><argument type="service" id="dbao" /></call>
+        </service>
+        
+    </services>
+</container>

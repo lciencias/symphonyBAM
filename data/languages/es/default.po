@@ -1,0 +1,4332 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Lips Promotions\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-24 10:48-0500\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Guadalupe <mgpolicarpo@pcsmexico.com>\n"
+"Language-Team: Pcs Mexico <vmendoza@pcsmexico.com>\n"
+"Language: es_MX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: gettext.c:1 gettext.c:744
+msgid "Ticket Client"
+msgstr "Ticket de Cliente"
+
+#: gettext.c:2
+msgid "Edit Password"
+msgstr "Editar Contraseña"
+
+#: gettext.c:3
+msgid "You must change your password, it has already expired"
+msgstr "Tiene que cambiar su contraseña, ya ha expirado"
+
+#: gettext.c:4
+msgid "The password cannot be repeated yet"
+msgstr "El password no puede ser repetido todavía"
+
+#: gettext.c:5
+msgid "None"
+msgstr "Ninguno"
+
+#: gettext.c:6
+msgid "To resolve this ticket again, you must reassign it"
+msgstr "Para resolver este ticket nuevamente, primero debe ser reasignado"
+
+#: gettext.c:7
+msgid "Show Client Information"
+msgstr "Información del Cliente"
+
+#: gettext.c:8
+msgid "Ticket Client Resolutions"
+msgstr "Resoluciones para Tickets de Cliente"
+
+#: gettext.c:9
+msgid "Branches"
+msgstr "Sucursales"
+
+#: gettext.c:10
+msgid "Ticket Client Categories"
+msgstr "Categorías (Clientes)"
+
+#: gettext.c:11
+msgid "My Client Tickets"
+msgstr "Tickets de Cliente Asignados"
+
+#: gettext.c:12
+msgid "Favorable"
+msgstr "Favorable"
+
+#: gettext.c:13
+msgid "Unfavorable"
+msgstr "Desfavorable"
+
+#: gettext.c:14
+msgid "favorable"
+msgstr "favorable"
+
+#: gettext.c:15
+msgid "unfavorable"
+msgstr "desfavorable"
+
+#: gettext.c:16 gettext.c:1571
+msgid "Catalogs"
+msgstr "Catálogos"
+
+#: gettext.c:17 gettext.c:1574
+msgid "Configuration"
+msgstr "Configuración"
+
+#: gettext.c:18 gettext.c:1572
+msgid "Security"
+msgstr "Seguridad"
+
+#: gettext.c:19 gettext.c:1576
+msgid "Reports"
+msgstr "Reportes"
+
+#: gettext.c:20 gettext.c:1589
+msgid "Locations"
+msgstr "Ubicaciones"
+
+#: gettext.c:21 gettext.c:1591
+msgid "Positions"
+msgstr "Puestos"
+
+#: gettext.c:22 gettext.c:1402
+msgid "Channels"
+msgstr "Canales"
+
+#: gettext.c:23 gettext.c:1578
+msgid "Groups"
+msgstr "Grupos"
+
+#: gettext.c:24 gettext.c:1401
+msgid "Categories"
+msgstr "Categorías"
+
+#: gettext.c:25 gettext.c:1583
+msgid "E-mail Templates"
+msgstr "Plantillas de E-mail"
+
+#: gettext.c:26 gettext.c:1582
+msgid "Holidays"
+msgstr "Días festivos"
+
+#: gettext.c:27 gettext.c:1596
+msgid "Search"
+msgstr "Buscar"
+
+#: gettext.c:28 gettext.c:1597
+msgid "My Tickets"
+msgstr "Mis Tickets"
+
+#: gettext.c:29 gettext.c:1598
+msgid "Tickets Assigned"
+msgstr "Tickets Asignados"
+
+#: gettext.c:30 gettext.c:1600
+msgid "New Self Ticket"
+msgstr "Nuevo Ticket"
+
+#: gettext.c:31 gettext.c:916 gettext.c:1510 gettext.c:1787
+msgid "New Ticket"
+msgstr "Nuevo Tickets"
+
+#: gettext.c:32
+msgid "Ticket Client list"
+msgstr "Lista de Tickets de Cliente"
+
+#: gettext.c:33 gettext.c:1767
+msgid "New Ticket Client"
+msgstr "Nuevo Ticket de Cliente"
+
+#: gettext.c:34
+msgid "Ticket Report"
+msgstr "Reporte de Tickets"
+
+#: gettext.c:35 gettext.c:901
+msgid "Select and option"
+msgstr "Seleccione una opción"
+
+#: gettext.c:36 gettext.c:902
+msgid "Dates"
+msgstr "Fechas"
+
+#: gettext.c:37 gettext.c:903
+msgid "Positive Numbers"
+msgstr "Números Positivos "
+
+#: gettext.c:38 gettext.c:904
+msgid "Numbers"
+msgstr "Números"
+
+#: gettext.c:39 gettext.c:905
+msgid "Just Characters"
+msgstr "Solo Caracteres"
+
+#: gettext.c:40 gettext.c:906 gettext.c:1526
+msgid "E-mail"
+msgstr "E-mail"
+
+#: gettext.c:41 gettext.c:44 gettext.c:45 gettext.c:48 gettext.c:50
+#: gettext.c:54 gettext.c:72 gettext.c:75 gettext.c:81 gettext.c:84
+#: gettext.c:86 gettext.c:89
+msgid "La sucursal ha sido desactivada correctamente"
+msgstr "La sucursal ha sido desactivada correctamente"
+
+#: gettext.c:42 gettext.c:46 gettext.c:52 gettext.c:73 gettext.c:82
+#: gettext.c:87
+msgid "La sucursal ha sido creada correctamente"
+msgstr "La sucursal ha sido creada correctamente"
+
+#: gettext.c:43 gettext.c:47 gettext.c:53 gettext.c:74 gettext.c:83
+#: gettext.c:88
+msgid "La sucursal ha sido actualizada correctamente"
+msgstr "La sucursal ha sido actualizada correctamente"
+
+#: gettext.c:49 gettext.c:51
+msgid "Select One"
+msgstr "Seleccione uno"
+
+#: gettext.c:55 gettext.c:68 gettext.c:71 gettext.c:76 gettext.c:80
+#: gettext.c:85 gettext.c:90 gettext.c:91 gettext.c:92 gettext.c:110
+#: gettext.c:113 gettext.c:114 gettext.c:547 gettext.c:900 gettext.c:1121
+#: gettext.c:1365 gettext.c:1366 gettext.c:1382 gettext.c:1384 gettext.c:1392
+#: gettext.c:1393 gettext.c:1394 gettext.c:1395
+msgid "All"
+msgstr "Todo"
+
+#: gettext.c:56
+msgid "The ticket has been created."
+msgstr "El ticket se ha creado."
+
+#: gettext.c:57
+msgid "The ticket has been updated."
+msgstr "El ticket se ha actualizado."
+
+#: gettext.c:58
+msgid "The ticket has been canceled."
+msgstr "El ticket se ha cancelado."
+
+#: gettext.c:59 gettext.c:100
+msgid "The ticket has been set as working on it."
+msgstr "El ticket se ha marcado como trabajando."
+
+#: gettext.c:60 gettext.c:103
+msgid "The ticket has been read."
+msgstr "El ticket se ha leido."
+
+#: gettext.c:61 gettext.c:102
+msgid "The ticket has been reopened."
+msgstr "El ticket se ha reabierto."
+
+#: gettext.c:62 gettext.c:104
+msgid "The ticket has been closed."
+msgstr "El ticket se ha cerrado."
+
+#: gettext.c:63 gettext.c:109
+msgid "The ticket has been resolved."
+msgstr "El ticket se ha resuelto."
+
+#: gettext.c:64 gettext.c:1383
+msgid "The user not exists"
+msgstr "El usuario no existe"
+
+#: gettext.c:65 gettext.c:107 gettext.c:108
+msgid "The ticket has been assigned."
+msgstr "El ticket se ha asignado."
+
+#: gettext.c:66 gettext.c:106
+msgid "The ticket has been paused."
+msgstr "El ticket se ha pausado."
+
+#: gettext.c:67 gettext.c:105
+msgid "The ticket has been resumed."
+msgstr "El ticket se ha reanudado."
+
+#: gettext.c:69 gettext.c:1385
+msgid "The Assignment not exists"
+msgstr "La asignación no existe"
+
+#: gettext.c:70 gettext.c:1386
+msgid "The User not exists"
+msgstr "El usuario no existe"
+
+#: gettext.c:77
+msgid "Configuraciï¿½n de Facultades"
+msgstr "Configuración de Facultades"
+
+#: gettext.c:78
+msgid "The menu cannot be saved"
+msgstr "El menú no pudo ser guardado"
+
+#: gettext.c:79
+msgid "The menu was saved"
+msgstr "El menú se ha guardado"
+
+#: gettext.c:93 gettext.c:96
+msgid " hours "
+msgstr " horas "
+
+#: gettext.c:94 gettext.c:97
+msgid " minutes "
+msgstr " minutos "
+
+#: gettext.c:95 gettext.c:98
+msgid " seconds"
+msgstr " segundos"
+
+#: gettext.c:99
+msgid "The ticket has been updated"
+msgstr "El ticket se ha actualizado"
+
+#: gettext.c:101
+msgid "The ticket has been cancel."
+msgstr "El ticket ha sido cancelado"
+
+#: gettext.c:111 gettext.c:1387
+msgid "This field is required."
+msgstr "Este campo es obligatorio"
+
+#: gettext.c:112 gettext.c:1388 gettext.c:1664
+msgid "Select"
+msgstr "Seleccionar"
+
+#: gettext.c:115 gettext.c:117 gettext.c:258 gettext.c:1235 gettext.c:1236
+#: gettext.c:1389 gettext.c:1391
+msgid "Login"
+msgstr "Iniciar"
+
+#: gettext.c:116 gettext.c:1390 gettext.c:1846
+msgid "You must specify user and password"
+msgstr "Usted debe especificar usuario y contraseña"
+
+#: gettext.c:118 gettext.c:127 gettext.c:336 gettext.c:354 gettext.c:371
+#: gettext.c:397 gettext.c:478 gettext.c:499 gettext.c:529 gettext.c:539
+#: gettext.c:1007 gettext.c:1318
+msgid "Location"
+msgstr "Ubicación"
+
+#: gettext.c:119 gettext.c:154 gettext.c:171 gettext.c:211 gettext.c:239
+#: gettext.c:262 gettext.c:276 gettext.c:291 gettext.c:309 gettext.c:360
+#: gettext.c:441 gettext.c:507 gettext.c:577 gettext.c:601 gettext.c:618
+#: gettext.c:635 gettext.c:684 gettext.c:731 gettext.c:805 gettext.c:823
+#: gettext.c:870 gettext.c:964 gettext.c:976 gettext.c:1015 gettext.c:1035
+#: gettext.c:1060 gettext.c:1079 gettext.c:1115 gettext.c:1129 gettext.c:1151
+#: gettext.c:1164 gettext.c:1176 gettext.c:1205 gettext.c:1220 gettext.c:1254
+#: gettext.c:1285 gettext.c:1308 gettext.c:1324 gettext.c:1344 gettext.c:1361
+msgid "Tracking"
+msgstr "Historial"
+
+#: gettext.c:120 gettext.c:140 gettext.c:155 gettext.c:172 gettext.c:212
+#: gettext.c:240 gettext.c:263 gettext.c:277 gettext.c:292 gettext.c:310
+#: gettext.c:361 gettext.c:430 gettext.c:442 gettext.c:508 gettext.c:578
+#: gettext.c:602 gettext.c:619 gettext.c:634 gettext.c:636 gettext.c:662
+#: gettext.c:685 gettext.c:732 gettext.c:824 gettext.c:829 gettext.c:871
+#: gettext.c:965 gettext.c:977 gettext.c:982 gettext.c:1016 gettext.c:1036
+#: gettext.c:1061 gettext.c:1080 gettext.c:1116 gettext.c:1130 gettext.c:1152
+#: gettext.c:1165 gettext.c:1177 gettext.c:1206 gettext.c:1221 gettext.c:1237
+#: gettext.c:1255 gettext.c:1286 gettext.c:1309 gettext.c:1325 gettext.c:1329
+#: gettext.c:1335 gettext.c:1338 gettext.c:1345 gettext.c:1362
+msgid "User"
+msgstr "Usuario"
+
+#: gettext.c:121 gettext.c:156 gettext.c:173 gettext.c:213 gettext.c:241
+#: gettext.c:264 gettext.c:278 gettext.c:293 gettext.c:311 gettext.c:362
+#: gettext.c:443 gettext.c:509 gettext.c:579 gettext.c:603 gettext.c:620
+#: gettext.c:637 gettext.c:686 gettext.c:733 gettext.c:825 gettext.c:872
+#: gettext.c:966 gettext.c:978 gettext.c:1017 gettext.c:1037 gettext.c:1062
+#: gettext.c:1081 gettext.c:1117 gettext.c:1131 gettext.c:1153 gettext.c:1166
+#: gettext.c:1178 gettext.c:1207 gettext.c:1222 gettext.c:1258 gettext.c:1287
+#: gettext.c:1310 gettext.c:1326 gettext.c:1346 gettext.c:1363
+msgid "Event Type"
+msgstr "Tipo de Evento"
+
+#: gettext.c:122 gettext.c:157 gettext.c:174 gettext.c:214 gettext.c:242
+#: gettext.c:265 gettext.c:279 gettext.c:294 gettext.c:312 gettext.c:363
+#: gettext.c:411 gettext.c:444 gettext.c:510 gettext.c:580 gettext.c:604
+#: gettext.c:621 gettext.c:638 gettext.c:687 gettext.c:698 gettext.c:734
+#: gettext.c:826 gettext.c:873 gettext.c:967 gettext.c:979 gettext.c:1018
+#: gettext.c:1038 gettext.c:1063 gettext.c:1082 gettext.c:1118 gettext.c:1132
+#: gettext.c:1154 gettext.c:1167 gettext.c:1179 gettext.c:1208 gettext.c:1223
+#: gettext.c:1230 gettext.c:1259 gettext.c:1288 gettext.c:1291 gettext.c:1311
+#: gettext.c:1327 gettext.c:1347 gettext.c:1364
+msgid "Date"
+msgstr "Fecha"
+
+#: gettext.c:123 gettext.c:131 gettext.c:243 gettext.c:249 gettext.c:280
+#: gettext.c:287 gettext.c:335 gettext.c:351 gettext.c:368 gettext.c:388
+#: gettext.c:396 gettext.c:460 gettext.c:466 gettext.c:471 gettext.c:477
+#: gettext.c:497 gettext.c:525 gettext.c:531 gettext.c:538 gettext.c:562
+#: gettext.c:576 gettext.c:692 gettext.c:1000
+msgid "Company"
+msgstr "Empresa"
+
+#: gettext.c:124 gettext.c:130 gettext.c:158 gettext.c:163 gettext.c:181
+#: gettext.c:189 gettext.c:194 gettext.c:215 gettext.c:221 gettext.c:225
+#: gettext.c:230 gettext.c:235 gettext.c:250 gettext.c:266 gettext.c:272
+#: gettext.c:286 gettext.c:299 gettext.c:305 gettext.c:313 gettext.c:319
+#: gettext.c:323 gettext.c:326 gettext.c:331 gettext.c:365 gettext.c:387
+#: gettext.c:395 gettext.c:415 gettext.c:419 gettext.c:420 gettext.c:425
+#: gettext.c:434 gettext.c:451 gettext.c:457 gettext.c:530 gettext.c:537
+#: gettext.c:573 gettext.c:581 gettext.c:587 gettext.c:591 gettext.c:605
+#: gettext.c:611 gettext.c:629 gettext.c:661 gettext.c:669 gettext.c:673
+#: gettext.c:679 gettext.c:702 gettext.c:723 gettext.c:735 gettext.c:741
+#: gettext.c:748 gettext.c:775 gettext.c:874 gettext.c:880 gettext.c:896
+#: gettext.c:955 gettext.c:959 gettext.c:968 gettext.c:973 gettext.c:999
+#: gettext.c:1006 gettext.c:1027 gettext.c:1032 gettext.c:1052 gettext.c:1057
+#: gettext.c:1064 gettext.c:1068 gettext.c:1126 gettext.c:1134 gettext.c:1143
+#: gettext.c:1148 gettext.c:1160 gettext.c:1172 gettext.c:1173 gettext.c:1197
+#: gettext.c:1202 gettext.c:1215 gettext.c:1244 gettext.c:1249 gettext.c:1268
+#: gettext.c:1277 gettext.c:1282 gettext.c:1299 gettext.c:1305 gettext.c:1316
+#: gettext.c:1321 gettext.c:1337
+msgid "Name"
+msgstr "Nombre"
+
+#: gettext.c:125 gettext.c:132 gettext.c:159 gettext.c:168 gettext.c:176
+#: gettext.c:183 gettext.c:195 gettext.c:216 gettext.c:222 gettext.c:236
+#: gettext.c:244 gettext.c:251 gettext.c:267 gettext.c:273 gettext.c:281
+#: gettext.c:288 gettext.c:300 gettext.c:306 gettext.c:314 gettext.c:320
+#: gettext.c:332 gettext.c:334 gettext.c:353 gettext.c:390 gettext.c:401
+#: gettext.c:427 gettext.c:452 gettext.c:458 gettext.c:487 gettext.c:495
+#: gettext.c:523 gettext.c:533 gettext.c:543 gettext.c:568 gettext.c:582
+#: gettext.c:588 gettext.c:606 gettext.c:615 gettext.c:624 gettext.c:632
+#: gettext.c:657 gettext.c:666 gettext.c:681 gettext.c:736 gettext.c:742
+#: gettext.c:848 gettext.c:867 gettext.c:875 gettext.c:881 gettext.c:956
+#: gettext.c:961 gettext.c:969 gettext.c:974 gettext.c:1002 gettext.c:1011
+#: gettext.c:1028 gettext.c:1033 gettext.c:1053 gettext.c:1058 gettext.c:1065
+#: gettext.c:1077 gettext.c:1086 gettext.c:1102 gettext.c:1122 gettext.c:1127
+#: gettext.c:1144 gettext.c:1149 gettext.c:1156 gettext.c:1162 gettext.c:1168
+#: gettext.c:1174 gettext.c:1198 gettext.c:1203 gettext.c:1211 gettext.c:1218
+#: gettext.c:1245 gettext.c:1250 gettext.c:1278 gettext.c:1283 gettext.c:1300
+#: gettext.c:1306 gettext.c:1317 gettext.c:1322 gettext.c:1334 gettext.c:1342
+msgid "Status"
+msgstr "Estatus"
+
+#: gettext.c:126 gettext.c:160 gettext.c:177 gettext.c:190 gettext.c:217
+#: gettext.c:231 gettext.c:245 gettext.c:268 gettext.c:282 gettext.c:301
+#: gettext.c:315 gettext.c:327 gettext.c:349 gettext.c:391 gettext.c:421
+#: gettext.c:453 gettext.c:467 gettext.c:493 gettext.c:522 gettext.c:534
+#: gettext.c:583 gettext.c:607 gettext.c:625 gettext.c:658 gettext.c:675
+#: gettext.c:693 gettext.c:737 gettext.c:777 gettext.c:847 gettext.c:876
+#: gettext.c:1396
+msgid "Filter"
+msgstr "Filtrar"
+
+#: gettext.c:128 gettext.c:162 gettext.c:179 gettext.c:192 gettext.c:219
+#: gettext.c:233 gettext.c:247 gettext.c:270 gettext.c:284 gettext.c:303
+#: gettext.c:317 gettext.c:329 gettext.c:393 gettext.c:423 gettext.c:455
+#: gettext.c:469 gettext.c:585 gettext.c:609 gettext.c:627 gettext.c:660
+#: gettext.c:677 gettext.c:697 gettext.c:739 gettext.c:856 gettext.c:878
+#: gettext.c:958 gettext.c:971 gettext.c:1004 gettext.c:1030 gettext.c:1055
+#: gettext.c:1067 gettext.c:1124 gettext.c:1146 gettext.c:1158 gettext.c:1170
+#: gettext.c:1183 gettext.c:1200 gettext.c:1213 gettext.c:1247 gettext.c:1280
+#: gettext.c:1290 gettext.c:1303 gettext.c:1319 gettext.c:1336
+msgid "New"
+msgstr "Nuevo"
+
+#: gettext.c:129 gettext.c:139 gettext.c:180 gettext.c:193 gettext.c:220
+#: gettext.c:234 gettext.c:248 gettext.c:271 gettext.c:285 gettext.c:304
+#: gettext.c:318 gettext.c:330 gettext.c:394 gettext.c:409 gettext.c:424
+#: gettext.c:456 gettext.c:536 gettext.c:560 gettext.c:586 gettext.c:610
+#: gettext.c:628 gettext.c:678 gettext.c:716 gettext.c:740 gettext.c:857
+#: gettext.c:879 gettext.c:972 gettext.c:981 gettext.c:1005 gettext.c:1031
+#: gettext.c:1056 gettext.c:1094 gettext.c:1125 gettext.c:1147 gettext.c:1159
+#: gettext.c:1171 gettext.c:1201 gettext.c:1214 gettext.c:1228 gettext.c:1248
+#: gettext.c:1281 gettext.c:1304 gettext.c:1320
+msgid "#"
+msgstr "#"
+
+#: gettext.c:133 gettext.c:169 gettext.c:184 gettext.c:196 gettext.c:223
+#: gettext.c:237 gettext.c:252 gettext.c:274 gettext.c:289 gettext.c:307
+#: gettext.c:321 gettext.c:333 gettext.c:402 gettext.c:412 gettext.c:428
+#: gettext.c:432 gettext.c:459 gettext.c:476 gettext.c:544 gettext.c:569
+#: gettext.c:589 gettext.c:616 gettext.c:633 gettext.c:667 gettext.c:682
+#: gettext.c:700 gettext.c:720 gettext.c:743 gettext.c:868 gettext.c:882
+#: gettext.c:899 gettext.c:963 gettext.c:975 gettext.c:1012 gettext.c:1034
+#: gettext.c:1059 gettext.c:1078 gettext.c:1103 gettext.c:1128 gettext.c:1150
+#: gettext.c:1163 gettext.c:1175 gettext.c:1189 gettext.c:1204 gettext.c:1219
+#: gettext.c:1231 gettext.c:1253 gettext.c:1271 gettext.c:1284 gettext.c:1292
+#: gettext.c:1307 gettext.c:1323 gettext.c:1331 gettext.c:1343
+msgid "Actions"
+msgstr "Acciones"
+
+#: gettext.c:134
+msgid "Upload Activities"
+msgstr "Cargar Actividades"
+
+#: gettext.c:135 gettext.c:384 gettext.c:410 gettext.c:513 gettext.c:640
+#: gettext.c:689 gettext.c:1229
+msgid "File"
+msgstr "Archivo"
+
+#: gettext.c:136 gettext.c:385 gettext.c:406 gettext.c:514 gettext.c:641
+#: gettext.c:690 gettext.c:1224
+msgid "Upload"
+msgstr "Subir"
+
+#: gettext.c:137 gettext.c:229 gettext.c:257 gettext.c:325 gettext.c:382
+#: gettext.c:386 gettext.c:407 gettext.c:418 gettext.c:440 gettext.c:465
+#: gettext.c:515 gettext.c:600 gettext.c:642 gettext.c:672 gettext.c:691
+#: gettext.c:711 gettext.c:730 gettext.c:889 gettext.c:954 gettext.c:998
+#: gettext.c:1026 gettext.c:1142 gettext.c:1181 gettext.c:1196 gettext.c:1225
+#: gettext.c:1234 gettext.c:1276
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: gettext.c:138 gettext.c:348 gettext.c:803 gettext.c:828 gettext.c:980
+#: gettext.c:1545 gettext.c:1580
+msgid "Activities"
+msgstr "Actividades"
+
+#: gettext.c:141 gettext.c:830 gettext.c:983
+msgid "Start Date"
+msgstr "Fecha de Inicio"
+
+#: gettext.c:142 gettext.c:831 gettext.c:986
+msgid "End Date"
+msgstr "Fecha de Fin"
+
+#: gettext.c:143 gettext.c:166 gettext.c:491 gettext.c:989 gettext.c:1075
+msgid "Duration"
+msgstr "Duración"
+
+#: gettext.c:144 gettext.c:167 gettext.c:706 gettext.c:832 gettext.c:990
+#: gettext.c:1076
+msgid "Note"
+msgstr "Nota"
+
+#: gettext.c:145 gettext.c:705 gettext.c:1564
+msgid "Service Level"
+msgstr "Nivel de Servicio"
+
+#: gettext.c:146 gettext.c:165 gettext.c:1070
+msgid "Resolution Time"
+msgstr "Tiempo de Resolución"
+
+#: gettext.c:147 gettext.c:151
+msgid "Days"
+msgstr "Días"
+
+#: gettext.c:148 gettext.c:152 gettext.c:939
+msgid "Hours"
+msgstr "Horas"
+
+#: gettext.c:149 gettext.c:153 gettext.c:940
+msgid "Minutes"
+msgstr "Minutos"
+
+#: gettext.c:150 gettext.c:164 gettext.c:1069
+msgid "Response Time"
+msgstr "Tiempo de Respuesta"
+
+#: gettext.c:161 gettext.c:1066 gettext.c:1594
+msgid "Service Levels"
+msgstr "Niveles de Servicio"
+
+#: gettext.c:170 gettext.c:178 gettext.c:414 gettext.c:1071 gettext.c:1157
+msgid "Resolution"
+msgstr "Resolución"
+
+#: gettext.c:175 gettext.c:182 gettext.c:416 gettext.c:426 gettext.c:521
+#: gettext.c:728 gettext.c:846 gettext.c:860 gettext.c:1085 gettext.c:1155
+#: gettext.c:1161 gettext.c:1194
+msgid "Type"
+msgstr "Tipo"
+
+#: gettext.c:185 gettext.c:668
+msgid "Sucursal"
+msgstr "Sucursal"
+
+#: gettext.c:186 gettext.c:298 gettext.c:645 gettext.c:1297 gettext.c:1315
+#: gettext.c:1350
+msgid "Nombre"
+msgstr "Nombre"
+
+#: gettext.c:187 gettext.c:296 gettext.c:653 gettext.c:1313 gettext.c:1358
+msgid "Guardar"
+msgstr "Guardar"
+
+#: gettext.c:188 gettext.c:654 gettext.c:1359
+msgid "Cancelar"
+msgstr "Cancelar"
+
+#: gettext.c:191
+msgid "Required Field"
+msgstr "Campo Requerido"
+
+#: gettext.c:197 gettext.c:1039
+msgid "Error"
+msgstr "Error"
+
+#: gettext.c:198 gettext.c:1042
+msgid "Datos Personales"
+msgstr "Datos Personales"
+
+#: gettext.c:199 gettext.c:1043
+msgid "Nombre de Usuario"
+msgstr "Nombre de Usuario"
+
+#: gettext.c:200 gettext.c:1044
+msgid "Nombre Completo"
+msgstr "Nombre Completo"
+
+#: gettext.c:201 gettext.c:1045
+msgid "Último Inicio de Sesión"
+msgstr "Último Inicio de Sesión"
+
+#: gettext.c:202 gettext.c:1046
+msgid "Iniciada desde"
+msgstr "Iniciada desde"
+
+#: gettext.c:203 gettext.c:1040
+msgid "Welcome"
+msgstr "Bienvenido"
+
+#: gettext.c:204 gettext.c:1074
+msgid "Logout"
+msgstr "Salir"
+
+#: gettext.c:205 gettext.c:1047
+msgid "Confirmar"
+msgstr "Confirmar"
+
+#: gettext.c:206 gettext.c:404 gettext.c:546 gettext.c:884 gettext.c:891
+#: gettext.c:1014 gettext.c:1048 gettext.c:1261 gettext.c:1263 gettext.c:1726
+msgid "No"
+msgstr "No"
+
+#: gettext.c:207 gettext.c:1049
+msgid "Si"
+msgstr "Si"
+
+#: gettext.c:208 gettext.c:1050
+msgid "Mensaje"
+msgstr "Mensaje"
+
+#: gettext.c:209 gettext.c:1051
+msgid "Ok"
+msgstr "Ok"
+
+#: gettext.c:210 gettext.c:218 gettext.c:345 gettext.c:356 gettext.c:486
+#: gettext.c:496 gettext.c:524 gettext.c:565 gettext.c:807 gettext.c:849
+#: gettext.c:861 gettext.c:1089 gettext.c:1098 gettext.c:1279
+msgid "Channel"
+msgstr "Canal"
+
+#: gettext.c:224 gettext.c:232
+msgid "Field"
+msgstr "Datos Requeridos"
+
+#: gettext.c:226
+msgid "Validators"
+msgstr "Validadores"
+
+#: gettext.c:227
+msgid "Sample"
+msgstr "Ejemplo"
+
+#: gettext.c:228 gettext.c:256 gettext.c:324 gettext.c:381 gettext.c:417
+#: gettext.c:439 gettext.c:464 gettext.c:548 gettext.c:599 gettext.c:671
+#: gettext.c:710 gettext.c:721 gettext.c:729 gettext.c:813 gettext.c:843
+#: gettext.c:888 gettext.c:953 gettext.c:997 gettext.c:1025 gettext.c:1104
+#: gettext.c:1141 gettext.c:1180 gettext.c:1195 gettext.c:1233 gettext.c:1275
+msgid "Save"
+msgstr "Guardar"
+
+#: gettext.c:238 gettext.c:246 gettext.c:337 gettext.c:355 gettext.c:370
+#: gettext.c:389 gettext.c:398 gettext.c:479 gettext.c:500 gettext.c:532
+#: gettext.c:540 gettext.c:1001 gettext.c:1008 gettext.c:1169
+msgid "Area"
+msgstr "Área"
+
+#: gettext.c:253 gettext.c:1241
+msgid "Facultades de Usuarios"
+msgstr "Facultades de Usuarios"
+
+#: gettext.c:254 gettext.c:1242
+msgid "Facultades de Usuario por Grupo de Usuario"
+msgstr "Facultades de Usuario por Grupo de Usuario"
+
+#: gettext.c:255 gettext.c:1243
+msgid "Acción/Grupo de Usuario"
+msgstr "Acción/Grupo de Usuario"
+
+#: gettext.c:259 gettext.c:656 gettext.c:1333
+msgid "Username"
+msgstr "Nombre de Usuario"
+
+#: gettext.c:260 gettext.c:1238
+msgid "Password"
+msgstr "Contraseña"
+
+#: gettext.c:261 gettext.c:269 gettext.c:970 gettext.c:1088 gettext.c:1100
+msgid "Impact"
+msgstr "Impacto"
+
+#: gettext.c:275 gettext.c:283 gettext.c:369 gettext.c:399 gettext.c:541
+#: gettext.c:1009 gettext.c:1123
+msgid "Position"
+msgstr "Puesto"
+
+#: gettext.c:290 gettext.c:302 gettext.c:1301
+msgid "Access Role"
+msgstr "Perfil"
+
+#: gettext.c:295 gettext.c:1312
+msgid "Editar Grupo de Usuario"
+msgstr "Editar Grupo de Usuario"
+
+#: gettext.c:297 gettext.c:1314
+msgid "Regresar"
+msgstr "Regresar"
+
+#: gettext.c:308 gettext.c:342 gettext.c:483 gettext.c:564 gettext.c:806
+#: gettext.c:1097 gettext.c:1629
+msgid "Ticket Type"
+msgstr "Tipo de Ticket"
+
+#: gettext.c:316 gettext.c:1246 gettext.c:1595
+msgid "Ticket Types"
+msgstr "Tipos de Tickets"
+
+#: gettext.c:322 gettext.c:328
+msgid "Document"
+msgstr "Documentos"
+
+#: gettext.c:338 gettext.c:480 gettext.c:1372
+msgid "Registered By"
+msgstr "Registrado por"
+
+#: gettext.c:339 gettext.c:357 gettext.c:481 gettext.c:501 gettext.c:517
+#: gettext.c:567 gettext.c:1119
+msgid "Register Date"
+msgstr "Fecha de registro"
+
+#: gettext.c:340 gettext.c:482
+msgid "Ticket #"
+msgstr "# Ticket"
+
+#: gettext.c:341 gettext.c:492 gettext.c:812 gettext.c:886 gettext.c:897
+#: gettext.c:1269 gettext.c:1273 gettext.c:1620 gettext.c:1640
+msgid "Description"
+msgstr "Descripción"
+
+#: gettext.c:343 gettext.c:352 gettext.c:484 gettext.c:498 gettext.c:526
+#: gettext.c:563 gettext.c:683 gettext.c:701 gettext.c:811 gettext.c:850
+#: gettext.c:862 gettext.c:1090 gettext.c:1096
+msgid "Category"
+msgstr "Categoria"
+
+#: gettext.c:344 gettext.c:485 gettext.c:617 gettext.c:626 gettext.c:664
+#: gettext.c:704 gettext.c:1212 gettext.c:1340
+msgid "Group"
+msgstr "Grupo"
+
+#: gettext.c:346 gettext.c:488 gettext.c:518 gettext.c:1120
+msgid "Assigned User"
+msgstr "Usuario Asignado"
+
+#: gettext.c:347
+msgid "Last Status Change"
+msgstr "Último cambio de estatus"
+
+#: gettext.c:350 gettext.c:413 gettext.c:494 gettext.c:745 gettext.c:1232
+msgid "Download"
+msgstr "Descargar "
+
+#: gettext.c:358 gettext.c:502 gettext.c:505 gettext.c:1368 gettext.c:1632
+msgid "From"
+msgstr "De"
+
+#: gettext.c:359 gettext.c:503 gettext.c:506 gettext.c:1369
+msgid "To"
+msgstr "A"
+
+#: gettext.c:364 gettext.c:392 gettext.c:520 gettext.c:535 gettext.c:561
+#: gettext.c:1003 gettext.c:1084 gettext.c:1095
+msgid "Employee"
+msgstr "Empleado"
+
+#: gettext.c:366 gettext.c:1523
+msgid "Last Name"
+msgstr "Apellido Paterno"
+
+#: gettext.c:367 gettext.c:1522
+msgid "Middle Name"
+msgstr "Apellido Materno"
+
+#: gettext.c:372 gettext.c:594 gettext.c:613 gettext.c:943
+msgid "Language"
+msgstr "Lenguaje"
+
+#: gettext.c:373 gettext.c:377 gettext.c:724 gettext.c:725 gettext.c:892
+#: gettext.c:893 gettext.c:894 gettext.c:1190 gettext.c:1191 gettext.c:1264
+#: gettext.c:1265 gettext.c:1266
+msgid "Add."
+msgstr "Agregar."
+
+#: gettext.c:374 gettext.c:1525
+msgid "Phone number"
+msgstr "Numero Telefónico"
+
+#: gettext.c:375 gettext.c:379 gettext.c:726 gettext.c:992 gettext.c:995
+#: gettext.c:996 gettext.c:1020 gettext.c:1021 gettext.c:1023 gettext.c:1024
+#: gettext.c:1192 gettext.c:1293
+msgid "Delete"
+msgstr "Eliminar"
+
+#: gettext.c:376
+msgid "Ext."
+msgstr "Ext."
+
+#: gettext.c:378 gettext.c:1528 gettext.c:1655
+msgid "Email"
+msgstr "E-mail"
+
+#: gettext.c:380 gettext.c:1529
+msgid "Is Vip"
+msgstr "Vip"
+
+#: gettext.c:383
+msgid "Upload Employees"
+msgstr "Cargar Empleados"
+
+#: gettext.c:400 gettext.c:542 gettext.c:1010
+msgid "Vip"
+msgstr "Vip"
+
+#: gettext.c:403 gettext.c:545 gettext.c:883 gettext.c:890 gettext.c:1013
+#: gettext.c:1260 gettext.c:1262 gettext.c:1725
+msgid "Yes"
+msgstr "Si"
+
+#: gettext.c:405 gettext.c:1227 gettext.c:1562
+msgid "Attachment"
+msgstr "Archivo Adjunto"
+
+#: gettext.c:408 gettext.c:1226
+msgid "Attachments"
+msgstr "Archivo Adjunto"
+
+#: gettext.c:422
+msgid "Resolutions for Client Tickets"
+msgstr "Resoluciones para Tickets de Cliente"
+
+#: gettext.c:429 gettext.c:1328 gettext.c:1581
+msgid "Sessions"
+msgstr "Sesiones"
+
+#: gettext.c:431 gettext.c:1330
+msgid "Last Request"
+msgstr "Ultimo Inicio"
+
+#: gettext.c:433 gettext.c:623 gettext.c:631 gettext.c:1133 gettext.c:1145
+#: gettext.c:1210 gettext.c:1217
+msgid "Schedule"
+msgstr "Horario"
+
+#: gettext.c:435 gettext.c:446 gettext.c:1135
+msgid "Start Time"
+msgstr "Hora de Inicio"
+
+#: gettext.c:436 gettext.c:447 gettext.c:1136
+msgid "Lunch Start Time"
+msgstr "Hora de comida"
+
+#: gettext.c:437 gettext.c:448 gettext.c:1137
+msgid "Lunch End Time"
+msgstr "Hora de Regreso"
+
+#: gettext.c:438 gettext.c:449 gettext.c:1138
+msgid "End Time"
+msgstr "Hora de Fin"
+
+#: gettext.c:445
+msgid "Schedule of"
+msgstr "Horario"
+
+#: gettext.c:450
+msgid "Tolerance(minutes)"
+msgstr "Tolerancia (en minutos)"
+
+#: gettext.c:454 gettext.c:1584
+msgid "Schedules"
+msgstr "Horarios"
+
+#: gettext.c:461 gettext.c:472 gettext.c:1185
+msgid "Logo"
+msgstr "Logo"
+
+#: gettext.c:462
+msgid "Background color"
+msgstr "Color de Fondo"
+
+#: gettext.c:463
+msgid "Font size"
+msgstr "Tamaño de Letra"
+
+#: gettext.c:468 gettext.c:1182
+msgid "Customize"
+msgstr "Personalizar"
+
+#: gettext.c:470 gettext.c:960 gettext.c:1184
+msgid "Id"
+msgstr "Id"
+
+#: gettext.c:473
+msgid "Background Color"
+msgstr "Color de Fondo"
+
+#: gettext.c:474
+msgid "Forward Color"
+msgstr "Color de Frente"
+
+#: gettext.c:475
+msgid "Font Size"
+msgstr "Tamaño de Letra"
+
+#: gettext.c:489 gettext.c:504 gettext.c:1371
+msgid "Activity Date"
+msgstr "Fecha de la Actividad"
+
+#: gettext.c:490 gettext.c:1373
+msgid "Activity Finished"
+msgstr "Fin de la Actividad"
+
+#: gettext.c:511 gettext.c:709 gettext.c:827 gettext.c:1593
+msgid "Resolutions"
+msgstr "Resoluciones"
+
+#: gettext.c:512
+msgid "Upload Tickets"
+msgstr "Cargar Tickets"
+
+#: gettext.c:516 gettext.c:804 gettext.c:838 gettext.c:1083
+msgid "Resolve"
+msgstr "Resolver"
+
+#: gettext.c:519
+msgid "Ticket Number"
+msgstr "Número de Ticket"
+
+#: gettext.c:527 gettext.c:566 gettext.c:853 gettext.c:1091 gettext.c:1101
+msgid "Registered by"
+msgstr "Registrado por"
+
+#: gettext.c:528 gettext.c:854 gettext.c:866 gettext.c:1092
+msgid "Assigned to"
+msgstr "Asignado a"
+
+#: gettext.c:549 gettext.c:1105
+msgid "Back"
+msgstr "Regresar"
+
+#: gettext.c:550 gettext.c:815 gettext.c:1106
+msgid "Cancel Ticker"
+msgstr "Cancelar Ticket"
+
+#: gettext.c:551 gettext.c:816 gettext.c:1107
+msgid "This ticket will be canceled. Are you sure?"
+msgstr "Este Ticket será cancelado. ¿Está seguro?"
+
+#: gettext.c:552 gettext.c:817 gettext.c:1108
+msgid "Cancel Ticket"
+msgstr "Cancelar Ticket"
+
+#: gettext.c:553 gettext.c:818 gettext.c:929 gettext.c:1109
+msgid "Working"
+msgstr "Trabajando"
+
+#: gettext.c:554 gettext.c:1110
+msgid "Mark as Read"
+msgstr "Marcar como leído"
+
+#: gettext.c:555 gettext.c:819 gettext.c:931 gettext.c:1111
+msgid "Reopen"
+msgstr "Reabrir"
+
+#: gettext.c:556 gettext.c:820 gettext.c:1112
+msgid "Close Ticket"
+msgstr "Cerrar Ticket"
+
+#: gettext.c:557 gettext.c:821 gettext.c:1113
+msgid "Resume"
+msgstr "Quitar pausa"
+
+#: gettext.c:558 gettext.c:822 gettext.c:1114
+msgid "Pause"
+msgstr "Pausar"
+
+#: gettext.c:559 gettext.c:855 gettext.c:1093 gettext.c:1575
+msgid "Tickets"
+msgstr "Tickets"
+
+#: gettext.c:570
+msgid "User Menu"
+msgstr "Menú de Usuario"
+
+#: gettext.c:571
+msgid "Shares Available"
+msgstr "?????? Disponibles"
+
+#: gettext.c:572
+msgid "Add Item"
+msgstr "Agregar Elemento"
+
+#: gettext.c:574
+msgid "Results Menu"
+msgstr "Menú de Resultados"
+
+#: gettext.c:575
+msgid "The path you are specifying does not exist"
+msgstr "La ruta que está especificando no existe"
+
+#: gettext.c:584 gettext.c:1054 gettext.c:1586
+msgid "Companies"
+msgstr "Empresas"
+
+#: gettext.c:590 gettext.c:1565
+msgid "Template Email"
+msgstr "Diseño de Correos"
+
+#: gettext.c:592 gettext.c:1555
+msgid "Subject"
+msgstr "Asunto"
+
+#: gettext.c:593 gettext.c:612 gettext.c:1554
+msgid "Event"
+msgstr "Evento"
+
+#: gettext.c:595 gettext.c:1556
+msgid "Account"
+msgstr "Cuenta"
+
+#: gettext.c:596 gettext.c:1483
+msgid "To employee"
+msgstr "A Empleado"
+
+#: gettext.c:597 gettext.c:1485
+msgid "To user"
+msgstr "A Usuario"
+
+#: gettext.c:598 gettext.c:1484
+msgid "To group"
+msgstr "A Grupo"
+
+#: gettext.c:608 gettext.c:957
+msgid "Template Emails"
+msgstr "Diseño de Correos"
+
+#: gettext.c:614 gettext.c:962
+msgid "Destination Mail Account"
+msgstr "Cuenta de Correo Saliente"
+
+#: gettext.c:622 gettext.c:630 gettext.c:1209 gettext.c:1216
+msgid "Responsible"
+msgstr "Responsable"
+
+#: gettext.c:639
+msgid "Upload Users"
+msgstr "Cargar Usuarios"
+
+#: gettext.c:643
+msgid "Save new user"
+msgstr "Guardar nuevo usuario"
+
+#: gettext.c:644 gettext.c:1349
+msgid "Usuario"
+msgstr "Usuario"
+
+#: gettext.c:646 gettext.c:1351
+msgid "Apellido Paterno"
+msgstr "Apellido Paterno"
+
+#: gettext.c:647 gettext.c:1352
+msgid "Apellido Materno"
+msgstr "Apellido Materno"
+
+#: gettext.c:648 gettext.c:1353
+msgid "Contraseña"
+msgstr "Contraseña"
+
+#: gettext.c:649 gettext.c:1354
+msgid "Confirmar Contraseña"
+msgstr "Confirmar Contraseña"
+
+#: gettext.c:650 gettext.c:1355
+msgid "Grupo"
+msgstr "Grupo"
+
+#: gettext.c:651 gettext.c:1356
+msgid "Estado civil"
+msgstr "Estado civil"
+
+#: gettext.c:652 gettext.c:1357
+msgid "Restablecer"
+msgstr "Restablecer"
+
+#: gettext.c:655 gettext.c:1332
+msgid "Accessrole"
+msgstr "Perfil"
+
+#: gettext.c:659 gettext.c:1579
+msgid "Users"
+msgstr "Usuarios"
+
+#: gettext.c:663 gettext.c:1302
+msgid "Role"
+msgstr "Perfil"
+
+#: gettext.c:665 gettext.c:1341
+msgid "Last accessed"
+msgstr "Fecha de último acceso"
+
+#: gettext.c:670 gettext.c:680 gettext.c:757
+msgid "State"
+msgstr "Estado"
+
+#: gettext.c:674
+msgid "state"
+msgstr "Estado"
+
+#: gettext.c:676 gettext.c:1827
+msgid "Branch"
+msgstr "Sucursal"
+
+#: gettext.c:688
+msgid "Upload Categories"
+msgstr "Cargar Categorías"
+
+#: gettext.c:694 gettext.c:713 gettext.c:1360
+msgid "New Category"
+msgstr "Nueva Categoría"
+
+#: gettext.c:695 gettext.c:699 gettext.c:1513
+msgid "Holiday"
+msgstr "Día festivo"
+
+#: gettext.c:696 gettext.c:1289
+msgid "Holiday Calendar"
+msgstr "Días festivos"
+
+#: gettext.c:703 gettext.c:722 gettext.c:1514 gettext.c:1769
+msgid "Escalation"
+msgstr "Escalamiento"
+
+#: gettext.c:707
+msgid "Required Fields"
+msgstr "Datos Requeridos"
+
+#: gettext.c:708
+msgid "Required Documents"
+msgstr "Documentos Requeridos"
+
+#: gettext.c:712
+msgid "Client Categories"
+msgstr "Categorías (Clientes)"
+
+#: gettext.c:714 gettext.c:945
+msgid "Translate"
+msgstr "Traducir"
+
+#: gettext.c:715 gettext.c:947
+msgid "Refresh Catalogs"
+msgstr "Buscar Cadenas"
+
+#: gettext.c:717 gettext.c:946
+msgid "String"
+msgstr "Cadena"
+
+#: gettext.c:718 gettext.c:944
+msgid "Spanish"
+msgstr "Español"
+
+#: gettext.c:719 gettext.c:948
+msgid "English"
+msgstr "Ingles"
+
+#: gettext.c:727 gettext.c:1193
+msgid "Percentage"
+msgstr "Porcentaje"
+
+#: gettext.c:738 gettext.c:1199 gettext.c:1585
+msgid "Escalations"
+msgstr "Escalamientos"
+
+#: gettext.c:746
+msgid "Client Information"
+msgstr "Información del Cliente"
+
+#: gettext.c:747 gettext.c:774
+msgid "Client Number"
+msgstr "Número de cliente"
+
+#: gettext.c:749 gettext.c:776
+msgid "RFC"
+msgstr "RFC"
+
+#: gettext.c:750
+msgid "Birthday"
+msgstr "Fecha de Nacimiento"
+
+#: gettext.c:751
+msgid "Home Phone"
+msgstr "Teléfono de casa"
+
+#: gettext.c:752
+msgid "Office Phone"
+msgstr "Teléfono de oficina"
+
+#: gettext.c:753
+msgid "Mobile Phone"
+msgstr "Teléfono Móvil"
+
+#: gettext.c:754
+msgid "Street"
+msgstr "Calle"
+
+#: gettext.c:755
+msgid "External Number"
+msgstr "Número Exterior"
+
+#: gettext.c:756
+msgid "Internal Number"
+msgstr "Número Interior"
+
+#: gettext.c:758
+msgid "Town"
+msgstr "Ciudad"
+
+#: gettext.c:759
+msgid "Colony"
+msgstr "Colonia"
+
+#: gettext.c:760
+msgid "Zip Code"
+msgstr "Codigo Postal"
+
+#: gettext.c:761
+msgid "Accounts"
+msgstr "Cuentas"
+
+#: gettext.c:762 gettext.c:773 gettext.c:808 gettext.c:845 gettext.c:859
+msgid "Account Number"
+msgstr "Número de Cuenta"
+
+#: gettext.c:763
+msgid "Product Type"
+msgstr "Tipo de Producto"
+
+#: gettext.c:764
+msgid "Card Number"
+msgstr "Número de Tarjeta"
+
+#: gettext.c:765
+msgid ""
+"An error ocurred during the request, please try it again or try to log in "
+"again"
+msgstr ""
+"Ocurrió un error durante la petición, por favor trata de nuevo o intenta "
+"iniciar sesión nuevamente"
+
+#: gettext.c:766
+msgid "No information found"
+msgstr "No se encontró información"
+
+#: gettext.c:767
+msgid "No Accounts found"
+msgstr "No se encontró ninguna cuenta"
+
+#: gettext.c:768
+msgid "You must fill at least one field"
+msgstr "Debes llenar al menos un campo"
+
+#: gettext.c:769
+msgid "Getting Client Information..."
+msgstr "Obteniendo información del cliente..."
+
+#: gettext.c:770
+msgid "Getting Account Information..."
+msgstr "Obteniendo información de la cuenta..."
+
+#: gettext.c:771
+msgid "Getting Required Fields..."
+msgstr "Obteniendo lista de Datos Requeridos..."
+
+#: gettext.c:772
+msgid "Getting Required Documents..."
+msgstr "Obteniendo lista de Documentos Requeridos..."
+
+#: gettext.c:778 gettext.c:1251
+msgid "Status:"
+msgstr "Estatus: "
+
+#: gettext.c:779
+msgid "Registered by:"
+msgstr "Registrado por:"
+
+#: gettext.c:780
+msgid "Register Date:"
+msgstr "Fecha de registro:"
+
+#: gettext.c:781
+msgid "Assigned User:"
+msgstr "Usuario Asignado:"
+
+#: gettext.c:782
+msgid "Time of Service:"
+msgstr "Tiempo de Servicio:"
+
+#: gettext.c:783
+msgid "Service Level:"
+msgstr "Nivel de Servicio:"
+
+#: gettext.c:784
+msgid "Percentage of Service:"
+msgstr "Porcentaje de Servicio:"
+
+#: gettext.c:785
+msgid "Expired Time:"
+msgstr "Tiempo expirado:"
+
+#: gettext.c:786
+msgid "Client Number:"
+msgstr "Número de Cliente:"
+
+#: gettext.c:787
+msgid "Name:"
+msgstr "Nombre:"
+
+#: gettext.c:788
+msgid "RFC:"
+msgstr "RFC:"
+
+#: gettext.c:789
+msgid "Birthday:"
+msgstr "Fecha de Nacimiento:"
+
+#: gettext.c:790
+msgid "Home Phone:"
+msgstr "Teléfono de casa:"
+
+#: gettext.c:791
+msgid "Office Phone:"
+msgstr "Teléfono de oficina:"
+
+#: gettext.c:792
+msgid "Mobile Phone:"
+msgstr "Teléfono Móvil:"
+
+#: gettext.c:793
+msgid "Street:"
+msgstr "Calle:"
+
+#: gettext.c:794
+msgid "External Number:"
+msgstr "Número Exterior:"
+
+#: gettext.c:795
+msgid "Internal Number:"
+msgstr "Número Interior:"
+
+#: gettext.c:796
+msgid "State:"
+msgstr "Estado:"
+
+#: gettext.c:797
+msgid "Town:"
+msgstr "Ciudad:"
+
+#: gettext.c:798
+msgid "Colony:"
+msgstr "Colonia:"
+
+#: gettext.c:799
+msgid "Zip Code:"
+msgstr "Codigo Postal:"
+
+#: gettext.c:800
+msgid "Ticket"
+msgstr "Ticket"
+
+#: gettext.c:801 gettext.c:835 gettext.c:1542
+msgid "Reassign"
+msgstr "Reasignar"
+
+#: gettext.c:802 gettext.c:1544
+msgid "New Activity"
+msgstr "Nueva Actividad"
+
+#: gettext.c:809 gettext.c:851 gettext.c:863
+msgid "Origin Branch"
+msgstr "Sucursal Origen"
+
+#: gettext.c:810 gettext.c:852 gettext.c:864
+msgid "Reported Branch"
+msgstr "Sucursal que reporta"
+
+#: gettext.c:814
+msgid "Return"
+msgstr "Devolucion"
+
+#: gettext.c:833 gettext.c:839
+msgid "User Assigned :"
+msgstr "Usuario Asignado :"
+
+#: gettext.c:834 gettext.c:1256
+msgid "User: "
+msgstr "Usuario"
+
+#: gettext.c:836 gettext.c:1073
+msgid "Resolution: "
+msgstr "Resolución:"
+
+#: gettext.c:837 gettext.c:1553
+msgid "Description: "
+msgstr "Descripción: "
+
+#: gettext.c:840 gettext.c:984
+msgid "Start Date: "
+msgstr "Fecha de Inicio:"
+
+#: gettext.c:841 gettext.c:988
+msgid "End Date: "
+msgstr "Fecha de Fin:"
+
+#: gettext.c:842
+msgid "Activity :"
+msgstr "Actividad :"
+
+#: gettext.c:844 gettext.c:858
+msgid "Folio"
+msgstr "Folio"
+
+#: gettext.c:865
+msgid "Register By"
+msgstr "Registrado por"
+
+#: gettext.c:869 gettext.c:877 gettext.c:1029 gettext.c:1087 gettext.c:1099
+msgid "Priority"
+msgstr "Prioridad"
+
+#: gettext.c:885 gettext.c:1272
+msgid "Option"
+msgstr "Parámetro"
+
+#: gettext.c:887 gettext.c:898 gettext.c:1270 gettext.c:1274
+msgid "Value"
+msgstr "Valor"
+
+#: gettext.c:895 gettext.c:1267 gettext.c:1590
+msgid "Parameters"
+msgstr "Parámetros"
+
+#: gettext.c:907
+msgid "Sunday"
+msgstr "Domingo"
+
+#: gettext.c:908
+msgid "Monday"
+msgstr "Lunes"
+
+#: gettext.c:909
+msgid "Tuesday"
+msgstr "Martes"
+
+#: gettext.c:910
+msgid "Wednesday"
+msgstr "Miércoles"
+
+#: gettext.c:911
+msgid "Thursday"
+msgstr "Jueves"
+
+#: gettext.c:912
+msgid "Friday"
+msgstr "Viernes"
+
+#: gettext.c:913
+msgid "Saturday"
+msgstr "Sábado"
+
+#: gettext.c:914
+msgid "Summary"
+msgstr "Resumen"
+
+#: gettext.c:915
+msgid "Password expiration in minutes"
+msgstr "Tiempo de sesión activa en minutos"
+
+#: gettext.c:917 gettext.c:1768
+msgid "Status Changed"
+msgstr "Cambio de estatus"
+
+#: gettext.c:918 gettext.c:1788
+msgid "Ticket Updated"
+msgstr "Ticket Actualizado"
+
+#: gettext.c:919 gettext.c:1789
+msgid "Ticket Cancelled"
+msgstr "Ticket Cancelado"
+
+#: gettext.c:920 gettext.c:1790
+msgid "Ticket Closed"
+msgstr "Ticket Cerrado"
+
+#: gettext.c:921 gettext.c:1791
+msgid "Ticket Resolved"
+msgstr "Ticket Resuelto"
+
+#: gettext.c:922 gettext.c:1792
+msgid "Ticket Assigned"
+msgstr "Ticket Asignado"
+
+#: gettext.c:923 gettext.c:1793
+msgid "Ticket Reasigned"
+msgstr "Ticket Reasignado"
+
+#: gettext.c:924 gettext.c:1794
+msgid "Ticket Paused"
+msgstr "Ticket Pausado"
+
+#: gettext.c:925 gettext.c:1795
+msgid "Ticket Resumed"
+msgstr "Quitar pausa del Ticket"
+
+#: gettext.c:926
+msgid "Unread"
+msgstr "No leído"
+
+#: gettext.c:927
+msgid "Read"
+msgstr "Leído"
+
+#: gettext.c:928
+msgid "Assigned"
+msgstr "Asignado"
+
+#: gettext.c:930
+msgid "Resolved"
+msgstr "Resuelto"
+
+#: gettext.c:932
+msgid "Closed"
+msgstr "Cerrado"
+
+#: gettext.c:933
+msgid "Canceled"
+msgstr "Cancelado"
+
+#: gettext.c:934
+msgid "Fixed"
+msgstr "Fixed"
+
+#: gettext.c:935
+msgid "Duplicate"
+msgstr "Duplicado"
+
+#: gettext.c:936
+msgid "Wontfix"
+msgstr "No es posible arreglar"
+
+#: gettext.c:937
+msgid "Worksforme"
+msgstr "No se puede reproducir"
+
+#: gettext.c:938
+msgid "Invalid"
+msgstr "Inválido"
+
+#: gettext.c:941
+msgid "hours"
+msgstr "horas"
+
+#: gettext.c:942
+msgid "minutes"
+msgstr "minutos"
+
+#: gettext.c:949
+msgid "Show"
+msgstr "Ver"
+
+#: gettext.c:950
+msgid "days"
+msgstr "días"
+
+#: gettext.c:951
+msgid "seconds"
+msgstr "segundos"
+
+#: gettext.c:952
+msgid "La ruta que está especificando no existe"
+msgstr "La ruta que está especificando no existe"
+
+#: gettext.c:985
+msgid "Start Date:"
+msgstr "Fecha de Inicio:"
+
+#: gettext.c:987 gettext.c:1139
+msgid "End Date:"
+msgstr "Fecha de Fin:"
+
+#: gettext.c:991 gettext.c:994 gettext.c:1019 gettext.c:1022
+msgid "Add"
+msgstr "Agregar"
+
+#: gettext.c:993
+msgid "Remove"
+msgstr "Eliminar"
+
+#: gettext.c:1041
+msgid "logout"
+msgstr "Salir"
+
+#: gettext.c:1072
+msgid "Resolution:"
+msgstr "Resolución:"
+
+#: gettext.c:1140
+msgid "End Time:"
+msgstr "Hora de Fin:"
+
+#: gettext.c:1186
+msgid "BackgroundColor"
+msgstr "Color de Fondo"
+
+#: gettext.c:1187
+msgid "ForwardColor"
+msgstr "Color de Frente"
+
+#: gettext.c:1188
+msgid "FontSize"
+msgstr "Tamaño de Letra"
+
+#: gettext.c:1239
+msgid "Password Confirm"
+msgstr "Repetir password"
+
+#: gettext.c:1240
+msgid "AccessRole"
+msgstr "Perfil"
+
+#: gettext.c:1252
+msgid "Status: "
+msgstr "Estatus: "
+
+#: gettext.c:1257
+msgid "User:"
+msgstr "Usuario"
+
+#: gettext.c:1294
+msgid "Menú de Usuario"
+msgstr "Menú de Usuario"
+
+#: gettext.c:1295
+msgid "Acciones Disponibles"
+msgstr "Acciones Disponibles"
+
+#: gettext.c:1296
+msgid "Agregar un Item"
+msgstr "Agregar un Elemento"
+
+#: gettext.c:1298
+msgid "Resultado de Menú"
+msgstr "Resultado de Menú"
+
+#: gettext.c:1339
+msgid "Rol"
+msgstr "Perfil"
+
+#: gettext.c:1348
+msgid "Guardar nuevo usuario"
+msgstr "Guardar nuevo usuario"
+
+#: gettext.c:1367
+msgid "From:"
+msgstr "De:"
+
+#: gettext.c:1370
+msgid "To:"
+msgstr "A:"
+
+#: gettext.c:1374
+msgid "My tickets"
+msgstr "Mis Tickets"
+
+#: gettext.c:1375
+msgid "New My Ticket"
+msgstr "Nuevo Ticket"
+
+#: gettext.c:1376
+msgid "New My Ticket "
+msgstr "Nuevo Ticket para mi Empleado"
+
+#: gettext.c:1377
+msgid "Permissions for the Role"
+msgstr "Permisos para el Perfil"
+
+#: gettext.c:1378
+msgid "Traking"
+msgstr "Historial"
+
+#: gettext.c:1379
+msgid "Upload Attachment"
+msgstr "Subir Archivos Adjuntos"
+
+#: gettext.c:1380
+msgid "Configuración de Facultades"
+msgstr "Configuración de Facultades"
+
+#: gettext.c:1381
+msgid "Value is required and can't be empty"
+msgstr "El valor es requerido y no puede quedar vacio"
+
+#: gettext.c:1397
+msgid "Edit"
+msgstr "Editar"
+
+#: gettext.c:1398
+msgid "Deactivate"
+msgstr "Desactivar"
+
+#: gettext.c:1399
+msgid "Update"
+msgstr "Actualizado"
+
+#: gettext.c:1400
+msgid "Areas"
+msgstr "Áreas"
+
+#: gettext.c:1403
+msgid "Active"
+msgstr "Activo"
+
+#: gettext.c:1404
+msgid "Activate"
+msgstr "Activo"
+
+#: gettext.c:1405
+msgid "Inactive"
+msgstr "Inactivo"
+
+#: gettext.c:1406
+msgid "Successfully deactivated Area"
+msgstr "Área desactivada satisfactoriamente "
+
+#: gettext.c:1407
+msgid "Successfully reactivated Area"
+msgstr "Área reactivada satisfactoriamente"
+
+#: gettext.c:1408
+msgid "Successfully updated Area"
+msgstr "Área actualizada satisfactoriamente"
+
+#: gettext.c:1409
+msgid "Not exists the Employee with id"
+msgstr "No existe el empleado con id "
+
+#: gettext.c:1410
+msgid "The Employee was created correctly"
+msgstr "Se ha creado correctamente el empleado "
+
+#: gettext.c:1411
+msgid "The Employee was updated correctly"
+msgstr "El empleado se actualizó correctamente"
+
+#: gettext.c:1412
+msgid "The Employee was successfully deactivated"
+msgstr "Se desactivo correctamente el Empleado"
+
+#: gettext.c:1413
+msgid "The Employee was successfully reactivated"
+msgstr "Se reactivo correctamente el Empleado"
+
+#: gettext.c:1414
+msgid "The email is invalid"
+msgstr "El correo electrónico no es válido"
+
+#: gettext.c:1415
+msgid "The E-mail is invalid"
+msgstr "El correo electrónico no es válido"
+
+#: gettext.c:1416
+msgid "The ticket not exists"
+msgstr "El ticket no existe"
+
+#: gettext.c:1417
+msgid "Has been saved successfully"
+msgstr "Ha sido guardado con éxito"
+
+#: gettext.c:1418
+msgid "The AccessRole not exists"
+msgstr "El perfil no existe"
+
+#: gettext.c:1419
+msgid "The date for the calendar not exists:"
+msgstr "La fecha para el calendario no existe:"
+
+#: gettext.c:1420
+msgid "The Calendar was created correctly"
+msgstr "Se ha creado correctamente el Calendario "
+
+#: gettext.c:1421
+msgid "The Calendar was updated correctly"
+msgstr "El calendario se actualizó correctamente"
+
+#: gettext.c:1422
+msgid "The Calendar was successfully deactivated"
+msgstr "Se elimino correctamente el Calendario"
+
+#: gettext.c:1423
+msgid "Not exists the Calendar with id: "
+msgstr "No existe el Calendario con Id: "
+
+#: gettext.c:1424
+msgid "Not exists the company with id: "
+msgstr "No existe la compañía con Id"
+
+#: gettext.c:1425
+msgid "The Category was created correctly"
+msgstr "Se ha creado correctamente la Categoría"
+
+#: gettext.c:1426
+msgid "The Category was updated correctly"
+msgstr "La Categoría se actualizó correctamente"
+
+#: gettext.c:1427
+msgid "The Category was successfully deactivated"
+msgstr "Se desactivo correctamente la Categoría"
+
+#: gettext.c:1428
+msgid "The Category was successfully activated"
+msgstr "Se activo correctamente la Categoría"
+
+#: gettext.c:1429
+msgid "Not exists the Category with id: "
+msgstr "No existe la Categoría con Id"
+
+#: gettext.c:1430
+msgid "The Company was created correctly"
+msgstr "Se ha creado correctamente la Empresa"
+
+#: gettext.c:1431
+msgid "The Company was updated correctly"
+msgstr "La Empresa se actualizó correctamente"
+
+#: gettext.c:1432
+msgid "The Company was successfully deactivated"
+msgstr "La Empresa fue desactivada con éxito"
+
+#: gettext.c:1433
+msgid "The Company was successfully activated"
+msgstr "La Empresa se activó con éxito"
+
+#: gettext.c:1434
+msgid "The Company with id not exists, id: "
+msgstr "La Empresa no existe: "
+
+#: gettext.c:1435
+msgid "Not exists the Customize with id "
+msgstr "No existe la la Plantilla con Id: "
+
+#: gettext.c:1436
+msgid "The Customize was updated correctly"
+msgstr "Se actualizó correctamente"
+
+#: gettext.c:1437
+msgid "The Customize was successfully deactivated"
+msgstr "La plantilla fue desactivada con éxito"
+
+#: gettext.c:1438
+msgid "The Customize was successfully reactivated"
+msgstr "La Plantilla se reactivó con éxito"
+
+#: gettext.c:1439
+msgid "Not exists the Escalation with id "
+msgstr "No existe el Escalamiento con id"
+
+#: gettext.c:1440
+msgid "The Escalation was created correctly"
+msgstr "El Escalamiento se ha creado correctamente"
+
+#: gettext.c:1441
+msgid "The Escalation was updated correctly"
+msgstr "El Escalamiento se actualizó correctamente"
+
+#: gettext.c:1442
+msgid "The Escalation was successfully deactivated"
+msgstr "El Escalamiento se desactivo correctamente"
+
+#: gettext.c:1443
+msgid "The Escalation was successfully reactivated"
+msgstr "El Escalamiento se reactivo correctamente"
+
+#: gettext.c:1444
+msgid "All fields must be filled"
+msgstr "Todos los campos deben ser llenados"
+
+#: gettext.c:1445
+msgid "The Escalation name is invalid"
+msgstr "El nombre del Escalamiento no es válido"
+
+#: gettext.c:1446
+msgid "Not exists the Group with id "
+msgstr "No existe el Grupo con Id"
+
+#: gettext.c:1447
+msgid "The Group was created correctly"
+msgstr "Se ha creado correctamente el Grupo"
+
+#: gettext.c:1448
+msgid "The Group was updated correctly"
+msgstr "El Grupo se actualizó correctamente"
+
+#: gettext.c:1449
+msgid "The Group was successfully deactivated"
+msgstr "El Grupo se desactivo correctamente"
+
+#: gettext.c:1450
+msgid "The Group was successfully reactivated"
+msgstr "El Grupo se reactivo correctamente"
+
+#: gettext.c:1451
+msgid "Not exists the Impact with id "
+msgstr "No existe el Impacto con Id"
+
+#: gettext.c:1452
+msgid "The Impact was created correctly"
+msgstr "Se ha creado correctamente el Impacto"
+
+#: gettext.c:1453
+msgid "The Impact was updated correctly"
+msgstr "El Impacto  se actualizó correctamente"
+
+#: gettext.c:1454
+msgid "The Impact was successfully deactivated"
+msgstr "El Impacto se desactivo correctamente"
+
+#: gettext.c:1455
+msgid "The Impact was successfully reactivated"
+msgstr "El Impacto se reactivo correctamente"
+
+#: gettext.c:1456
+msgid "The Location was created correctly"
+msgstr "Se ha creado correctamente la Ubicación"
+
+#: gettext.c:1457
+msgid "The Location was updated correctly"
+msgstr "La Ubicación se actualizó correctamente"
+
+#: gettext.c:1458
+msgid "The Location was successfully deactivated"
+msgstr "La Ubicación se desactivo correctamente"
+
+#: gettext.c:1459
+msgid "The Location was successfully activated"
+msgstr "La ubicación se activo correctamente"
+
+#: gettext.c:1460
+msgid "The parameter was updated correctly"
+msgstr "El Parámetro se actualizó correctamente"
+
+#: gettext.c:1461
+msgid "Not exists the Position with id "
+msgstr "No existe el Puesto con Id"
+
+#: gettext.c:1462
+msgid "The Position was created correctly"
+msgstr "El Puesto se ha creado correctamente"
+
+#: gettext.c:1463
+msgid "The Position was updated correctly"
+msgstr "El Puesto se actualizó correctamente"
+
+#: gettext.c:1464
+msgid "The Position was successfully deactivated"
+msgstr "El Puesto se desactivo correctamente"
+
+#: gettext.c:1465
+msgid "The Position was successfully reactivated"
+msgstr "El Puesto se reactivo correctamente"
+
+#: gettext.c:1466
+msgid "Not exists the Priority with id "
+msgstr "No existe la Prioridad con Id"
+
+#: gettext.c:1467
+msgid "The Priority was created correctly"
+msgstr "Se ha creado correctamente la Prioridad"
+
+#: gettext.c:1468
+msgid "The Priority was updated correctly"
+msgstr "La Prioridad se actualizó correctamente"
+
+#: gettext.c:1469
+msgid "The Priority was successfully deactivated"
+msgstr "La Prioridad se desactivo correctamente"
+
+#: gettext.c:1470
+msgid "The Priority was successfully reactivated"
+msgstr "La Prioridad se reactivo correctamente"
+
+#: gettext.c:1471
+msgid "Not exists the Resolution with id "
+msgstr "No existe la Resolución con Id"
+
+#: gettext.c:1472
+msgid "The Resolution was created correctly"
+msgstr "La Resolución se ha creado correctamente"
+
+#: gettext.c:1473
+msgid "The Resolution was updated correctly"
+msgstr "La Resolución se actualizó correctamente"
+
+#: gettext.c:1474
+msgid "The Resolution was successfully deactivated"
+msgstr "La Resolución se desactivo correctamente"
+
+#: gettext.c:1475
+msgid "The Resolution was successfully reactivated"
+msgstr "La Resolución se reactivo correctamente"
+
+#: gettext.c:1476
+msgid "Not exists the ServiceLevel with id "
+msgstr "No existe el Nivel de Servicio con Id"
+
+#: gettext.c:1477
+msgid "The Service level was created correctly"
+msgstr "Se ha creado correctamente el Nivel de Servicio"
+
+#: gettext.c:1478
+msgid "The Service level was updated correctly"
+msgstr "El Nivel de Servicio se actualizó correctamente"
+
+#: gettext.c:1479
+msgid "The Service level was successfully deactivated"
+msgstr "El Nivel de Servicio se desactivo correctamente"
+
+#: gettext.c:1480
+msgid "The Service level was successfully reactivated"
+msgstr "El Nivel de Servicio se reactivo correctamente"
+
+#: gettext.c:1481
+msgid "Not exists the Session with id "
+msgstr "No existe la Sesión con Id"
+
+#: gettext.c:1482
+msgid "The Session was successfully deactivated"
+msgstr "La Sesión se desactivo correctamente"
+
+#: gettext.c:1486
+msgid "Not exists the TemplateEmail with id "
+msgstr "No existe el Diseño de Correo con Id"
+
+#: gettext.c:1487
+msgid "The Template was created correctly"
+msgstr "Se ha creado correctamente la Plantilla"
+
+#: gettext.c:1488
+msgid "The Template was updated correctly"
+msgstr "La Plantilla se actualizó correctamente"
+
+#: gettext.c:1489
+msgid "The Tempalte was successfully deactivated"
+msgstr "La Plantilla se desactivo correctamente"
+
+#: gettext.c:1490
+msgid "The Tempalte was successfully reactivated"
+msgstr "La Plantilla  se reactivo correctamente"
+
+#: gettext.c:1491
+msgid "The resolution not exists"
+msgstr "La resolución no existe"
+
+#: gettext.c:1492
+msgid "The category not exists"
+msgstr "La categoría no existe"
+
+#: gettext.c:1493
+msgid "The Employee with id not exists:"
+msgstr "No existe el Empleado con Id"
+
+#: gettext.c:1494
+msgid "The Ticket with id not exists:"
+msgstr "No existe el Ticket con Id"
+
+#: gettext.c:1495
+msgid "Not exists the TicketType with id "
+msgstr "No existe el Tipo de Ticket con Id"
+
+#: gettext.c:1496
+msgid "The Ticket type was created correctly"
+msgstr "El Tipo de Ticket se creo correctamente"
+
+#: gettext.c:1497
+msgid "The Ticket type was updated correctly"
+msgstr "El Tipo de Ticket se actualizó correctamente"
+
+#: gettext.c:1498
+msgid "The Ticket type was successfully deactivated"
+msgstr "El Tipo de Ticket se desactivo correctamente"
+
+#: gettext.c:1499
+msgid "The Ticket type was successfully reactivated"
+msgstr "El Tipo de Ticket se reactivo correctamente"
+
+#: gettext.c:1500
+msgid "Not exists the User with id "
+msgstr "No existe el Usuario con Id"
+
+#: gettext.c:1501
+msgid "The User was created correctly"
+msgstr "Se ha creado correctamente el Usuario"
+
+#: gettext.c:1502
+msgid "The User was updated correctly"
+msgstr "El Usuario se actualizó correctamente"
+
+#: gettext.c:1503
+msgid "The User was successfully deactivated"
+msgstr "El Usuario se desactivo correctamente"
+
+#: gettext.c:1504
+msgid "The User was successfully reactivated"
+msgstr "El Usuario se reactivo correctamente"
+
+#: gettext.c:1505
+msgid "The scheduled cannot be empty"
+msgstr "El horario no puede estar vacío"
+
+#: gettext.c:1506
+msgid "The Schedule was saved correctly"
+msgstr "El Horario se guarda correctamente"
+
+#: gettext.c:1507
+msgid "The Schedule was successfully deactivated"
+msgstr "El Horario se desactivo correctamente"
+
+#: gettext.c:1508
+msgid "The Schedule was successfully activated"
+msgstr "El puesto se ha creado correctamente"
+
+#: gettext.c:1509
+msgid "The Schedule with id not exists, id: "
+msgstr "No existe el Horario con Id"
+
+#: gettext.c:1511
+msgid "Name: "
+msgstr "Nombre:"
+
+#: gettext.c:1512
+msgid "Employee Number: "
+msgstr "Número de Empleado"
+
+#: gettext.c:1515
+msgid "The Channel was updated correctly"
+msgstr "El canal se actualizó correctamente"
+
+#: gettext.c:1516
+msgid "The Channel was successfully deactivated"
+msgstr "El canal fue desactivada con éxito"
+
+#: gettext.c:1517
+msgid "The Channel was created correctly"
+msgstr "El Canal se ha creado correctamente"
+
+#: gettext.c:1518
+msgid "The Channel was successfully reactivated"
+msgstr "El Canal fue reactivado con éxito"
+
+#: gettext.c:1519
+msgid "Reactivate"
+msgstr "Reactivar"
+
+#: gettext.c:1520
+msgid "Create"
+msgstr "Crear"
+
+#: gettext.c:1521
+msgid "Middle name"
+msgstr "Apellido Materno"
+
+#: gettext.c:1524
+msgid "Last name"
+msgstr "Apellido Paterno"
+
+#: gettext.c:1527
+msgid "E-Mail"
+msgstr "E-mail"
+
+#: gettext.c:1530
+msgid "Registered by: "
+msgstr "Registrado por: "
+
+#: gettext.c:1531
+msgid "Time of Service: "
+msgstr "Tiempo de Servicio"
+
+#: gettext.c:1532
+msgid "Service Level: "
+msgstr "Nivel de Servicio:"
+
+#: gettext.c:1533
+msgid "Percentage of Service: "
+msgstr "Porcentaje de Servicio: "
+
+#: gettext.c:1534
+msgid "Expiration Date: "
+msgstr "Fecha de expiración: "
+
+#: gettext.c:1535
+msgid "Expired Time: "
+msgstr "Tiempo expirado"
+
+#: gettext.c:1536
+msgid "Company: "
+msgstr "Empresa: "
+
+#: gettext.c:1537
+msgid "Area: "
+msgstr "Área: "
+
+#: gettext.c:1538
+msgid "Location: "
+msgstr "Ubicación: "
+
+#: gettext.c:1539
+msgid "Phone Numbers: "
+msgstr "Números Telefónicos: "
+
+#: gettext.c:1540
+msgid "Emails: "
+msgstr "Correos:"
+
+#: gettext.c:1541
+msgid "E-Mails: "
+msgstr "E-mails:"
+
+#: gettext.c:1543
+msgid "Assign"
+msgstr "Asignado a: "
+
+#: gettext.c:1546
+msgid "Position: "
+msgstr "Puesto: "
+
+#: gettext.c:1547
+msgid "Ticket Type: "
+msgstr "Tipo de Ticket: "
+
+#: gettext.c:1548
+msgid "Channel: "
+msgstr "Canal: "
+
+#: gettext.c:1549
+msgid "Impact: "
+msgstr "Impacto: "
+
+#: gettext.c:1550
+msgid "Priority: "
+msgstr "Prioridad:"
+
+#: gettext.c:1551
+msgid "Date and Hour: "
+msgstr "Fecha y hora: "
+
+#: gettext.c:1552
+msgid "Category: "
+msgstr "Categoria:"
+
+#: gettext.c:1557
+msgid "Permissions"
+msgstr "Permisos"
+
+#: gettext.c:1558
+msgid "Module"
+msgstr "Modulo"
+
+#: gettext.c:1559
+msgid "Action"
+msgstr "Acción"
+
+#: gettext.c:1560
+msgid "Allow"
+msgstr "Permitir"
+
+#: gettext.c:1561
+msgid "Activity"
+msgstr "Actividad"
+
+#: gettext.c:1563
+msgid "Calendar"
+msgstr "Calendario"
+
+#: gettext.c:1566
+msgid "Ticket type"
+msgstr "Tipo de Ticket"
+
+#: gettext.c:1567
+msgid "Session"
+msgstr "Sesión"
+
+#: gettext.c:1568
+msgid "List"
+msgstr "Lista"
+
+#: gettext.c:1569
+msgid "Reactive"
+msgstr "Reactivar"
+
+#: gettext.c:1570
+msgid "Permission"
+msgstr "Permisos"
+
+#: gettext.c:1573
+msgid "Control"
+msgstr "Control"
+
+#: gettext.c:1577
+msgid "Roles"
+msgstr "Perfiles"
+
+#: gettext.c:1587
+msgid "Employees"
+msgstr "Empleados"
+
+#: gettext.c:1588
+msgid "Impacts"
+msgstr "Impactos"
+
+#: gettext.c:1592
+msgid "Priorities"
+msgstr "Prioridades"
+
+#: gettext.c:1599
+msgid "User Assigned"
+msgstr "Usuario Asignado"
+
+#: gettext.c:1601
+msgid "Assign Tickets to:"
+msgstr "Asignar Tickets a:"
+
+#: gettext.c:1602
+msgid ""
+"The auto-assign ticket option is active but there is not a user assigned."
+msgstr ""
+"La opción para autoasignar los tickets esta activa pero no hay un usuario "
+"asignado."
+
+#: gettext.c:1603
+msgid "Create Ticket"
+msgstr "Crear Ticket"
+
+#: gettext.c:1604
+msgid "Create Ticket by Employee"
+msgstr "Crear Ticket por Empleado"
+
+#: gettext.c:1605
+msgid "Reasons"
+msgstr "Razones"
+
+#: gettext.c:1606
+msgid "Products"
+msgstr "Productos"
+
+#: gettext.c:1607
+msgid "Reason"
+msgstr "Razón"
+
+#: gettext.c:1608
+msgid "The reason already exist"
+msgstr "La razón ya existe"
+
+#: gettext.c:1609
+msgid "The Reasons was successfully deactivated"
+msgstr "Las razones se desactivaron correctamente"
+
+#: gettext.c:1610
+msgid "The Reason was updated correctly"
+msgstr "La razón se actualizó correctamente"
+
+#: gettext.c:1611
+msgid "The Reason was created correctly"
+msgstr "La Razón fue creada correctamente"
+
+#: gettext.c:1612
+msgid "The Reason was successfully reactivated"
+msgstr "La razón fue reactivada con éxito"
+
+#: gettext.c:1613
+msgid "Not exists the Reason with id"
+msgstr "No existe la razón con id"
+
+#: gettext.c:1614
+msgid "Please select at least one product"
+msgstr "Por favor seleccione por lo menos un producto"
+
+#: gettext.c:1615
+msgid "Validation Client"
+msgstr "Validación del cliente"
+
+#: gettext.c:1616
+msgid "Clear"
+msgstr "Limpiar"
+
+#: gettext.c:1617
+msgid "Correct"
+msgstr "Correcto"
+
+#: gettext.c:1618
+msgid "Wrong"
+msgstr "Incorrecto"
+
+#: gettext.c:1619
+msgid "NON-SUCCESSFUL VALIDATION"
+msgstr "VALIDACIÓN NO EXITOSA"
+
+#: gettext.c:1621
+msgid "Commissions"
+msgstr "Comisiones"
+
+#: gettext.c:1622 gettext.c:1829
+msgid "Requirements"
+msgstr "Requerimientos"
+
+#: gettext.c:1623
+msgid "Id Bam"
+msgstr "Id Bam"
+
+#: gettext.c:1624 gettext.c:1627
+msgid "Product"
+msgstr "Producto"
+
+#: gettext.c:1625
+msgid "Paysheet"
+msgstr "Nómina"
+
+#: gettext.c:1626
+msgid "Account type"
+msgstr "Tipo de cuenta"
+
+#: gettext.c:1628
+msgid "Card number"
+msgstr "Número de tarjeta"
+
+#: gettext.c:1630
+msgid "Motive"
+msgstr "Motivo"
+
+#: gettext.c:1631
+msgid "Period"
+msgstr "Periodo"
+
+#: gettext.c:1633
+msgid "Until"
+msgstr "Hasta"
+
+#: gettext.c:1634
+msgid "Type of ticket"
+msgstr "Tipo de ticket"
+
+#: gettext.c:1635
+msgid "Go back"
+msgstr "Regresar"
+
+#: gettext.c:1636
+msgid "Branch Report"
+msgstr "Sucursal que reporta"
+
+#: gettext.c:1637
+msgid "Following"
+msgstr "Siguiente"
+
+#: gettext.c:1638 gettext.c:1760
+msgid "Transaction date"
+msgstr "Fecha de transacción"
+
+#: gettext.c:1639
+msgid "Post date"
+msgstr "Fecha de posteo"
+
+#: gettext.c:1641
+msgid "Reference number"
+msgstr "Número de referencia"
+
+#: gettext.c:1642
+msgid "Cost"
+msgstr "Monto"
+
+#: gettext.c:1643
+msgid "Customer Statement Information"
+msgstr "Información de estado del cliente"
+
+#: gettext.c:1644
+msgid "Ticket Summary"
+msgstr "Resumén del Ticket"
+
+#: gettext.c:1645
+msgid "Customer Transaction Information"
+msgstr "Información de transacciones del  Cliente"
+
+#: gettext.c:1646
+msgid "Id Transaction:"
+msgstr "Id Transacción"
+
+#: gettext.c:1647
+msgid "Transaction date:"
+msgstr "Fecha de la transacción"
+
+#: gettext.c:1648
+msgid "Customer Information"
+msgstr "Información del Cliente"
+
+#: gettext.c:1649
+msgid "Service level"
+msgstr "Nivel de Servicio"
+
+#: gettext.c:1650
+msgid "To print"
+msgstr "Imprimir"
+
+#: gettext.c:1651 gettext.c:1717
+msgid "Send format"
+msgstr "Enviar formato"
+
+#: gettext.c:1652
+msgid "Confirm e-mail"
+msgstr "Confirmar correo electrónico"
+
+#: gettext.c:1653
+msgid "Send"
+msgstr "Enviar"
+
+#: gettext.c:1654
+msgid "Close"
+msgstr "Cerrar"
+
+#: gettext.c:1656
+msgid "Error generating document"
+msgstr "Error al generar el documento"
+
+#: gettext.c:1657
+msgid "Error generating mail sending"
+msgstr "Error al generar el envio del correo"
+
+#: gettext.c:1658
+msgid "Date and Time of Transaction"
+msgstr "Fecha y Hora de Transacción"
+
+#: gettext.c:1659
+msgid "ATM or Trade Name"
+msgstr "Cajero Automático o Nombre comercio"
+
+#: gettext.c:1660
+msgid "Amount in M.N."
+msgstr "Importe en M.N."
+
+#: gettext.c:1661
+msgid "Type of Clarification"
+msgstr "Tipo de Aclaración"
+
+#: gettext.c:1662
+msgid "Deposit Information"
+msgstr "Información del depósito"
+
+#: gettext.c:1663
+msgid "Non-applied deposit"
+msgstr "Depósito no aplicado"
+
+#: gettext.c:1665
+msgid "Partial"
+msgstr "Parcial"
+
+#: gettext.c:1666
+msgid "Total"
+msgstr "Total"
+
+#: gettext.c:1667
+msgid "Amount deposited"
+msgstr "Importe depositado"
+
+#: gettext.c:1668
+msgid "Deposit date"
+msgstr "Fecha del depósito"
+
+#: gettext.c:1669
+msgid "Deposit file"
+msgstr "Archivo del depósito"
+
+#: gettext.c:1670
+msgid "Deposit saved"
+msgstr "Depósito guardado"
+
+#: gettext.c:1671 gettext.c:1797
+msgid "Resolutory Letter"
+msgstr "Carta Resolutoria"
+
+#: gettext.c:1672
+msgid "Customer Resolutions Letter"
+msgstr "Carta Resolutoria del Cliente"
+
+#: gettext.c:1673
+msgid "Type of Clasification"
+msgstr "Tipo de clasificación"
+
+#: gettext.c:1674
+msgid "Search in database"
+msgstr "Buscar en base de datos"
+
+#: gettext.c:1675
+msgid "Deposit Voucher"
+msgstr "Comprobante de depósito"
+
+#: gettext.c:1676
+msgid "Date of assignment"
+msgstr "Fecha de asignación"
+
+#: gettext.c:1677
+msgid "Time to solve"
+msgstr "Tiempo p/resolver"
+
+#: gettext.c:1678
+msgid "More"
+msgstr "Más"
+
+#: gettext.c:1679
+msgid "Detail"
+msgstr "Detalle"
+
+#: gettext.c:1680
+msgid "Transaction"
+msgstr "Transacción"
+
+#: gettext.c:1681
+msgid "Payment in good faith"
+msgstr "Abono"
+
+#: gettext.c:1682
+msgid "Controversy"
+msgstr "Controversia"
+
+#: gettext.c:1683
+msgid "Request to pay"
+msgstr "Solicitud de pagaré"
+
+#: gettext.c:1684
+msgid "TXN Date"
+msgstr "Fecha de TXN"
+
+#: gettext.c:1685
+msgid "TXN time"
+msgstr "Hora de TXN"
+
+#: gettext.c:1686
+msgid "Amount"
+msgstr "Importe"
+
+#: gettext.c:1687
+msgid "Answer"
+msgstr "Respuesta"
+
+#: gettext.c:1688
+msgid "TXN Type"
+msgstr "Tipo de TXN"
+
+#: gettext.c:1689
+msgid "Authorization number"
+msgstr "No. authorización"
+
+#: gettext.c:1690
+msgid "Turn"
+msgstr "Giro"
+
+#: gettext.c:1691
+msgid "Membership"
+msgstr "Afiliación"
+
+#: gettext.c:1692 gettext.c:1749
+msgid "PEM"
+msgstr "PEM"
+
+#: gettext.c:1693
+msgid "Sequence"
+msgstr "Secuencia"
+
+#: gettext.c:1694
+msgid "Reference"
+msgstr "Referencia"
+
+#: gettext.c:1695
+msgid "Answer ARQC"
+msgstr "Respuesta ARQC"
+
+#: gettext.c:1696
+msgid "Transaction Information"
+msgstr "Información de Transacción"
+
+#: gettext.c:1697 gettext.c:1807
+msgid "Date of subscription"
+msgstr "Fecha de Abono"
+
+#: gettext.c:1698
+msgid "T24 Registration"
+msgstr "Registro T24"
+
+#: gettext.c:1699
+msgid "Reason code"
+msgstr "Código de razón"
+
+#: gettext.c:1700
+msgid "Direct charge"
+msgstr "Contracargo directo"
+
+#: gettext.c:1701
+msgid "Type of reason"
+msgstr "Tipo de razón"
+
+#: gettext.c:1702
+msgid "Trad charge"
+msgstr "Contracargo Tradicional"
+
+#: gettext.c:1703
+msgid "Terms"
+msgstr "Condiciones"
+
+#: gettext.c:1704
+msgid "Supporting documents"
+msgstr "Documentos de apoyo"
+
+#: gettext.c:1705
+msgid "Conditions for representation"
+msgstr "Condiciones  para representación"
+
+#: gettext.c:1706
+msgid "Documents"
+msgstr "Documentos"
+
+#: gettext.c:1707
+msgid "Representation"
+msgstr "Representación"
+
+#: gettext.c:1708
+msgid "Application date"
+msgstr "Fecha de solicitud"
+
+#: gettext.c:1709
+msgid "Accepted Payment"
+msgstr "Pagaré aceptado"
+
+#: gettext.c:1710
+msgid "Delivery Payment"
+msgstr "Pagaré entregado"
+
+#: gettext.c:1711
+msgid "Deadline"
+msgstr "Fecha de entrega"
+
+#: gettext.c:1712
+msgid "Upload Payment"
+msgstr "Subir pagaré"
+
+#: gettext.c:1713
+msgid "See Log"
+msgstr "Ver log"
+
+#: gettext.c:1714 gettext.c:1805
+msgid "Amortization"
+msgstr "Amortización"
+
+#: gettext.c:1715
+msgid "Account status"
+msgstr "Estado de cuenta"
+
+#: gettext.c:1716
+msgid "View Account Status"
+msgstr "Ver Estado de Cuenta"
+
+#: gettext.c:1718
+msgid "Record"
+msgstr "Historial"
+
+#: gettext.c:1719
+msgid "Debit time"
+msgstr "Tiempo en débito"
+
+#: gettext.c:1720
+msgid "Data saved correctly"
+msgstr "Datos guardados correctamente"
+
+#: gettext.c:1721
+msgid "Amounts do not match"
+msgstr "Las cantidades no coinciden"
+
+#: gettext.c:1722
+msgid "Created"
+msgstr "Creado"
+
+#: gettext.c:1723
+msgid "Dictum"
+msgstr "Dictamen"
+
+#: gettext.c:1724
+msgid "Recovered"
+msgstr "Recuperado"
+
+#: gettext.c:1727
+msgid "Good Faith Payment"
+msgstr "Abono"
+
+#: gettext.c:1728
+msgid "Without Payment of Good Faith"
+msgstr "Sin Abono"
+
+#: gettext.c:1729
+msgid "Other Inquiry"
+msgstr "Otra consulta"
+
+#: gettext.c:1730
+msgid "End consultation"
+msgstr "Finalizar consulta"
+
+#: gettext.c:1731
+msgid "Good Feeder Credit Application"
+msgstr "Solicitud Abono"
+
+#: gettext.c:1732
+msgid "Register Good faith bonus"
+msgstr "Registrar Abono"
+
+#: gettext.c:1733
+msgid "Customer Deposit"
+msgstr "Cliente Depósito"
+
+#: gettext.c:1734
+msgid "Registration date"
+msgstr "Fecha de Registro"
+
+#: gettext.c:1735
+msgid "Deposit Account"
+msgstr "Cuenta Depósito"
+
+#: gettext.c:1736
+msgid "Registration Time"
+msgstr "Hora de Registro"
+
+#: gettext.c:1737
+msgid "Concept"
+msgstr "Concepto"
+
+#: gettext.c:1738
+msgid "Scheduled date"
+msgstr "Fecha Programada"
+
+#: gettext.c:1739
+msgid "Id T24"
+msgstr "'Id T24"
+
+#: gettext.c:1740
+msgid "Origin of the operation"
+msgstr "Origen de la operación"
+
+#: gettext.c:1741
+msgid "Operator"
+msgstr "Operador"
+
+#: gettext.c:1742
+msgid "Upload evidence"
+msgstr "Subir Evidencia"
+
+#: gettext.c:1743
+msgid "Check number"
+msgstr "No de Cheque"
+
+#: gettext.c:1744
+msgid "Payment date"
+msgstr "Fecha de Pago"
+
+#: gettext.c:1745
+msgid "Payment Time"
+msgstr "Hora de Pago"
+
+#: gettext.c:1746
+msgid "Reason for rejection"
+msgstr "Motivo de rechazo"
+
+#: gettext.c:1747
+msgid "Nemutecnico"
+msgstr "Nemutécnico"
+
+#: gettext.c:1748
+msgid "No Auth"
+msgstr "No Autorización"
+
+#: gettext.c:1750
+msgid "Bank"
+msgstr "Banco"
+
+#: gettext.c:1751
+msgid "Check bank"
+msgstr "Banco del cheque"
+
+#: gettext.c:1752
+msgid "Retirement account"
+msgstr "Cuenta de retiro"
+
+#: gettext.c:1753
+msgid "Time of registration"
+msgstr "Hora de registro"
+
+#: gettext.c:1754
+msgid "Authorization Teso"
+msgstr "Autorización Teso"
+
+#: gettext.c:1755
+msgid "Account Clabe"
+msgstr "Cuenta Clabe"
+
+#: gettext.c:1756
+msgid "Programming date"
+msgstr "Fecha de programación"
+
+#: gettext.c:1757
+msgid "Beneficiary"
+msgstr "Beneficiario"
+
+#: gettext.c:1758
+msgid "RFC Beneficiary"
+msgstr "RFC Beneficiario"
+
+#: gettext.c:1759
+msgid "Programming time"
+msgstr "Hora de programación"
+
+#: gettext.c:1761
+msgid "Transaction time"
+msgstr "Hora de transacción"
+
+#: gettext.c:1762
+msgid "Transaction amount"
+msgstr "Importe transacción"
+
+#: gettext.c:1763
+msgid "Up Axis Screen"
+msgstr "Subir Pantalla Praxis"
+
+#: gettext.c:1764
+msgid "Upload SPEI Format"
+msgstr "Subir Formato SPEI"
+
+#: gettext.c:1765 gettext.c:1801
+msgid "Ticket Incomplete"
+msgstr "Ticket sin documentos"
+
+#: gettext.c:1766 gettext.c:1802
+msgid "Ticket Expired"
+msgstr "Ticket expirado"
+
+#: gettext.c:1770
+msgid "Ticket Client Updated"
+msgstr "Ticket de Cliente Actualizado"
+
+#: gettext.c:1771
+msgid "Ticket Client Cancelled"
+msgstr "Ticket de Cliente Cancelado"
+
+#: gettext.c:1772
+msgid "Ticket Client Closed"
+msgstr "Ticket de Cliente Cerrado"
+
+#: gettext.c:1773
+msgid "Ticket Client Resolved"
+msgstr "Ticket de Cliente Resuelto"
+
+#: gettext.c:1774
+msgid "Ticket Client Assigned"
+msgstr "Ticket de Cliente Asignado"
+
+#: gettext.c:1775
+msgid "Ticket Client Reasigned"
+msgstr "Ticket de Cliente Reasignado"
+
+#: gettext.c:1776
+msgid "Ticket Client Paused"
+msgstr "Ticket de Cliente Pausado"
+
+#: gettext.c:1777
+msgid "Ticket Client Resumed"
+msgstr "Ticket de Cliente Reanudado"
+
+#: gettext.c:1778
+msgid "Ticket Client Activity"
+msgstr "Ticket de Cliente Actividad"
+
+#: gettext.c:1779
+msgid "Customer Client Resolutions Letter"
+msgstr "Carta de Resolución de Ticket de Cliente"
+
+#: gettext.c:1780
+msgid "Ticket Client Request"
+msgstr "Solicitud de Ticket de Cliente"
+
+#: gettext.c:1781
+msgid "Ticket Client Recovered"
+msgstr "Ticket de Cliente Recuperado"
+
+#: gettext.c:1782
+msgid "Ticket Client Broken"
+msgstr "Ticket de Cliente Quebrantado"
+
+#: gettext.c:1783
+msgid "Ticket Client Incomplete"
+msgstr "Ticket de Cliente sin Documentos"
+
+#: gettext.c:1784
+msgid "Ticket Client Expired"
+msgstr "Ticket de Cliente Expirado"
+
+#: gettext.c:1785
+msgid "Ticket Client Discount"
+msgstr "Ticket de Cliente Descuento"
+
+#: gettext.c:1786
+msgid "Format Clarification"
+msgstr "Formato de Aclaración"
+
+#: gettext.c:1796
+msgid "Ticket Activity"
+msgstr "Ticket Actividad"
+
+#: gettext.c:1798
+msgid "Ticket Request"
+msgstr "Solicitud de Ticket"
+
+#: gettext.c:1799
+msgid "Ticket Recovered"
+msgstr "Ticket Recuperado"
+
+#: gettext.c:1800
+msgid "Ticket Broken"
+msgstr "Ticket Quebrantado"
+
+#: gettext.c:1803
+msgid "Ticket Discount"
+msgstr "Ticket Descuento"
+
+#: gettext.c:1804
+msgid "See amortization table"
+msgstr "Ver Tabla de Amortización"
+
+#: gettext.c:1806
+msgid "Amortization information"
+msgstr "Información de Amortización"
+
+#: gettext.c:1808
+msgid "Monthly payment"
+msgstr "Mensualidad"
+
+#: gettext.c:1809
+msgid "Consultation period"
+msgstr "Periodo de consulta"
+
+#: gettext.c:1810
+msgid "Statement Information"
+msgstr "Información del Estado de Cuenta"
+
+#: gettext.c:1811
+msgid "Search for motions"
+msgstr "Buscar Movimientos"
+
+#: gettext.c:1812
+msgid "Save payment in good faith"
+msgstr "Guardar Abono"
+
+#: gettext.c:1813
+msgid "Save Good faith bonus"
+msgstr "Guardar Abono"
+
+#: gettext.c:1814
+msgid "Detail of the transaction"
+msgstr "Detalle de la transacción"
+
+#: gettext.c:1815
+msgid "Movement"
+msgstr "Movimiento"
+
+#: gettext.c:1816
+msgid "Partial Transaction Information"
+msgstr "Información de transacción parcial"
+
+#: gettext.c:1817
+msgid "Amount claimed"
+msgstr "Importe reclamado"
+
+#: gettext.c:1818
+msgid "Partition saved"
+msgstr "Parcialidad registrada"
+
+#: gettext.c:1819
+msgid "Partitions"
+msgstr "Información de transacción parcial"
+
+#: gettext.c:1820
+msgid "Attachment file"
+msgstr "Archivo anexo"
+
+#: gettext.c:1821
+msgid "Date of operation"
+msgstr "Fecha de operación"
+
+#: gettext.c:1822
+msgid "Date of expiration"
+msgstr "Fecha de expiración"
+
+#: gettext.c:1823
+msgid "Is not customer"
+msgstr "No es un cliente"
+
+#: gettext.c:1824
+msgid "Select the branch"
+msgstr "Selecciona la sucursal"
+
+#: gettext.c:1825
+msgid "Select a Product"
+msgstr "Seleccione un Producto"
+
+#: gettext.c:1826
+msgid "Branch Information"
+msgstr "Información de Sucursal"
+
+#: gettext.c:1828
+msgid "Domicile"
+msgstr "Domicilio"
+
+#: gettext.c:1830
+msgid "commissions"
+msgstr "comisiones"
+
+#: gettext.c:1831
+msgid "Institution info"
+msgstr "Información de la Institución"
+
+#: gettext.c:1832
+msgid "Subtype"
+msgstr "Subtipo"
+
+#: gettext.c:1833
+msgid "Number of Movements"
+msgstr "Número de Movimientos"
+
+#: gettext.c:1834
+msgid "Financial Movements"
+msgstr "Movimientos Financieros"
+
+#: gettext.c:1835
+msgid "Partialities"
+msgstr "Parcialidades"
+
+#: gettext.c:1836
+msgid "Sync Branches"
+msgstr "Sincronizar Sucursales"
+
+#: gettext.c:1837
+msgid "Employee / Client"
+msgstr "Empleado / Cliente"
+
+#: gettext.c:1838
+msgid "Folio Condusef"
+msgstr "Folio Condusef"
+
+#: gettext.c:1839
+msgid "Ticket Client Reopen"
+msgstr "Ticket de Cliente Reabrir"
+
+#: gettext.c:1840
+msgid "Log Activities"
+msgstr "Bitácora de Actividades"
+
+#: gettext.c:1841
+msgid "Date of resolution"
+msgstr "Fecha de resolución"
+
+#: gettext.c:1842
+msgid "Code"
+msgstr "Código"
+
+#: gettext.c:1843
+msgid "Download evidence"
+msgstr "Descargar evidencia"
+
+#: gettext.c:1844
+msgid "Download resolutory letter"
+msgstr "Descargar carta resolutoria"
+
+#: gettext.c:1845
+msgid "The ClientCategory was updated correctly"
+msgstr "La Categoría se actualizó correctamente"
+
+#: gettext.c:1847
+msgid "Start date"
+msgstr "Fecha Inicial"
+
+#: gettext.c:1848
+msgid "Created date"
+msgstr "Fecha de alta"
+
+#: gettext.c:1849
+msgid "Comments"
+msgstr "Comentarios"
+
+#: gettext.c:1850
+msgid "The name already exists"
+msgstr "El nombre ya existe"
+
+#: gettext.c:1851
+msgid "Payment"
+msgstr "Abono"
+
+#~ msgid "Folio Conduset"
+#~ msgstr "Folio Conduset"
+
+#~ msgid "Windowsss"
+#~ msgstr "vetyana"
+
+#~ msgid "Hello"
+#~ msgstr "Hola"
+
+#~ msgid "Photos"
+#~ msgstr "Fotos"
+
+#~ msgid "Successfully removed the Company"
+#~ msgstr "Se elimino la compañia"
+
+#~ msgid "Edit Company"
+#~ msgstr "Editar Compañia"
+
+#~ msgid "Has been activated the Company "
+#~ msgstr "Se activo la compañia"
+
+#~ msgid "Successfully created the Company"
+#~ msgstr "Se creo la Compañia"
+
+#~ msgid "Successfully modified the Company"
+#~ msgstr "Se modifico la compañia"
+
+#~ msgid "New Model"
+#~ msgstr "Edecán"
+
+#~ msgid "Edit Model"
+#~ msgstr "Editar modelo"
+
+#~ msgid "Successfully modified the Model"
+#~ msgstr "Se modifico la modelo"
+
+#~ msgid "Access Denied"
+#~ msgstr "Acciones Denegado"
+
+#~ msgid "ok"
+#~ msgstr "ok"
+
+#~ msgid "Edit User"
+#~ msgstr "Editar Usuario"
+
+#~ msgid "Edit User ( errors )"
+#~ msgstr "Editar usuario ( errores )"
+
+#~ msgid "It has successfully changed the password"
+#~ msgstr "Se modifico el password"
+
+#~ msgid "New Campaign"
+#~ msgstr "Campaña"
+
+#~ msgid "The campaign has been activated "
+#~ msgstr "Se activo la campaña"
+
+#~ msgid "Successfully created the Campaign "
+#~ msgstr "Se creo la campaña"
+
+#~ msgid "Successfully updated the Campaign"
+#~ msgstr "Se actualizo la campaña"
+
+#~ msgid "New Contact"
+#~ msgstr "Contacto"
+
+#~ msgid "Successfully created the Contact "
+#~ msgstr "Se creo el contacto"
+
+#~ msgid "Successfully modified the Contact"
+#~ msgstr "Se modifico el contacto"
+
+#~ msgid "New Question"
+#~ msgstr "Nueva Pregunta"
+
+#~ msgid "Successfully updated the Question"
+#~ msgstr "Se actualizo la pregunta"
+
+#, fuzzy
+#~ msgid "The poll not exists"
+#~ msgstr "La encuesta no existe"
+
+#~ msgid "The campaign not exist"
+#~ msgstr "La campaña no existe"
+
+#~ msgid "Must have at least one question of type \"Grade of Model\". "
+#~ msgstr "Debe de definir una pregunta de Rating de Modelo"
+
+#~ msgid "Must have at least one question of type \"Grade of Event\". "
+#~ msgstr "Debe de definir una pregunta de Rating de Evento"
+
+#~ msgid "The poll not exist"
+#~ msgstr "La encuesta no existe"
+
+#~ msgid "The text is empty"
+#~ msgstr "El texto esta vacio"
+
+#~ msgid "The text was added to the poll"
+#~ msgstr "El Texto se agrego a la encuesta"
+
+#~ msgid "The element was removed to the poll"
+#~ msgstr "El elemento se elimino de la encuesta"
+
+#~ msgid "The relation Poll-Campaign match"
+#~ msgstr ""
+#~ "Invitation to promote the event ') : $this->i18n->_('Assigned to the "
+#~ "event "
+
+#~ msgid "The Uniform has been activated"
+#~ msgstr "Se activo el uniforme"
+
+#~ msgid "Username/password empty!"
+#~ msgstr "Usuario/Password vacios"
+
+#~ msgid "Iniciar Sesión"
+#~ msgstr "Iniciar Sesión"
+
+#~ msgid "New Event"
+#~ msgstr "Evento"
+
+#~ msgid "Successfully created the Event "
+#~ msgstr "Se creo el evento"
+
+#~ msgid "Successfully modified the Event"
+#~ msgstr "Se modifico el evento"
+
+#~ msgid "Training"
+#~ msgstr "Entrenamiento"
+
+#~ msgid "Successfully added the Event Training"
+#~ msgstr "Se agrego un entrenamiento"
+
+#~ msgid "The event not exist"
+#~ msgstr "El evento no existe"
+
+#~ msgid "The Event not exist"
+#~ msgstr "El evento no existe"
+
+#~ msgid "No selected the models"
+#~ msgstr "No selecciono modelos"
+
+#~ msgid "Sending Mails..."
+#~ msgstr "Enviando Correos"
+
+#~ msgid "the event not exist"
+#~ msgstr "El evento no existe"
+
+#~ msgid "Has already registered in this event"
+#~ msgstr "Ya se registro a este evento"
+
+#~ msgid "Successfuly registered in this event"
+#~ msgstr "Se registro al evento"
+
+#~ msgid "Wages have not been defined"
+#~ msgstr "Salarios no definidos"
+
+#~ msgid "Assign Models"
+#~ msgstr "Modelos"
+
+#~ msgid "Empty selection"
+#~ msgstr "No Seleccion"
+
+#~ msgid "The models has been assigned to the event"
+#~ msgstr "Las modelos se asignaron al evento"
+
+#~ msgid "Directly assign an event"
+#~ msgstr "Asignacion directa"
+
+#~ msgid "The Wage not exist"
+#~ msgstr "El salario no existe"
+
+#~ msgid "The model not exist"
+#~ msgstr "La modelo no existe"
+
+#~ msgid "The model has been assigned to the event"
+#~ msgstr "Las modelos se asignaron al evento"
+
+#~ msgid "The models has been removed from the event"
+#~ msgstr "Las modelos se removieron del evento"
+
+#~ msgid "Averages"
+#~ msgstr "Promedios"
+
+#~ msgid "System Options"
+#~ msgstr "Opciones del Sistema"
+
+#~ msgid "New Matrix"
+#~ msgstr "Nueva Matriz"
+
+#~ msgid "Successfully updated the Matrix"
+#~ msgstr "Se creo la matriz"
+
+#~ msgid "the Uniform Collection not exist"
+#~ msgstr "La colección de uniformes no existe"
+
+#~ msgid "Not exist the uniform"
+#~ msgstr "No existe el uniforme"
+
+#~ msgid "Successfully created the Uniform "
+#~ msgstr "Se creo el uniforme"
+
+#~ msgid "Successfully updated the Uniform"
+#~ msgstr "Se modifico el uniforme"
+
+#~ msgid "Loan Uniform"
+#~ msgstr "Prestar Uniforme"
+
+#~ msgid "The uniform not exist"
+#~ msgstr "No existe el uniforme"
+
+#~ msgid "Successfuly loaned the uniform"
+#~ msgstr "Se presto el uniforme"
+
+#~ msgid "The uniform"
+#~ msgstr "El uniforme"
+
+#~ msgid "Return an Uniform"
+#~ msgstr "Devolver un uniforme"
+
+#~ msgid "Successfuly return the uniform"
+#~ msgstr "Se devolvio el uniforme"
+
+#~ msgid "History Log"
+#~ msgstr "Historial"
+
+#~ msgid "Stores List"
+#~ msgstr "Tiendas"
+
+#~ msgid "Edit Store"
+#~ msgstr "Editar Cuenta"
+
+#~ msgid "Campaign Report"
+#~ msgstr "Reporte de Campaña"
+
+#~ msgid "the poll not  exist"
+#~ msgstr "La encuesta no existe"
+
+#~ msgid " New Employee "
+#~ msgstr "Nuevo Empleado"
+
+#~ msgid "Successfully created the Employee "
+#~ msgstr "Se creo el empleado"
+
+#~ msgid "Successfully modified the Employee"
+#~ msgstr "Se modifico el empleado"
+
+#, fuzzy
+#~ msgid "The file is successfully uploaded"
+#~ msgstr "Se subió correctamente el archivo adjunto"
+
+#, fuzzy
+#~ msgid "# of Events"
+#~ msgstr "Eventos"
+
+#~ msgid "Avg Model Score"
+#~ msgstr "Promedio de Rating de  Modelo"
+
+#, fuzzy
+#~ msgid "# of Campaigns"
+#~ msgstr "Campaña"
+
+#, fuzzy
+#~ msgid "# of Models"
+#~ msgstr "Modelos"
+
+#~ msgid "# Avg Event Score"
+#~ msgstr "Promedio de Rating de  Modelo"
+
+#~ msgid "Registration"
+#~ msgstr "Registro"
+
+#~ msgid "Successfully Model Registration "
+#~ msgstr "Registro satisfactorio"
+
+#~ msgid "the model not exist"
+#~ msgstr "La modelo no existe"
+
+#~ msgid "the logbook not exists"
+#~ msgstr "La encuesta no existe"
+
+#~ msgid "Successfully created the Logbook "
+#~ msgstr "Se creo el cuestionario"
+
+#~ msgid "The attachment is successfully uploaded"
+#~ msgstr "Se subió correctamente el archivo adjunto"
+
+#~ msgid "Groups List"
+#~ msgstr "Grupos"
+
+#~ msgid "Removed the group"
+#~ msgstr "Eliminar grupo"
+
+#~ msgid "Edit Group"
+#~ msgstr "Editar grupo"
+
+#~ msgid "Modified the group"
+#~ msgstr "Modificar grupo"
+
+#~ msgid "New Giveaway"
+#~ msgstr "Nuevo Insumo"
+
+#~ msgid "Not exist the giveaway"
+#~ msgstr "No existe el insumo"
+
+#~ msgid "The giveaway has been activated "
+#~ msgstr "El insumo se ha activado"
+
+#~ msgid "Successfully created the Giveaway "
+#~ msgstr "Se creo el insumo"
+
+#~ msgid "Successfully updated the Giveaway"
+#~ msgstr "Se modifico el nsumo"
+
+#~ msgid "Poll"
+#~ msgstr "Encuesta"
+
+#~ msgid "Element"
+#~ msgstr "Elemento"
+
+#~ msgid "Export To Excel"
+#~ msgstr "Exportar a Excel"
+
+#~ msgid "Preview"
+#~ msgstr "Vista Preliminar"
+
+#~ msgid "Polls List"
+#~ msgstr "Encuestas"
+
+#~ msgid "Campaign"
+#~ msgstr "Campaña"
+
+#~ msgid "Measures"
+#~ msgstr "Medidas"
+
+#~ msgid "What date are you available to start promotional activities? "
+#~ msgstr "Fecha disponible para iniciar actividades para promocionar?"
+
+#~ msgid "Emergency Contact"
+#~ msgstr "En caso de emergencia contactar"
+
+#~ msgid "Desired Position: "
+#~ msgstr "Puesto: "
+
+#~ msgid ""
+#~ "Have you worked for other promotional companies? If so please list here:"
+#~ msgstr "Compañias para las que ha trabajado:"
+
+#~ msgid "Scars/Blemishes/Tatoos or any other identifying marks:"
+#~ msgstr "Tiene Marcas o Tatuajes"
+
+#~ msgid "How far will you travel in one way in order to work:"
+#~ msgstr "Hasta donde podria viajar por motivos de trabajo"
+
+#~ msgid "Have you worked for the Beverage Industry?"
+#~ msgstr "Ha trabajado en la industria de las bebidas"
+
+#~ msgid "Are you TIPs Certified?"
+#~ msgstr "¿Tiene Certificados?"
+
+#~ msgid "Are you eligible to work? "
+#~ msgstr "¿Es elegible para trabajar?"
+
+#~ msgid " Are you a U.S. Citizen"
+#~ msgstr "Es ciudadano Norteamericano?"
+
+#~ msgid "Are you 18yrs old or older?"
+#~ msgstr "¿Es mayor de 18 años?"
+
+#~ msgid "Permanent Resident"
+#~ msgstr "Residente Permanente"
+
+#~ msgid "Do you have Transportation? "
+#~ msgstr "¿Tiene Vehiculo?"
+
+#~ msgid "Photography"
+#~ msgstr "Fotografía"
+
+#~ msgid "Languages"
+#~ msgstr "Lenguajes"
+
+#~ msgid "Days/Hours Availables"
+#~ msgstr "Días/Horas disponibles"
+
+#~ msgid "Demography"
+#~ msgstr "Demografia"
+
+#~ msgid "Facebook/Myspace ID"
+#~ msgstr "Facebook/Myspace ID"
+
+#~ msgid "Weight"
+#~ msgstr "Peso"
+
+#~ msgid "Height"
+#~ msgstr "Estatura"
+
+#~ msgid "Eye color"
+#~ msgstr "Color de ojos"
+
+#~ msgid "Hair color"
+#~ msgstr "Color de cabello"
+
+#~ msgid "Dress size"
+#~ msgstr "Talla"
+
+#~ msgid "Shoe size"
+#~ msgstr "Talla de Zapatos"
+
+#~ msgid "Sexual Preference"
+#~ msgstr "Preferencia Sexual"
+
+#~ msgid "D.O.B."
+#~ msgstr "Fecha de Nacimiento"
+
+#~ msgid "SSN"
+#~ msgstr "Numero de Seguro Social"
+
+#~ msgid "Genre"
+#~ msgstr "Sexo"
+
+#~ msgid "Marital Status"
+#~ msgstr "Estado Civil"
+
+#~ msgid "Nationality"
+#~ msgstr "Nacionalidad"
+
+#~ msgid "Address 1"
+#~ msgstr "Calle"
+
+#~ msgid "Address 2"
+#~ msgstr "Colonia"
+
+#~ msgid "City"
+#~ msgstr "Ciudad"
+
+#~ msgid "Country"
+#~ msgstr "Pais"
+
+#~ msgid "Zip code"
+#~ msgstr "Codigo Postal"
+
+#~ msgid "Edit Matrix"
+#~ msgstr "Editar Matriz"
+
+#~ msgid "Label X"
+#~ msgstr "Etiqueta en X"
+
+#~ msgid "Label Y"
+#~ msgstr "Etiqueta en Y"
+
+#~ msgid "Preffix"
+#~ msgstr "Prefijo"
+
+#~ msgid "Suffix"
+#~ msgstr "Sufijo"
+
+#~ msgid "Headers in X"
+#~ msgstr "Cabeceras en X"
+
+#~ msgid "Headers in Y"
+#~ msgstr "Cabeceras en Y"
+
+#, fuzzy
+#~ msgid "Visible to the Client"
+#~ msgstr "Asignado al evento"
+
+#~ msgid "Options"
+#~ msgstr "Opciones"
+
+#~ msgid "Matrices List"
+#~ msgstr "Matrices"
+
+#~ msgid "LIPS Promotions"
+#~ msgstr "LIPS Promotions"
+
+#~ msgid "Business Name"
+#~ msgstr "Nombre"
+
+#~ msgid "EIN"
+#~ msgstr "EIN"
+
+#, fuzzy
+#~ msgid "Phone Number of the Payment agent"
+#~ msgstr "Numero de modelos"
+
+#~ msgid "Mailing Address"
+#~ msgstr "Dirección"
+
+#~ msgid "Billing Address"
+#~ msgstr "Dirección Fiscal"
+
+#~ msgid "Import Stores"
+#~ msgstr "Importar Tiendas"
+
+#~ msgid "Import Models"
+#~ msgstr "Importar Modelos"
+
+#~ msgid "Loan"
+#~ msgstr "Prestar"
+
+#~ msgid "Model"
+#~ msgstr "Edecan"
+
+#~ msgid "Ending Date"
+#~ msgstr "Fecha de Fin"
+
+#~ msgid "Uniform"
+#~ msgstr "Uniforme"
+
+#, fuzzy
+#~ msgid "Acción"
+#~ msgstr "Acciones"
+
+#~ msgid "name"
+#~ msgstr "Nombre"
+
+#~ msgid "Languages List"
+#~ msgstr "Lenguajes"
+
+#~ msgid "Store"
+#~ msgstr "Tienda"
+
+#~ msgid "Store Name"
+#~ msgstr "Tienda"
+
+#~ msgid "Contact Name"
+#~ msgstr "Nombre del Contacto"
+
+#~ msgid "Address"
+#~ msgstr "Direccion"
+
+#~ msgid "color"
+#~ msgstr "color"
+
+#~ msgid "description"
+#~ msgstr "descripcion"
+
+#~ msgid "Uniform Collections"
+#~ msgstr "Coleccion de Uniformes"
+
+#~ msgid "Uniform Collections List"
+#~ msgstr "Coleccion de Uniformes"
+
+#~ msgid "Hourly Wage"
+#~ msgstr "Salario por Hora"
+
+#~ msgid "Wage"
+#~ msgstr "Salario"
+
+#~ msgid "Wages List"
+#~ msgstr "Salarios"
+
+#~ msgid "You password has expired, Please enter a new one"
+#~ msgstr "Su contraseña ha expirado, por favor ingrese una nueva"
+
+#~ msgid "Username:"
+#~ msgstr "Nombre de Usuario"
+
+#~ msgid "Last login:"
+#~ msgstr "Ultimo inicio de sesion"
+
+#~ msgid "Last login IP:"
+#~ msgstr "Ultima IP de inicio de sesion"
+
+#~ msgid "Change Password"
+#~ msgstr "Cambiar contraseña"
+
+#~ msgid "Repeat Password"
+#~ msgstr "Repetir Contraseña"
+
+#~ msgid "Brand Spend"
+#~ msgstr "Gasto de Marca"
+
+#~ msgid "Brand Sampled"
+#~ msgstr "Marca de muestra"
+
+#~ msgid "Budget"
+#~ msgstr "Presupuesto"
+
+#~ msgid "Number of models"
+#~ msgstr "Numero de modelos"
+
+#~ msgid "details"
+#~ msgstr "Detalles"
+
+#~ msgid "Region"
+#~ msgstr "Region"
+
+#~ msgid "Day"
+#~ msgstr "Fecha"
+
+#~ msgid "Models Required"
+#~ msgstr "Modelos requeridas"
+
+#~ msgid "Rating"
+#~ msgstr "Calificacion"
+
+#~ msgid "Models"
+#~ msgstr "Modelos"
+
+#~ msgid "No models assigned to the event"
+#~ msgstr "No hay modelos asignadas al evento"
+
+#~ msgid "Campaign Contact"
+#~ msgstr "Contacto de Campaña"
+
+#~ msgid "Store Contact"
+#~ msgstr "Contacto de la Tienda"
+
+#~ msgid "Place"
+#~ msgstr "Lugar"
+
+#~ msgid "Equipment"
+#~ msgstr "Equipo"
+
+#~ msgid "Advanced"
+#~ msgstr "Avanzado"
+
+#~ msgid "Signup Date"
+#~ msgstr "Fecha de Postulacion"
+
+#~ msgid "No Results"
+#~ msgstr "No resultados"
+
+#~ msgid "Edit Email"
+#~ msgstr "Editar Correo"
+
+#~ msgid "Message"
+#~ msgstr "Mensaje"
+
+#~ msgid "Models assigned to the event"
+#~ msgstr "Modelos asignadas al evento"
+
+#~ msgid "Team Leader"
+#~ msgstr "Lider de Equipo"
+
+#~ msgid "Event Training"
+#~ msgstr "Entrenamiento"
+
+#~ msgid "In Store"
+#~ msgstr "En Tienda"
+
+#~ msgid "Send Email"
+#~ msgstr "Enviar Correo"
+
+#~ msgid "Is confirmed by the Contact?"
+#~ msgstr "¿Es confirmado por el contacto?"
+
+#~ msgid "Medium of the confirmation"
+#~ msgstr "Medio de confirmacion"
+
+#~ msgid "Is confirmed by the Store Owner?"
+#~ msgstr "Es confirmado por el dueño de la tienda"
+
+#~ msgid "Courtesy"
+#~ msgstr "Cotesia"
+
+#~ msgid "Contacted"
+#~ msgstr "Contactado"
+
+#~ msgid "Satisfied"
+#~ msgstr "Satisfecho"
+
+#~ msgid "Events List"
+#~ msgstr "Eventos"
+
+#~ msgid "Number of the models"
+#~ msgstr "Numero de modelos"
+
+#, fuzzy
+#~ msgid "Files"
+#~ msgstr "Archivo"
+
+#, fuzzy
+#~ msgid "0 files uploaded!"
+#~ msgstr "0 archivos subidos!"
+
+#~ msgid "Job Title"
+#~ msgstr "Puesto"
+
+#~ msgid "Supervisor"
+#~ msgstr "Supervisor"
+
+#~ msgid "Employees List"
+#~ msgstr "Empleados"
+
+#, fuzzy
+#~ msgid "Model Files"
+#~ msgstr "Modelos"
+
+#~ msgid "Outcome Giveaway"
+#~ msgstr "Salida de Insumo"
+
+#~ msgid "Apply"
+#~ msgstr "Aplicar"
+
+#~ msgid "Giveaway"
+#~ msgstr "Insumo"
+
+#~ msgid "Current Stock"
+#~ msgstr "Stock Actual"
+
+#~ msgid "Decrement Stock"
+#~ msgstr "Decrementar Stock"
+
+#~ msgid "Stock"
+#~ msgstr "Stock"
+
+#~ msgid "Minimum Stock"
+#~ msgstr "Stock Minimo"
+
+#~ msgid "Income Giveaway"
+#~ msgstr "Entrada de Insumos"
+
+#~ msgid "Increment Stock"
+#~ msgstr "Incrementar Stock"
+
+#~ msgid "Giveaways List"
+#~ msgstr "Insumos"
+
+#~ msgid "Minimun Stock"
+#~ msgstr "Stock Minimo"
+
+#~ msgid " The Recap sheet has been authorized by "
+#~ msgstr "La bitacora se autorizo por"
+
+#~ msgid "View Recap"
+#~ msgstr "Ver Bitacora"
+
+#, fuzzy
+#~ msgid "D.O.B"
+#~ msgstr "Fecha de Nacimiento"
+
+#, fuzzy
+#~ msgid "Pending Applications List"
+#~ msgstr "No hay modelos pendientes"
+
+#~ msgid "We inform you that your attendance at the event "
+#~ msgstr "Le informamos que su asistencia al evento "
+
+#, fuzzy
+#~ msgid "Dear "
+#~ msgstr "Año"
+
+#, fuzzy
+#~ msgid "Username: "
+#~ msgstr "Nombre de Usuario"
+
+#~ msgid "Hi "
+#~ msgstr "Hola"
+
+#~ msgid "Here are the details for the event "
+#~ msgstr "Aquí hay detalles para el evento"
+
+#~ msgid "Event Details"
+#~ msgstr "Detalles del Evento"
+
+#~ msgid "the model "
+#~ msgstr "La modelo"
+
+#~ msgid " has completed the recap for the promotion "
+#~ msgstr "se ha completado la bitacora para el evento"
+
+#~ msgid " The stock has reached the minimum for the giveaway "
+#~ msgstr "El Stock ha llegado al minimo"
+
+#~ msgid "View Giveaways"
+#~ msgstr "Ver Insumos"
+
+#~ msgid "Hi"
+#~ msgstr "Hola"
+
+#~ msgid "Assigned to the Event "
+#~ msgstr "Asignado al evento"
+
+#~ msgid "New user group"
+#~ msgstr "Nuevo grupo"
+
+#~ msgid "Contact"
+#~ msgstr "Contacto"
+
+#~ msgid "Contacts List"
+#~ msgstr "Contactos"
+
+#~ msgid "Sign out"
+#~ msgstr "Salir"
+
+#~ msgid "Total:"
+#~ msgstr "Total:"
+
+#~ msgid "Basic"
+#~ msgstr "Basico"
+
+#~ msgid "Name of the Events"
+#~ msgstr "Nombre de los eventos"
+
+#~ msgid "Phone number ( Home )"
+#~ msgstr "Numero Telefonico ( Casa )"
+
+#~ msgid "Phone number ( Mobile )"
+#~ msgstr "Numero Telefonico ( Cel )"
+
+#~ msgid "Models List"
+#~ msgstr "Modelos"
+
+#~ msgid "No pending applications"
+#~ msgstr "No hay modelos pendientes"
+
+#~ msgid "Eye Color"
+#~ msgstr "Color de ojos"
+
+#, fuzzy
+#~ msgid "Export All"
+#~ msgstr "Exportar a Excel"
+
+#, fuzzy
+#~ msgid "Campaign Summary"
+#~ msgstr "Campaña"
+
+#, fuzzy
+#~ msgid "Confirmed"
+#~ msgstr "Confirmar"
+
+#, fuzzy
+#~ msgid "Recapped"
+#~ msgstr "Bitacora"
+
+#~ msgid "Events in "
+#~ msgstr "Eventos"
+
+#~ msgid "Month"
+#~ msgstr "Mes"
+
+#~ msgid "Year"
+#~ msgstr "Año"
+
+#~ msgid "First Name"
+#~ msgstr "Nombre"
+
+#~ msgid "Confirm Password"
+#~ msgstr "Contraseña "
+
+#~ msgid "Users List"
+#~ msgstr "Usuarios"
+
+#, fuzzy
+#~ msgid "View Event"
+#~ msgstr "Evento"
+
+#, fuzzy
+#~ msgid "Photo Bin"
+#~ msgstr "Foto"
+
+#~ msgid "Questions List"
+#~ msgstr "Preguntas"
+
+#~ msgid "Avg."
+#~ msgstr "Prom."
+
+#~ msgid "Total."
+#~ msgstr "Total."
+
+#~ msgid "Count."
+#~ msgstr "N."
+
+#~ msgid "Recap Report"
+#~ msgstr "Reporte de Campañas"
+
+#~ msgid "Generate"
+#~ msgstr "Generar"
+
+#~ msgid "Format"
+#~ msgstr "Formato"
+
+#~ msgid "Html"
+#~ msgstr "Html"
+
+#~ msgid "Excel"
+#~ msgstr "Excel"
+
+#~ msgid "Elements"
+#~ msgstr "Elementos"
+
+#~ msgid "MS. Chart Types"
+#~ msgstr "Tipos de Graficas MS"
+
+#~ msgid "Wages"
+#~ msgstr "Salarios"
+
+#~ msgid "Ratings"
+#~ msgstr "Calificaciones"
+
+#~ msgid "No promotions"
+#~ msgstr "No hay Eventos"
+
+#~ msgid "Uniforms"
+#~ msgstr "Uniformes"
+
+#~ msgid "Log Type"
+#~ msgstr "Tipo"
+
+#~ msgid "No logs"
+#~ msgstr "No logs"
+
+#~ msgid "Import Events"
+#~ msgstr "Importar Eventos"
+
+#~ msgid "Target Market"
+#~ msgstr "Mercado"
+
+#~ msgid "$"
+#~ msgstr "$"
+
+#~ msgid "Mail Invitation Template"
+#~ msgstr "Plantilla de correo para la invitación "
+
+#~ msgid "Campaigns List"
+#~ msgstr "Campañas"
+
+#~ msgid "Date Start"
+#~ msgstr "Fecha de Inicio"
+
+#~ msgid "Demographics List"
+#~ msgstr "Demografias"
+
+#~ msgid "Recap Sheet"
+#~ msgstr "Bitacora"
+
+#~ msgid "Authorized by the Team Leader"
+#~ msgstr "Autorizado por el Lider de Equipo"
+
+#~ msgid "Authorize"
+#~ msgstr "Autorizar"
+
+#~ msgid "Authorized by the Coordinator"
+#~ msgstr "Autorizado por el Coordinador"
+
+#~ msgid "Authorized by the Manager"
+#~ msgstr "Autorizado por el Gerente"
+
+#~ msgid "Photos Uploaded"
+#~ msgstr "Fotos Subidas"
+
+#~ msgid "No Recap Sheet Completed"
+#~ msgstr "No se ha completado la bitacora"
+
+#~ msgid "Attachments Recap Sheet"
+#~ msgstr "Archivos Adjuntos"
+
+#~ msgid "0 attachments uploaded!"
+#~ msgstr "0 archivos subidos!"
+
+#~ msgid "Invitation to promote the event "
+#~ msgstr "Invitación al evento"
+
+#~ msgid "Assigned to the event "
+#~ msgstr "Asignado al evento"
+
+#~ msgid "Cancelation for the event "
+#~ msgstr "Cancelación del evento"
+
+#~ msgid "Recap sheet Completed by the model "
+#~ msgstr "Se ha completado la bitacora por la modelo"
+
+#~ msgid "The Recap sheet has been authorized "
+#~ msgstr "La bitacora se autorizo"
+
+#~ msgid "The stock has reached the minimum"
+#~ msgstr "El Stock ha llegado al minimo"
+
+#~ msgid "January"
+#~ msgstr "Enero"
+
+#~ msgid "February"
+#~ msgstr "Febrero"
+
+#~ msgid "March"
+#~ msgstr "Marzo"
+
+#~ msgid "April"
+#~ msgstr "Abril"
+
+#~ msgid "May"
+#~ msgstr "Mayo"
+
+#~ msgid "June"
+#~ msgstr "Junio"
+
+#~ msgid "July"
+#~ msgstr "Julio"
+
+#~ msgid "August"
+#~ msgstr "Agosto"
+
+#~ msgid "September"
+#~ msgstr "Septiembre"
+
+#~ msgid "October"
+#~ msgstr "Octubre"
+
+#~ msgid "November"
+#~ msgstr "Noviembre"
+
+#~ msgid "December"
+#~ msgstr "Diciembre"
+
+#~ msgid "M"
+#~ msgstr "L"
+
+#~ msgid "T"
+#~ msgstr "Ma"
+
+#~ msgid "W"
+#~ msgstr "M"
+
+#~ msgid "TH"
+#~ msgstr "J"
+
+#~ msgid "F"
+#~ msgstr "V"
+
+#~ msgid "SA"
+#~ msgstr "S"
+
+#~ msgid "Count"
+#~ msgstr "N"
+
+#~ msgid "Y/N"
+#~ msgstr "Si/No"
+
+#~ msgid "Facebook/Myspace"
+#~ msgstr "Facebook/Myspace"
+
+#, fuzzy
+#~ msgid "Phone Number Home"
+#~ msgstr "Numero Telefonico ( Casa )"
+
+#, fuzzy
+#~ msgid "Phone Number Mobile"
+#~ msgstr "Numero Telefonico ( Cel )"
+
+#, fuzzy
+#~ msgid "Emergency Phone number"
+#~ msgstr "Numero Telefonico"
+
+#, fuzzy
+#~ msgid "U.S. Citizen"
+#~ msgstr "Es ciudadano Norteamericano?"
+
+#, fuzzy
+#~ msgid "Eligible to work"
+#~ msgstr "¿Es elegible para trabajar?"
+
+#, fuzzy
+#~ msgid "18yrs old or older"
+#~ msgstr "¿Es mayor de 18 años?"
+
+#, fuzzy
+#~ msgid "TIPs Certified"
+#~ msgstr "¿Tiene Certificados?"
+
+#, fuzzy
+#~ msgid "Have Transportation"
+#~ msgstr "¿Tiene Vehiculo?"
+
+#~ msgid "Copy from Mailing Address"
+#~ msgstr "Copiar de la dirección principal"
+
+#~ msgid "Agregar nuevo elemento."
+#~ msgstr "Agregar nuevo elemento."
+
+#~ msgid "Image"
+#~ msgstr "Imagen"
+
+#~ msgid "Which company you work for:"
+#~ msgstr "En que compañía ha trabajado"
+
+#~ msgid "Position Applied For"
+#~ msgstr "Puesto"
+
+#~ msgid "Title"
+#~ msgstr "Titulo"
+
+#~ msgid "Chief"
+#~ msgstr "Jefe"
+
+#~ msgid "Extras"
+#~ msgstr "Extras"
+
+#~ msgid "Extra"
+#~ msgstr "Extra"
+
+#~ msgid "Dress Size"
+#~ msgstr "Talla"
+
+#~ msgid "Shoes Size"
+#~ msgstr "Talla de Zapatos"
+
+#~ msgid "Raiting"
+#~ msgstr "Calificacion"
+
+#~ msgid "Comfirm Password"
+#~ msgstr "Contraseña "
+
+#~ msgid "Second Name"
+#~ msgstr "Apellido Paterno"
+
+#~ msgid "District"
+#~ msgstr "Municipio"
+
+#~ msgid "Phonenumber"
+#~ msgstr "Numero Telefonico"
+
+#~ msgid "Password repeat"
+#~ msgstr "Repetir contraseña"
+
+#~ msgid "No se puede guardar el usuario, "
+#~ msgstr "No se puede guardar el usuario, "
+
+#~ msgid "No se puede actualizar el usuario, "
+#~ msgstr "No se puede actualizar el usuario, "
+
+#~ msgid "Guardar nuevo Grupo de Usuario"
+#~ msgstr "Guardar nuevo Grupo de Usuario"
+
+#~ msgid "Lista de Grupos de Usuario"
+#~ msgstr "Lista de Grupos de Usuario"
+
+#~ msgid "Bienvenido"
+#~ msgstr "Bienvenido"
+
+#~ msgid "Cerrar Sesión"
+#~ msgstr "Cerrar Sesión"
+
+#~ msgid "Listado de Usuarios"
+#~ msgstr "Listado de Usuarios"
+
+#~ msgid "Lista de Usuarios"
+#~ msgstr "Lista de Usuarios"

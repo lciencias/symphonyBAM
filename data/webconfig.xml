@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<configdata>
+	<project>
+		<!-- <database> <adapter>Pdo_Mysql</adapter> <params> <host>localhost</host>
+			<username>root</username> <password>mysql_pwd!</password> <dbname>bam</dbname>
+			<profiler>1</profiler> </params> </database> -->
+		<database>
+			<adapter>PDO_MSSQL</adapter>
+			<params>
+				<host>10.14.</host>
+				<port>1433</port>
+				<username>U</username>
+				<password>*D</password>
+				<dbname>F</dbname>
+				<pdoType>dblib</pdoType>
+				<profiler>1</profiler>
+			</params>
+		</database>
+		<report>
+			<title>Symphony</title>
+		</report>
+<!--		<mailer>
+			<host>10.14.2.90</host>
+			<user></user>
+			<password></password>
+			<port>25</port>
+			<fromName>Symphony Ticket System</fromName>
+			<fromMail>atencionclientes@bam.com.mx</fromMail>
+			<security></security>
+		</mailer>
+-->		<mailer>
+			<host>10.14</host>
+			<user>atencionclientes@bam.com.mx</user>
+			<password>J</password>
+			<port>25</port>
+			<fromName>Symphony Ticket System</fromName>
+			<fromMail>atencionclientes@bam.com.mx</fromMail>
+			<security></security>
+		</mailer>
+		<!--<mailer>
+			<host>10</host>
+			<user></user>
+			<password></password>
+			<port>25</port>
+			<fromName>Symphony Ticket System</fromName>
+			<fromMail>atencionclientes@bam.com.mx</fromMail>
+			<security></security>
+		</mailer>-->
+
+
+		<webService>
+			<wsdl>http://10.14/datasend/</wsdl>
+			<user>sympho</user>
+			<password>p</password>
+			<timeout>120</timeout>
+			<mode></mode>
+			<wserror>Error de conexion con el webservice</wserror>
+			<timeout>120</timeout>
+		</webService>
+		<appSettings>
+			<titulo>Symphony</titulo>
+			<environment>Debug</environment>
+			<path>/var/www/Symphony/</path>
+		</appSettings>
+		<smarty>
+			<templateDirectory>views</templateDirectory>
+			<compileDirectory>cache/smarty/compile/</compileDirectory>
+			<cacheDirectory>cache/smarty/cache</cacheDirectory>
+		</smarty>
+	</project>
+</configdata>

@@ -1,0 +1,38 @@
+schema:
+  AccessRole:
+    tablename: pcs_common_access_roles
+    options:
+      crud: true
+    relations:
+      many_to_many: [ pcs_common_security_actions_access_roles ]
+  Address:
+    tablename: pcs_common_addresses
+    relations:
+      many_to_many: [ pcs_common_persons_addresses ]
+  Email:
+    tablename: pcs_common_emails
+    relations:
+      many_to_many: [ pcs_common_persons_emails ]
+  MenuItem:
+    tablename: pcs_common_menu_items
+  Person:
+    tablename: pcs_common_persons
+    options: 
+      form: true
+  PhoneNumber:
+    tablename: pcs_common_phone_numbers
+    relations:
+      many_to_many: [ pcs_common_persons_phone_numbers ]
+  SecurityAction:
+    tablename: pcs_common_security_actions
+  SecurityController:
+    tablename: pcs_common_security_controllers
+  UserLog:
+    tablename: pcs_common_user_logs
+  User:
+    tablename: pcs_common_users
+    extends: Person
+    options: 
+      crud: true
+  ZipCode:
+    tablename: pcs_common_mexico_zip_codes

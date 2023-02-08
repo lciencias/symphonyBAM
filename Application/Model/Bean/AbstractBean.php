@@ -38,8 +38,8 @@ abstract class AbstractBean implements Bean
 
     
     public function format($fecha){
-    	$date = date_create($fecha);
-    	return date_format($date, 'Y-m-d H:i:s');
-    	 
+        $fecha = substr($fecha->date,0,19);  // QUITAR ESTA LINEA 
+        $date = date_create($fecha);
+ 	    return date_format($date, 'Y-m-d H:i:s');
     }
 }

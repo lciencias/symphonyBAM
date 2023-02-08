@@ -13,7 +13,7 @@
             {foreach $sessions as $session}
                 <tr>
                     <td>{$users[$session->getIdUser()]}</td>
-                    <td>{$session->getLastRequest()}</td>
+                    <td>{$session->getLastRequest()->date}</td>
                     <td>
                         {if "session/delete"|isAllowed}<a href="{$baseUrl}/session/delete/id/{$session->getIdSession()}" class="btn deactivate">{icon class=tip src=delete title=$i18n->_('Deactivate')}</a>{/if}
                     </td>

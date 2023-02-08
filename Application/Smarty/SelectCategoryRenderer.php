@@ -25,7 +25,9 @@ class SelectCategoryRenderer extends CategoryRenderer
      * @param unknown_type $isBranch
      * @param unknown_type $children
      */
+
     protected function renderLabel(Category $category, $isLeaf, $isBranch, $children){
+
         $html = "";
 
         if( $isLeaf ){

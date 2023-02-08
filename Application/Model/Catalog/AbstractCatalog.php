@@ -107,7 +107,8 @@ abstract class AbstractCatalog implements Catalog
      */
     protected function isNestable()
     {
-        $engineName = $this->getDb()->getConnection()->getAttribute(\PDO::ATTR_DRIVER_NAME);
+        //$engineName = $this->getDb()->getConnection()->getAttribute(\PDO::ATTR_DRIVER_NAME);
+        $engineName = "sqlsrv";
         return in_array($engineName, self::$engines);
     }
 

@@ -78,9 +78,10 @@ class CategoryRenderer
      * @param unknown_type $isBranch
      * @param unknown_type $children
      */
-    protected function renderLabel(Category $category, $isLeaf, $isBranch, $children){
-       return $this->getI18n()->_($category->getName());
-    }
+    //TODO descomentar el metodo
+    /*protected function renderLabel(Category $category, $isLeaf, $isBranch, $children){
+        return $this->getI18n()->_($category->getName());
+    }*/
 
     /**
      *
@@ -90,6 +91,7 @@ class CategoryRenderer
      * @param unknown_type $children
      */
     protected function renderCategory($category, $isLeaf, $isBranch, $children){
+        
         $html = "<li>";
         $class = $isBranch ? "folder" : "file";
         $label = $this->renderLabel($category, $isLeaf, $isBranch, $children);

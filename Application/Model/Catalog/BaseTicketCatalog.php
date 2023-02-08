@@ -41,7 +41,7 @@ class BaseTicketCatalog extends AbstractCatalog {
         try
         {
             $data = $baseTicket->toArrayFor(
-                array('id_channel', 'id_ticket_type', 'id_user', 'id_assignment', 'status', 'description', 'created', 'scheduled_date', 'is_stopped', 'type','registry', )
+                array('id_channel', 'id_ticket_type', 'id_user', 'id_assignment', 'status', 'description', 'created', 'scheduled_date', 'is_stopped', 'type','registry', 'email',)
             );
             $data = array_filter($data, array($this, 'isNotNull'));
             $this->getDb()->insert(BaseTicket::TABLENAME, $data);
@@ -63,7 +63,7 @@ class BaseTicketCatalog extends AbstractCatalog {
         try
         {
             $data = $baseTicket->toArrayFor(
-                array('id_channel', 'id_ticket_type', 'id_user', 'id_assignment', 'status', 'description', 'created', 'scheduled_date', 'is_stopped', 'type','registry', )
+                array('id_channel', 'id_ticket_type', 'id_user', 'id_assignment', 'status', 'description', 'created', 'scheduled_date', 'is_stopped', 'type','registry',  'email', )
             );
             $data = array_filter($data, array($this, 'isNotNull'));
             $this->getDb()->update(BaseTicket::TABLENAME, $data, "id_base_ticket = '{$baseTicket->getIdBaseTicket()}'");

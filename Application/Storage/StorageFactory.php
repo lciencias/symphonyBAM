@@ -38,7 +38,7 @@ class StorageFactory
 
         if( null === $name || (is_string($name) && 'null' == $name) ){
             return self::lazyLoad('null', function(){
-                return new Null();
+                return new OrNull();
             });
         }
 

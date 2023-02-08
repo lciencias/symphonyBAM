@@ -8,55 +8,60 @@
      <input type="hidden" name="id_ticket" id="id_ticket" value="{$ticket->getIdTicket()}" />
    {/if}
      <fieldset>
-             
          <div class="clearfix">
              <div><label for="id_ticket_type" class="required">{$i18n->_("Ticket Type: ")}</label></div>
              <span class="input">{html_options options=$ticketTypes name=id_ticket_type selected=$post['id_ticket_type'] id=id_ticket_type class="span4 required"}</span>
          </div>
-         
+
          <div class="clearfix">
              <div><label for="id_channel" class="required">{$i18n->_("Channel: ")}</label></div>
              <span class="input">{html_options options=$channels name=id_channel id=id_channel selected=$post['id_channel'] class="span4 required"}</span>
          </div>
-         
+
          <div class="clearfix" style="display : none">
              <div><label for="id_impact" class="required">{$i18n->_("Impact: ")}</label></div>
              <span class="input">{html_options options=$impacts name=id_impact id=id_impact selected=1 class="span4 "}</span>
          </div>
-         
+
          <div class="clearfix" style="display : none">
              <div><label for="id_priority" class="required">{$i18n->_("Priority: ")}</label></div>
              <span class="input">{html_options options=$priorities name=id_priority id=id_priority selected=1 class="span4 "}</span>
          </div>
-         
+
          <div class="clearfix">
              <div><label for="scheduled_date" class="">{$i18n->_("Date and Hour: ")}</label></div>
              <span class="input"><input type="text" class="datetimepicker span4" maxlength="16" id="scheduled_date" name="scheduled_date" value="{substr($post['scheduled_date'], 0, 16)}" {if $isShow}readonly="readonly"{/if}/></span>
          </div>
-         
+
        <table>
 	       <tbody>
 		        <tr>
 		            <td><label for="id_category" class="required">{$i18n->_("Category: ")}</label><td>
-		            <td> </div><span class="input"><div style="width: 500px; max-height: 500px;  text-align: left; overflow: auto;">{render_categories nestedCategories=$nestedCategories renderer=select selected=$post['id_category']}</span></td>
-		          
+		            <td> 
+                <span class="input">
+                  <div style="width: 500px; max-height: 500px;  text-align: left; overflow: auto;">
+                    {render_categories nestedCategories=$nestedCategories renderer=select selected=$post['id_category']}
+                  </div>
+                </span>
+                </td>
 		        </tr>
 	        </tbody>
       </table>
-    
+         <div class="clearfix">
+             <div><label for="email" class="required">{$i18n->_("Correo Electrónico: ")}</label></div>
+             <span class="input"><input type="text" name="email" id="email" class="required" style="width:220px"  maxlength= "80" {if $isShow}readonly="readonly"{/if} value="{$post['email']}"></span>
+         </div>
+
          <div class="clearfix">
              <div><label for="description" class="required">{$i18n->_("Description: ")}</label></div>
              <span class="input"><textarea name="description" id="description" class="required"  style="width: 503px; height: 105px;" {if $isShow}readonly="readonly"{/if}>{$post['description']}</textarea></span>
          </div>
-             
          <div class="actions">
-         
          {if !$ticket || ( $ticket && !in_array($ticket->getStatusName(), ['Closed']) )}
              {if !$isShow}<button class="btn primary" name="send" id="send">{icon src=disk}{$i18n->_('Save')}</button>{/if}
-         {/if}      
-             
+         {/if}
              <button id="cancel" type="button" class="btn">{icon src=arrow_undo}{$i18n->_('Back')}</button>
-             
+
            {if $ticket}
                  {if $ticketMachine->isCappableByConditionName($ticket, "Cancel")}
                     {if "ticket/cancel"|isAllowed}<a href="{url action=cancel id_ticket=$ticket->getIdTicket()}" id="cancelTicket" class="btn confirm" data-confirm-title="{$i18n->_('Cancel Ticker')}" data-confirm-message="{$i18n->_('This ticket will be canceled. Are you sure?')}">{icon src=cancel}{$i18n->_('Cancel Ticket')}</a>{/if}
@@ -82,7 +87,6 @@
                 {/if}
            {/if}
          </div>
-         
      </fieldset>
      </form>
- </div>  
+ </div>

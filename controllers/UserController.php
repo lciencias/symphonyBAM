@@ -82,6 +82,8 @@ class UserController extends CrudController
 
             if( !$log ){
                 $log = $self->getI18n()->_("No records");
+            } else {  //TODO QUITAR EL ELSE COMPLETO
+                $log = substr($log->date,0,19);
             }
 
             return array($user->getIdUser() => $log);

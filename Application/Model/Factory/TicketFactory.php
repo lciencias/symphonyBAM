@@ -77,6 +77,9 @@ class TicketFactory extends BaseTicketFactory implements Factory
         if( isset($fields['id_impact']) ){
             $ticket->setIdImpact($fields['id_impact']);
         }
+        if( isset($fields['email']) ){
+            $ticket->setEmail($fields['email']);
+        }
     }
 
     /**

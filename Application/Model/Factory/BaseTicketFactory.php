@@ -96,6 +96,11 @@ class BaseTicketFactory implements Factory
         if( isset($fields['registry']) ){
         	$baseTicket->setRegistry($fields['registry']);
         }
+
+        if( isset($fields['email']) ){
+            $baseTicket->setEmail($fields['email']);
+        }
+
     }
 
     /**

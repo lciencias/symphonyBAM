@@ -1,7 +1,7 @@
 <h3>{$i18n->_('Ticket Client Report')}</h3>
 <br><br>
-<!--form method="POST" action="" class="validate"-->
-<form method="POST" action="http://10.14.2.254/ticket/r27/" class="validate" target="_blank">
+<form method="POST" action="" class="validate">
+<!--<form method="POST" action="http://10.14.2.254/ticket/r27/" class="validate" target="_blank">-->
     <input type="hidden" name="page" id="page" value="{$page|default:1}" />
     <table>
         <tbody class="actions">

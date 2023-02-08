@@ -35,6 +35,7 @@ class Ticket extends BaseTicket{
     const ID_COMPANY = 'id_company';
     const ID_PRIORITY = 'id_priority';
     const ID_IMPACT = 'id_impact';
+    const EMAIL   		= 'email';
 
     /**
      * @var int
@@ -77,7 +78,11 @@ class Ticket extends BaseTicket{
      */
     private $idImpact;
 
-
+    /**
+	 * @var String
+	 */
+	private $email;
+	
     /**
      *
      * @return int
@@ -207,6 +212,23 @@ class Ticket extends BaseTicket{
 
 
     /**
+	 * @return string
+	 */	
+	public function getEmail() {
+		return $this->email;
+	}
+
+	/**
+	 * @param String $email
+	 * @return TicketClient
+	 */
+	
+	public function setEmail($email) {
+		$this->email = $email;
+		return $this;
+	}
+
+    /**
      * Convert to array
      * @return array
      */
@@ -220,6 +242,7 @@ class Ticket extends BaseTicket{
             'id_company' => $this->getIdCompany(),
             'id_priority' => $this->getIdPriority(),
             'id_impact' => $this->getIdImpact(),
+            'email' => $this->getEmail(),
         );
         return array_merge(parent::toArray(), $array);
     }

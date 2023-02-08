@@ -158,6 +158,7 @@ class TicketService extends AbstractService
             	$ticket->setRegistry($now->get('yyyy-MM-dd HH:mm:ss'));
             	$ticket->setIdUser($user->getIdUser());
             	$ticket->setType(BaseTicket::$Type['Ticket']);
+                $ticket->setEmail(strtolower(trim($params['email'])));
             	$this->getTicketCatalog()->create($ticket);
             }
             else if ($params['controller'] == 'ticket-client'){
@@ -735,7 +736,7 @@ class TicketService extends AbstractService
     		$ticketTmp = TicketClientQuery::create()->findByPKOrThrow($ticket->getIdTicketClient(), 'id');
     		$this->getTicketClientCatalog()->beginTransaction();
     		$cambios  = 0;
-    		if( ($ticket->getIdTicketType() == TicketType::$TicketType['Aclaración']) || ($ticket->getIdTicketType() == TicketType::$TicketType['Queja']) ){
+    		if( ($ticket->getIdTicketType() == TicketType::$TicketType['Aclaraciï¿½n']) || ($ticket->getIdTicketType() == TicketType::$TicketType['Queja']) ){
     			if( (int) $ticket->getIdBaseTicket() > 0){
     				$ticketTmp->setCreated($now->get('yyyy-MM-dd HH:mm:ss'));
     				$ticketTmp->setScheduledDate($now->get('yyyy-MM-dd HH:mm:ss'));
@@ -794,7 +795,7 @@ class TicketService extends AbstractService
 				$ticketTmp->setExpirationDate($date->format('Y-m-d H:i:s'));
 				$cambios = 1;
 			}
-			if( ($ticket->getIdTicketType() == TicketType::$TicketType['Aclaración']) || ($ticket->getIdTicketType() == TicketType::$TicketType['Queja']) ){ 
+			if( ($ticket->getIdTicketType() == TicketType::$TicketType['Aclaraciï¿½n']) || ($ticket->getIdTicketType() == TicketType::$TicketType['Queja']) ){ 
 				if( (int) $idUser > 0){
 					$ticketTmp->setIdResolver($idUser);
 					$cambios = 1;

@@ -45,7 +45,7 @@ class TicketCatalog extends BaseTicketCatalog{
             }
 
             $data = $ticket->toArrayFor(
-                array('id_category', 'id_base_ticket', 'id_employee', 'id_company', 'id_priority', 'id_impact', )
+                array('id_category', 'id_base_ticket', 'id_employee', 'id_company', 'id_priority', 'id_impact', 'email',)
             );
             $data = array_filter($data, array($this, 'isNotNull'));
             $this->getDb()->insert(Ticket::TABLENAME, $data);
@@ -67,7 +67,7 @@ class TicketCatalog extends BaseTicketCatalog{
         try
         {
             $data = $ticket->toArrayFor(
-                array('id_category', 'id_base_ticket', 'id_employee', 'id_company', 'id_priority', 'id_impact', )
+                array('id_category', 'id_base_ticket', 'id_employee', 'id_company', 'id_priority', 'id_impact', 'email',)
             );
             $data = array_filter($data, array($this, 'isNotNull'));
             $this->getDb()->update(Ticket::TABLENAME, $data, "id_ticket = '{$ticket->getIdTicket()}'");

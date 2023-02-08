@@ -50,6 +50,7 @@ class BaseTicket extends AbstractBean implements Automatable{
 	const IS_STOPPED = 'is_stopped';
 	const TYPE = 'type';
 	const REGISTRY = 'registry';
+	const EMAIL  = 'email';
 
 	/**
 	 * @var int
@@ -126,6 +127,10 @@ class BaseTicket extends AbstractBean implements Automatable{
 	 */
 	private $registry;
 	
+	/**
+	 * @var String
+	 */
+	private $email;
 	
 	/**
 	 *
@@ -372,6 +377,23 @@ class BaseTicket extends AbstractBean implements Automatable{
 	}
 
 	/**
+	 * @return string
+	 */	
+	public function getEmail() {
+		return $this->email;
+	}
+
+	/**
+	 * @param String $email
+	 * @return TicketClient
+	 */
+	
+	public function setEmail($email) {
+		$this->email = $email;
+		return $this;
+	}
+
+	/**
 	 * Convert to array
 	 * @return array
 	 */
@@ -390,6 +412,7 @@ class BaseTicket extends AbstractBean implements Automatable{
 				'is_stopped' => $this->getIsStopped(),
 				'type' => $this->getType(),
 				'registry' => $this->getRegistry(),
+				'email' => $this->getEmail(),
 		);
 		return $array;
 	}
@@ -413,6 +436,7 @@ class BaseTicket extends AbstractBean implements Automatable{
 				'assigned_to' => $this->getAssignedName(),
 				'status' => $this->getStatusName(),
 				'registry' => $this->getRegistry(),
+				'email' => $this->getEmail(),
 		);
 		return $array;
 	}
